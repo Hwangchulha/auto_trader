@@ -1,7 +1,8 @@
-import os, io, json, logging, subprocess, sys, zipfile, datetime
-from fastapi import APIRouter, HTTPException, Query, Request
+import os, json, logging, subprocess, sys, zipfile, datetime
+from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import FileResponse, PlainTextResponse
 from ..services.kis_auth import get_access_token
+from ..services.keys_store import exists as keys_exists
 
 router = APIRouter(prefix="/api/diag", tags=["diagnostics"])
 
@@ -19,7 +20,7 @@ LOG_FILES = {n: os.path.join(LOG_DIR, f"{n}.log") for n in ["app","error","acces
 
 @router.get("/env")
 def env():
-    return {"resolved_log_dir": LOG_DIR, "files": LOG_FILES, "env": _mask_env(dict(os.environ))}
+    return {"resolved_log_dir": LOG_DIR, "files": LOG_FILES, "env": _mask_env(dict(os.environ)), "keys_present": keys_exists()}
 
 @router.get("/ping")
 def ping():
@@ -60,14 +61,6 @@ def touch():
             out[k] = {"path": p, "size": 0, "note": "not created yet"}
     return out
 
-@router.get("/raise")
-def raise_error():
-    try:
-        raise RuntimeError("intentional error for logging test")
-    except Exception as e:
-        logging.getLogger("app").exception("intentional error: %s", e)
-        raise HTTPException(status_code=500, detail=str(e))
-
 def _pip_freeze() -> str:
     try:
         out = subprocess.check_output([sys.executable, "-m", "pip", "freeze"], timeout=10)
@@ -88,5 +81,4 @@ def bundle():
                 z.writestr(f"logs/{key}.log", "".join(lines[-5000:]))
         z.writestr("env_summary.json", json.dumps(_mask_env(dict(os.environ)), ensure_ascii=False, indent=2))
         z.writestr("runtime.json", json.dumps({"python": sys.version, "platform": sys.platform}, indent=2))
-        z.writestr("pip_freeze.txt", _pip_freeze())
     return FileResponse(path, filename=name, media_type="application/zip")

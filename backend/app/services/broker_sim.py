@@ -1,11 +1,4 @@
-
-from sqlalchemy.orm import Session
-from app.models import Bar
-
-class SimBroker:
-    def __init__(self, db: Session):
-        self.db = db
-    def place_order(self, sym, side: str, qty: float, price: float|None):
-        last = self.db.query(Bar).filter(Bar.symbol_id==sym.id).order_by(Bar.ts.desc()).first()
-        px = (price if price is not None else (last.c if last else 100.0))
-        return True, {"price": float(px)}
+import time, random
+def place(symbol:str, side:str, qty:float, price:float|None):
+    px = price if price not in (None,0,0.0) else round(random.uniform(100, 200), 2)
+    return {"client_id": f"{symbol}-{int(time.time()*1000)}", "status":"filled", "filled_qty": float(qty), "price": float(px)}

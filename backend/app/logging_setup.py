@@ -15,7 +15,7 @@ def _resolve_dir():
     return os.path.abspath("./logs")
 
 def _handler(path, level):
-    h = RotatingFileHandler(path, maxBytes=int(os.environ.get("LOG_MAX_BYTES", "5242880")),
+    h = RotatingFileHandler(path, maxBytes=int(os.environ.get("LOG_MAX_BYTES","5242880")),
                             backupCount=int(os.environ.get("LOG_BACKUP_COUNT","5")), encoding="utf-8")
     fmt = logging.Formatter('%(asctime)s %(levelname)s %(name)s %(message)s')
     h.setFormatter(fmt); h.setLevel(level)
@@ -23,7 +23,7 @@ def _handler(path, level):
 
 def setup_logging():
     level = getattr(logging, os.environ.get("LOG_LEVEL","INFO").upper(), logging.INFO)
-    to_stdout = str(os.environ.get("LOG_TO_STDOUT","1")) in ("1","true","True")
+    to_stdout = str(os.environ.get("LOG_TO_STDOUT","1")).lower() in ("1","true","yes")
     log_dir = _resolve_dir()
 
     root = logging.getLogger()

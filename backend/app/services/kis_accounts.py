@@ -4,7 +4,6 @@ from .kis_http import kis_get
 
 BALANCE_PATH = "/uapi/domestic-stock/v1/trading/inquire-balance"
 PSBL_ORDER_PATH = "/uapi/domestic-stock/v1/trading/inquire-psbl-order"
-PRICE_PATH = "/uapi/domestic-stock/v1/quotations/inquire-price"
 
 def _common():
     return {"CANO": kis_cano(), "ACNT_PRDT_CD": kis_acnt()}
@@ -25,6 +24,3 @@ async def fetch_psbl_order(pdno: str)->Dict[str,Any]:
     p = _common()
     p.update({"PDNO":pdno,"ORD_UNPR":"0","ORD_DVSN":"01","CMA_EVLU_AMT_ICLD_YN":"N","OVRS_ICLD_YN":"N"})
     return await kis_get(PSBL_ORDER_PATH,"psbl_order",p)
-
-async def fetch_price(pdno: str)->Dict[str,Any]:
-    return await kis_get(PRICE_PATH,"price",{"fid_cond_mrkt_div_code":"J","fid_input_iscd":pdno})

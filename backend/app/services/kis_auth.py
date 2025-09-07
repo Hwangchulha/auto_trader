@@ -3,6 +3,9 @@ from .kis_env import kis_base, kis_appkey, kis_secret
 log = logging.getLogger("kis")
 _token = {"v":"", "exp":0}
 
+def reset_token():
+    _token["v"] = ""; _token["exp"] = 0
+
 async def get_access_token() -> str:
     now = int(time.time())
     if _token["v"] and _token["exp"] - 60 > now:

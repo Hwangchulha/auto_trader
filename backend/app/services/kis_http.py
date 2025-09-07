@@ -1,6 +1,6 @@
 import httpx, logging
 from typing import Dict, Any
-from .kis_env import kis_base, kis_appkey, kis_secret
+from .kis_env import kis_base, kis_appkey, kis_secret, kis_env
 from .kis_auth import get_access_token, get_hashkey
 
 log = logging.getLogger("kis")
@@ -9,19 +9,13 @@ TR_VTS = {
     "order_cash_sell": "VTTC0801U",
     "balance": "VTTC8434R",
     "psbl_order": "VTTC8908R",
-    "price": "FHKST01010100",
 }
 TR_PROD = {
     "order_cash_buy": "TTTC0802U",
     "order_cash_sell": "TTTC0801U",
     "balance": "TTTC8434R",
     "psbl_order": "TTTC8908R",
-    "price": "FHKST01010100",
 }
-
-def kis_env()->str:
-    import os
-    return os.environ.get("KIS_ENV","vts").lower()
 
 def tr_id(key:str)->str:
     return (TR_VTS if kis_env()=="vts" else TR_PROD).get(key,"")

@@ -1,6 +1,13 @@
+import time, logging, os
+from app.logging_setup import setup_logging
+setup_logging()
+log = logging.getLogger("app")
 
-from app.db import Base, engine
-Base.metadata.create_all(bind=engine)
-from app.services.scheduler import run_loop
+def main():
+    log.info("worker loop started")
+    while True:
+        log.info("worker heartbeat pid=%s", os.getpid())
+        time.sleep(30)
+
 if __name__ == "__main__":
-    run_loop()
+    main()

@@ -1,14 +1,14 @@
+from app.logging_setup import setup_logging
+setup_logging()
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.db import Base, engine
-from app.routers import health, symbols, bars, orders, portfolio, signals, watchlist, account
-from app.routers import settings as settings_router
+from app.middleware_logging import RequestContextMiddleware
+from app.routers import kis_account, kis_orders, diag, settings_runtime, account_compat
 
-Base.metadata.create_all(bind=engine)
+app = FastAPI(title="KIS Auto Trader API (with compat)")
 
-app = FastAPI(title="KIS Auto Trader API")
-
+# CORS wide-open for simplicity (adjust in production)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -17,12 +17,17 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(health.router)
-app.include_router(symbols.router)
-app.include_router(bars.router)
-app.include_router(orders.router)
-app.include_router(portfolio.router)
-app.include_router(signals.router)
-app.include_router(watchlist.router)
-app.include_router(account.router)
-app.include_router(settings_router.router)
+app.add_middleware(RequestContextMiddleware)
+
+# Core routers
+app.include_router(kis_account.router)
+app.include_router(kis_orders.router)
+app.include_router(diag.router)
+app.include_router(settings_runtime.router)
+
+# Compatibility routes expected by the existing frontend
+app.include_router(account_compat.router)
+
+@app.get("/health")
+def health():
+    return {"ok": True}

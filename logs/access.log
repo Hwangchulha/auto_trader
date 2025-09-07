@@ -12,3 +12,7 @@
 2025-09-07 15:00:08,301 INFO uvicorn.access 172.18.0.1:60070 - "GET /api/watchlist HTTP/1.1" 404
 2025-09-07 15:01:08,299 INFO uvicorn.access GET /api/watchlist {} 404 0.35ms
 2025-09-07 15:01:08,300 INFO uvicorn.access 172.18.0.1:48158 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:02:08,291 INFO uvicorn.access GET /api/watchlist {} 404 0.34ms
+2025-09-07 15:02:08,292 INFO uvicorn.access 172.18.0.1:58666 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:03:08,292 INFO uvicorn.access GET /api/watchlist {} 404 0.30ms
+2025-09-07 15:03:08,293 INFO uvicorn.access 172.18.0.1:49566 - "GET /api/watchlist HTTP/1.1" 404

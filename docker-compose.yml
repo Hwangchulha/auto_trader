@@ -1,0 +1,22 @@
+
+name: auto-trader
+services:
+  api:
+    build: { context: ./backend }
+    env_file: .env
+    ports: ["8000:8000"]
+    volumes: ["./backend:/app", "./data:/app/data"]
+    depends_on: [worker]
+
+  worker:
+    build: { context: ./backend }
+    command: ["python", "runner.py"]
+    env_file: .env
+    volumes: ["./backend:/app", "./data:/app/data"]
+
+  frontend:
+    build: { context: ./frontend }
+    env_file: .env
+    ports: ["3000:3000"]
+    environment: [ "NEXT_PUBLIC_API_BASE=${NEXT_PUBLIC_API_BASE}" ]
+    volumes: ["./frontend:/app", "/app/node_modules"]

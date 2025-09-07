@@ -27,16 +27,6 @@ def ping():
     logging.getLogger("app").info("diag.ping")
     return {"pong": True}
 
-@router.get("/health")
-async def health():
-    errs = []
-    try:
-        tok = await get_access_token()
-        ok_token = bool(tok)
-    except Exception as e:
-        ok_token = False; errs.append(f"token:{e}")
-    return {"ok": ok_token and len(errs)==0, "kis_token": ok_token, "errors": errs}
-
 @router.get("/logs")
 def logs(file: str = Query("app"), tail: int = Query(200)):
     p = LOG_FILES.get(file)
@@ -45,21 +35,6 @@ def logs(file: str = Query("app"), tail: int = Query(200)):
     with open(p, "r", encoding="utf-8", errors="ignore") as f:
         lines = f.readlines()
     return PlainTextResponse("".join(lines[-tail:]))
-
-@router.get("/touch")
-def touch():
-    for name in ["app","kis","client"]:
-        logging.getLogger(name).info("touch: %s", name)
-    logging.getLogger("uvicorn.access").info("touch: access")
-    logging.getLogger("app").error("touch: error (test)")
-    out = {}
-    for k,p in LOG_FILES.items():
-        try:
-            stat = os.stat(p)
-            out[k] = {"path": p, "size": stat.st_size}
-        except FileNotFoundError:
-            out[k] = {"path": p, "size": 0, "note": "not created yet"}
-    return out
 
 def _pip_freeze() -> str:
     try:
@@ -81,4 +56,5 @@ def bundle():
                 z.writestr(f"logs/{key}.log", "".join(lines[-5000:]))
         z.writestr("env_summary.json", json.dumps(_mask_env(dict(os.environ)), ensure_ascii=False, indent=2))
         z.writestr("runtime.json", json.dumps({"python": sys.version, "platform": sys.platform}, indent=2))
+        z.writestr("pip_freeze.txt", _pip_freeze())
     return FileResponse(path, filename=name, media_type="application/zip")

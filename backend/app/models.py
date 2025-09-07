@@ -5,7 +5,7 @@ from .db import Base
 class Symbol(Base):
     __tablename__ = "symbols"
     id = Column(Integer, primary_key=True, index=True)
-    code = Column(String, unique=True, index=True)  # e.g., "KRX:005930"
+    code = Column(String, unique=True, index=True)  # e.g., "KRX:005930" / "US:NVDA"
     name = Column(String, default="")
     active = Column(Boolean, default=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now())

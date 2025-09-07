@@ -43,10 +43,8 @@ def setup_logging():
 
     logging.getLogger("app").addHandler(app_file)
     logging.getLogger("app").addHandler(error_file)
-
     logging.getLogger("uvicorn.access").addHandler(access_file)
     logging.getLogger("uvicorn.error").addHandler(app_file)
-
     logging.getLogger("kis").addHandler(kis_file)
     logging.getLogger("client").addHandler(client_file)
 

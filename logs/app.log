@@ -1,0 +1,5 @@
+2025-09-07 14:55:53,854 INFO app Logging initialized. dir=/app/logs level=INFO
+2025-09-07 14:55:58,756 INFO uvicorn.error Started server process [1]
+2025-09-07 14:55:58,757 INFO uvicorn.error Waiting for application startup.
+2025-09-07 14:55:58,759 INFO uvicorn.error Application startup complete.
+2025-09-07 14:55:58,766 INFO uvicorn.error Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)

@@ -1,0 +1,14 @@
+2025-09-07 14:56:08,299 INFO uvicorn.access GET /api/watchlist {} 404 0.41ms
+2025-09-07 14:56:08,300 INFO uvicorn.access 172.18.0.1:50598 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 14:56:36,104 INFO uvicorn.access GET /health {} 200 1.33ms
+2025-09-07 14:56:36,106 INFO uvicorn.access 172.18.0.1:50342 - "GET /health HTTP/1.1" 200
+2025-09-07 14:57:08,290 INFO uvicorn.access GET /api/watchlist {} 404 0.35ms
+2025-09-07 14:57:08,292 INFO uvicorn.access 172.18.0.1:53858 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 14:58:08,312 INFO uvicorn.access GET /api/watchlist {} 404 0.37ms
+2025-09-07 14:58:08,314 INFO uvicorn.access 172.18.0.1:55752 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 14:59:08,307 INFO uvicorn.access GET /api/watchlist {} 404 0.42ms
+2025-09-07 14:59:08,309 INFO uvicorn.access 172.18.0.1:35934 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:00:08,299 INFO uvicorn.access GET /api/watchlist {} 404 0.40ms
+2025-09-07 15:00:08,301 INFO uvicorn.access 172.18.0.1:60070 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:01:08,299 INFO uvicorn.access GET /api/watchlist {} 404 0.35ms
+2025-09-07 15:01:08,300 INFO uvicorn.access 172.18.0.1:48158 - "GET /api/watchlist HTTP/1.1" 404

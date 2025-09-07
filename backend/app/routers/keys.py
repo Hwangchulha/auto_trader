@@ -33,7 +33,7 @@ async def set_keys(req: Request):
         from urllib.parse import parse_qs
         d = parse_qs(body)
         data = {k: (v[0] if isinstance(v, list) else v) for k, v in d.items()}
-    out = save_keys({
+    save_keys({
         "kis_env": data.get("kis_env","vts"),
         "app_key": data.get("app_key",""),
         "app_secret": data.get("app_secret",""),

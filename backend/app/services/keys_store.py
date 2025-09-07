@@ -5,7 +5,6 @@ from ..db import SessionLocal
 from ..models import KISKey
 
 _cache = {"v": None, "t": 0}
-
 def _now() -> float: return time.time()
 
 def load_keys() -> Optional[Dict]:

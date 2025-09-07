@@ -8,13 +8,7 @@ def _ord_dvsn(price: Optional[float])->str: return "01" if (price is None or flo
 def _ord_unpr(price: Optional[float])->str: return "0" if (price is None or float(price)==0.0) else str(price)
 
 async def order_cash(symbol: str, side: str, qty: float, price: Optional[float])->Dict[str,Any]:
-    body = {
-        "CANO": kis_cano(),
-        "ACNT_PRDT_CD": kis_acnt(),
-        "PDNO": _pdno(symbol),
-        "ORD_DVSN": _ord_dvsn(price),
-        "ORD_QTY": str(int(qty)),
-        "ORD_UNPR": _ord_unpr(price),
-    }
+    body = {"CANO": kis_cano(),"ACNT_PRDT_CD": kis_acnt(),"PDNO": _pdno(symbol),
+            "ORD_DVSN": _ord_dvsn(price),"ORD_QTY": str(int(qty)),"ORD_UNPR": _ord_unpr(price)}
     tr_key = "order_cash_buy" if side.lower()=="buy" else "order_cash_sell"
     return await kis_post(ORDER_CASH_PATH, tr_key, body)

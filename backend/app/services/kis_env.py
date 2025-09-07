@@ -3,14 +3,14 @@ from .keys_store import load_keys
 
 def get_env(k, d=""): return os.environ.get(k, d)
 
-def kis_base():
-    env = kis_env()
-    return "https://openapivts.koreainvestment.com:29443" if env=="vts" else "https://openapi.koreainvestment.com:9443"
-
 def kis_env():
     k = load_keys()
     if k and k.get("kis_env"): return k["kis_env"]
     return get_env("KIS_ENV","vts").lower()
+
+def kis_base():
+    env = kis_env()
+    return "https://openapivts.koreainvestment.com:29443" if env=="vts" else "https://openapi.koreainvestment.com:9443"
 
 def kis_appkey():
     k = load_keys()
@@ -33,5 +33,4 @@ def kis_acnt():
     return get_env("KIS_ACNT_PRDT_CD","01")
 
 def sim_mode():
-    # when SIM_MODE=1 → simulated broker
     return str(get_env("SIM_MODE","1")).lower() in ("1","true","yes")

@@ -1,20 +1,24 @@
+import './globals.css'
+import Link from 'next/link'
 
-import "./styles/globals.css";
-export const metadata = { title: "KIS Auto Trader", description: "KR/US Auto Trading Dashboard" };
+export const metadata = { title: 'KIS Auto Trader', description: 'Auto trading dashboard' }
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ko"><body>
-      <div className="max-w-7xl mx-auto px-4 py-6">
-        <nav className="flex items-center justify-between py-2">
-          <div className="text-lg font-semibold"><a href="/">KIS Auto Trader</a></div>
-          <div className="space-x-4 text-sm opacity-80">
-            <a href="/watchlist" className="underline">워치리스트</a>
-            <a href="/account" className="underline">계좌</a>
-            <a href="/settings" className="underline">설정</a>
+    <html lang="ko">
+      <body>
+        <div className="container">
+          <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', margin:'12px 0'}}>
+            <div style={{fontWeight:800}}>KIS Auto Trader</div>
+            <div className="nav">
+              <Link href="/">대시보드</Link>
+              <Link href="/account">계좌</Link>
+              <Link href="/settings">설정</Link>
+            </div>
           </div>
-        </nav>
-        {children}
-      </div>
-    </body></html>
-  );
+          {children}
+        </div>
+      </body>
+    </html>
+  )
 }

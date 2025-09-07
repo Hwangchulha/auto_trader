@@ -1,108 +1,75 @@
+'use client';
+import { useEffect, useState } from 'react';
 
-"use client";
-import { useEffect, useState } from "react";
-import axios from "axios";
+const API = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:8000';
 
-const API = process.env.NEXT_PUBLIC_API_BASE || "http://localhost:8000";
+export default function Settings(){
+  const [rt, setRt] = useState<any|undefined>();
+  const [keys, setKeys] = useState<any|undefined>();
+  const [kis_env, setEnv] = useState<'vts'|'prod'>('vts');
+  const [app_key, setAppKey] = useState('');
+  const [app_secret, setAppSecret] = useState('');
+  const [cano, setCano] = useState('');
+  const [acnt, setAcnt] = useState('01');
+  const [msg, setMsg] = useState<string|undefined>();
 
-type Runtime = {
-  AUTO_TRADE: boolean;
-  COOLDOWN_BARS: number;
-  CONFIRM_BARS: number;
-  HYSTERESIS_PCT: number;
-  DAILY_TRADE_LIMIT: number;
-  NO_PYRAMIDING: boolean;
-  FX_USDKRW: number;
-};
-
-export default function SettingsPage() {
-  const [cfg, setCfg] = useState<Runtime | null>(null);
-  const [saving, setSaving] = useState(false);
-  const [msg, setMsg] = useState<string>("");
-
-  async function load() {
-    const r = await axios.get(`${API}/api/settings/runtime`);
-    setCfg(r.data);
+  async function loadAll(){
+    const r1 = await fetch(`${API}/api/settings/runtime`, { cache:'no-store' });
+    const r2 = await fetch(`${API}/api/keys`, { cache:'no-store' });
+    const a = await r1.json(); const b = await r2.json();
+    setRt(a); setKeys(b);
+    if(b.exists){ setEnv(b.kis_env || 'vts'); setAcnt(b.acnt_prdt_cd || '01'); }
   }
 
-  useEffect(() => { load(); }, []);
+  useEffect(()=>{ loadAll(); }, []);
 
-  async function save() {
-    if (!cfg) return;
-    setSaving(true);
-    try {
-      await axios.put(`${API}/api/settings/runtime`, cfg);
-      setMsg("저장되었습니다.");
-      setTimeout(()=>setMsg(""), 2000);
-    } catch (e:any) {
-      setMsg("저장 실패: " + (e?.response?.data?.detail || e.message));
-    } finally {
-      setSaving(false);
-    }
+  async function saveKeys(e:any){
+    e.preventDefault(); setMsg(undefined);
+    const r = await fetch(`${API}/api/keys`, {
+      method:'POST', headers:{'content-type':'application/json'},
+      body: JSON.stringify({ kis_env, app_key, app_secret, cano, acnt_prdt_cd: acnt })
+    });
+    if(!r.ok){ setMsg(await r.text()); return; }
+    setMsg('저장 완료'); setAppKey(''); setAppSecret(''); setCano(''); await loadAll();
   }
-
-  function upd<K extends keyof Runtime>(key: K, val: Runtime[K]) {
-    setCfg((c) => (c ? { ...c, [key]: val } as Runtime : c));
-  }
-
-  if (!cfg) return <div className="card">로딩 중...</div>;
 
   return (
-    <div className="space-y-6">
-      <h1 className="text-xl font-semibold">설정</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="card space-y-3">
-          <div className="text-sm font-semibold">자동매매</div>
-          <div className="flex items-center gap-3">
-            <label className="label">AUTO_TRADE</label>
-            <input type="checkbox" checked={cfg.AUTO_TRADE} onChange={e=>upd("AUTO_TRADE", e.target.checked)} />
-          </div>
-          <div className="text-xs opacity-60">끄면 신호만 기록하고 실제 주문은 내지 않습니다.</div>
-        </div>
-
-        <div className="card space-y-3">
-          <div className="text-sm font-semibold">환율</div>
-          <label className="label">FX_USDKRW</label>
-          <input className="input" type="number" step="0.01" value={cfg.FX_USDKRW} onChange={e=>upd("FX_USDKRW", parseFloat(e.target.value))} />
-          <div className="text-xs opacity-60">총자산(원화/달러) 환산에 사용.</div>
-        </div>
+    <div className="row">
+      <div className="card" style={{flex:1}}>
+        <h3>런타임</h3>
+        <div>API: {rt?.NEXT_PUBLIC_API_BASE}</div>
+        <div>SIM_MODE: {rt?.SIM_MODE}</div>
+        <div>KIS_ENV(기본): {rt?.KIS_ENV}</div>
+        <div>DEFAULT_TZ: {rt?.DEFAULT_TZ}</div>
       </div>
 
-      <div className="card space-y-3">
-        <div className="text-sm font-semibold">과매매 방지(Trade Guard)</div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div>
-            <label className="label">COOLDOWN_BARS</label>
-            <input className="input" type="number" min={0} step={1} value={cfg.COOLDOWN_BARS} onChange={e=>upd("COOLDOWN_BARS", parseInt(e.target.value||"0"))} />
-            <div className="text-xs opacity-60 mt-1">최근 체결 후 최소 대기 바 수</div>
+      <div className="card" style={{flex:1}}>
+        <h3>🔑 KIS 키 설정</h3>
+        {keys?.exists ? (
+          <div style={{opacity:.9, marginBottom:8}}>
+            <div>저장됨</div>
+            <div>환경: {keys.kis_env}</div>
+            <div>앱키: {keys.app_key}</div>
+            <div>시크릿: {keys.app_secret}</div>
+            <div>계좌: {keys.cano}</div>
+            <div>상품코드: {keys.acnt_prdt_cd}</div>
           </div>
-          <div>
-            <label className="label">CONFIRM_BARS</label>
-            <input className="input" type="number" min={1} step={1} value={cfg.CONFIRM_BARS} onChange={e=>upd("CONFIRM_BARS", parseInt(e.target.value||"1"))} />
-            <div className="text-xs opacity-60 mt-1">같은 방향 신호가 연속 M바일 때만</div>
+        ) : <div style={{opacity:.8, marginBottom:8}}>아직 저장되지 않았습니다.</div>}
+        <form onSubmit={saveKeys} style={{display:'grid', gridTemplateColumns:'160px 1fr', gap:8}}>
+          <label>환경</label>
+          <select value={kis_env} onChange={e=>setEnv(e.target.value as any)}>
+            <option value="vts">모의(VTS)</option>
+            <option value="prod">실전(PROD)</option>
+          </select>
+          <label>앱키</label><input className="input" value={app_key} onChange={e=>setAppKey(e.target.value)} placeholder="App Key" />
+          <label>시크릿</label><input className="input" value={app_secret} onChange={e=>setAppSecret(e.target.value)} placeholder="App Secret" />
+          <label>계좌(앞 8자리)</label><input className="input" value={cano} onChange={e=>setCano(e.target.value)} placeholder="12345678" />
+          <label>상품코드</label><input className="input" value={acnt} onChange={e=>setAcnt(e.target.value)} placeholder="01" />
+          <div style={{gridColumn:'1 / span 2', display:'flex', gap:8}}>
+            <button className="btn" type="submit">저장</button>
+            {msg && <span style={{opacity:.8}}>{msg}</span>}
           </div>
-          <div>
-            <label className="label">HYSTERESIS_PCT</label>
-            <input className="input" type="number" min={0} step="0.001" value={cfg.HYSTERESIS_PCT} onChange={e=>upd("HYSTERESIS_PCT", parseFloat(e.target.value||"0"))} />
-            <div className="text-xs opacity-60 mt-1">반대매매 허용 최소 변동률(예: 0.003=0.3%)</div>
-          </div>
-          <div>
-            <label className="label">DAILY_TRADE_LIMIT</label>
-            <input className="input" type="number" min={0} step={1} value={cfg.DAILY_TRADE_LIMIT} onChange={e=>upd("DAILY_TRADE_LIMIT", parseInt(e.target.value||"0"))} />
-            <div className="text-xs opacity-60 mt-1">심볼당 일일 거래 한도</div>
-          </div>
-          <div className="flex items-center gap-3">
-            <label className="label">NO_PYRAMIDING</label>
-            <input type="checkbox" checked={cfg.NO_PYRAMIDING} onChange={e=>upd("NO_PYRAMIDING", e.target.checked)} />
-          </div>
-        </div>
-      </div>
-
-      <div className="flex items-center gap-3">
-        <button onClick={save} disabled={saving} className="bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded">
-          {saving ? "저장 중..." : "저장"}
-        </button>
-        <div className="text-sm">{msg}</div>
+        </form>
       </div>
     </div>
   );

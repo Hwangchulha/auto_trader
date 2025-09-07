@@ -1,6 +1,0 @@
-{
-  "/settings/page": "app/settings/page.js",
-  "/account/page": "app/account/page.js",
-  "/page": "app/page.js",
-  "/watchlist/page": "app/watchlist/page.js"
-}

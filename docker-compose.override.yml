@@ -1,0 +1,13 @@
+# Save as docker-compose.override.yml at project root.
+# Docker Compose automatically loads this file and merges it with docker-compose.yml.
+services:
+  api:
+    ports:
+      - "8088:8088"
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8088
+    environment:
+      - UVICORN_PORT=8088
+      - API_CORS_ORIGINS=*
+  frontend:
+    environment:
+      - NEXT_PUBLIC_API_BASE=http://118.37.64.84:8088

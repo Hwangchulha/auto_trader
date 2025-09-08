@@ -1,33 +1,34 @@
 'use client';
 import { useEffect, useState } from 'react';
-import axios from 'axios';
-const API = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:8088';
-export default function Account(){
-  const [data, setData] = useState<any|undefined>();
+import { api } from '../../lib/api';
+
+export default function AccountPage() {
+  const [data, setData] = useState<any>(null);
+  const [err, setErr] = useState<string>('');
+
   useEffect(()=>{
-    const f = async ()=>{ const r = await axios.get(`${API}/api/account/overview`); setData(r.data); };
-    f(); const t = setInterval(f, 5000); return ()=> clearInterval(t);
+    api('/api/account/overview').then(setData).catch(e=>setErr(String(e)));
   },[]);
-  if(!data) return <div className="card">로딩 중...</div>;
+
   return (
-    <div className="row">
-      <div className="card" style={{flex:1}}>
-        <h3>보유 종목</h3>
-        <table>
-          <thead><tr><th>심볼</th><th>수량</th><th>평단</th><th>평가</th></tr></thead>
-          <tbody>
-            {data.positions.map((p:any)=>(
-              <tr key={p.symbol}><td>{p.symbol}</td><td>{p.qty}</td><td>{p.avg_price}</td><td>{p.eval_price}</td></tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <div className="card" style={{flex:1}}>
-        <h3>최근 주문</h3>
-        <ul>{data.recent_orders.map((o:any)=>(
-          <li key={o.client_id}>{o.created_at} {o.side?.toUpperCase?.() ?? ''} {o.symbol} x {o.qty} @ {o.price} — {o.status}</li>
-        ))}</ul>
-      </div>
+    <div style={{padding:24}}>
+      <h2>계좌 현황</h2>
+      {err && <pre style={{color:'crimson'}}>{err}</pre>}
+      {data && (
+        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:16}}>
+          <div className="card">
+            <h4>요약</h4>
+            <div>현금잔고: {data.summary?.cash?.toLocaleString?.() ?? data.summary?.cash ?? '-'}</div>
+          </div>
+          <div className="card">
+            <h4>원본 응답</h4>
+            <pre style={{maxHeight:400, overflow:'auto'}}>{JSON.stringify(data.raw, null, 2)}</pre>
+          </div>
+        </div>
+      )}
+      <style jsx>{`
+        .card{ border:1px solid #ddd; border-radius:8px; padding:12px; }
+      `}</style>
     </div>
   );
 }

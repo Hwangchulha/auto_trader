@@ -1,36 +1,36 @@
+// frontend/app/page.tsx
 'use client';
-import { useEffect, useState } from 'react';
-import axios from 'axios';
 import Link from 'next/link';
-const API = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:8088';
-type Overview = {
-  mode: string;
-  needs_keys: boolean;
-  balances: { krw:{ deposit:number, buying_power:number } };
-  positions: { symbol:string, name:string, qty:number, avg_price:number, eval_price:number }[];
-  recent_orders: any[];
-};
+import { useEffect, useState } from 'react';
+import { api } from '../lib/api';
+
 export default function Home() {
-  const [ov, setOv] = useState<Overview|undefined>();
+  const [health, setHealth] = useState<any>(null);
+  const [error, setError] = useState<string>('');
+
   useEffect(()=>{
-    const f = async()=>{ const r = await axios.get(`${API}/api/account/overview`); setOv(r.data); };
-    f(); const t = setInterval(f, 5000); return ()=> clearInterval(t);
+    api('/api/diag/health').then(setHealth).catch(e=>setError(String(e)));
   },[]);
-  if(!ov) return <div className="card">로딩 중...</div>;
+
   return (
-    <div className="row" style={{alignItems:'flex-start'}}>
-      {ov.needs_keys && <div className="warn">🔑 KIS 키가 설정되지 않았습니다. [설정]에서 저장해 주세요.</div>}
-      <div className="card stat"><div>총자산 (KRW)</div><h2>{ov?.balances.krw.deposit?.toLocaleString() ?? 0}</h2></div>
-      <div className="card stat"><div>매수가능 (KRW)</div><h2>{ov?.balances.krw.buying_power?.toLocaleString() ?? 0}</h2></div>
-      <div className="card stat"><div>모드</div><h2>{ov?.mode}</h2></div>
-      <div className="card" style={{flexBasis:'100%'}}>
-        <h3>바로가기</h3>
-        <Link className="btn" href="/watchlist">워치리스트 열기</Link>
-        <span style={{marginLeft:10}} />
-        <Link className="btn" href="/account">계좌 상세</Link>
-        <span style={{marginLeft:10}} />
-        <Link className="btn" href="/settings">설정</Link>
+    <div style={{padding:24}}>
+      <h1 style={{marginBottom:16}}>KIS Auto Trader</h1>
+      <div style={{display:'flex', gap:8, marginBottom:20}}>
+        <Link className="btn" href="/watchlist">위시리스트</Link>
+        <Link className="btn" href="/settings">설정/키 입력</Link>
+        <Link className="btn" href="/account">계좌 현황</Link>
       </div>
+      <div style={{padding:12, border:'1px solid #ddd', borderRadius:8}}>
+        <h3>백엔드 상태</h3>
+        {error ? <pre style={{color:'crimson'}}>{error}</pre> : <pre>{JSON.stringify(health, null, 2)}</pre>}
+      </div>
+      <style jsx>{`
+        .btn{
+          display:inline-block; padding:8px 12px; border:1px solid #888; border-radius:6px;
+          text-decoration:none;
+        }
+        .btn:hover{ background:#f3f3f3; }
+      `}</style>
     </div>
   );
 }

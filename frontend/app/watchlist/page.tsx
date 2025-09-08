@@ -1,67 +1,110 @@
 'use client';
-import { useEffect, useState } from 'react';
-import axios from 'axios';
-const API = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:8088';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { api } from '../../lib/api';
+
 type Row = { code: string; name?: string };
-export default function Watchlist(){
+
+const LS_KEY = 'watchlist_rows';
+
+export default function WatchlistPage(){
   const [rows, setRows] = useState<Row[]>([]);
-  const [code, setCode] = useState('');
-  const [name, setName] = useState('');
-  const [msg, setMsg] = useState<string|undefined>();
-  async function load(){ const r = await axios.get(`${API}/api/symbols`); setRows(r.data || []); }
-  useEffect(()=>{ load(); }, []);
-  async function add(){
-    setMsg(undefined);
-    if(!code) { setMsg('종목코드를 입력하세요. 예: KRX:005930'); return; }
-    await axios.post(`${API}/api/symbols`, null, { params: { code, name } });
-    setCode(''); setName(''); await load();
-  }
-  async function del(c: string){ await axios.delete(`${API}/api/symbols`, { params: { code: c } }); await load(); }
-  async function order(c: string, side: 'buy'|'sell', qty: number, price: number){
+  const codeRef = useRef<HTMLInputElement>(null);
+  const nameRef = useRef<HTMLInputElement>(null);
+
+  useEffect(()=>{
     try{
-      const body = new URLSearchParams({ symbol: c, side, qty: String(qty), price: String(price) });
-      const r = await fetch(`${API}/api/orders`, { method:'POST', headers:{'content-type':'application/x-www-form-urlencoded'}, body });
-      const d = await r.json();
-      if(r.ok){ alert(side.toUpperCase() + ' 응답: ' + (d?.status || '') + ' / ' + (d?.client_id || '')); }
-      else { alert('오류: ' + JSON.stringify(d)); }
-    }catch(e:any){ alert('요청 실패: ' + (e?.message || e)); }
-  }
+      const saved = localStorage.getItem(LS_KEY);
+      if(saved) setRows(JSON.parse(saved));
+    }catch{}
+  },[]);
+
+  useEffect(()=>{
+    try{
+      localStorage.setItem(LS_KEY, JSON.stringify(rows));
+    }catch{}
+  },[rows]);
+
+  const add = ()=>{
+    const code = codeRef.current?.value?.trim()?.toUpperCase() || '';
+    const name = nameRef.current?.value?.trim() || '';
+    if(!code) return;
+    setRows(prev=>{
+      if(prev.some(r=>r.code===code)) return prev;
+      return [...prev, {code, name}];
+    });
+    if(codeRef.current) codeRef.current.value='';
+    if(nameRef.current) nameRef.current.value='';
+  };
+
+  const remove = (code: string)=> setRows(prev=>prev.filter(r=>r.code!==code));
+
+  const order = async (code: string, side: 'buy'|'sell', qty: number, price: number)=>{
+    const body = new URLSearchParams();
+    body.set('symbol', code);
+    body.set('side', side);
+    body.set('qty', String(qty));
+    body.set('price', String(price));
+    const res = await fetch('/api/orders', {
+      method: 'POST',
+      headers: {'Content-Type':'application/x-www-form-urlencoded'},
+      body
+    });
+    const json = await res.json();
+    if(!res.ok) throw new Error(JSON.stringify(json));
+    alert(`주문 요청: ${json.message?.text || json.status}`);
+  };
+
   return (
-    <div className="row" style={{alignItems:'flex-start'}}>
-      <div className="card" style={{flexBasis:'100%'}}>
-        <h3>워치리스트</h3>
-        <div className="small">형식 예시: <code>KRX:005930</code>, <code>US:NVDA</code></div>
-        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 120px', gap:8, marginTop:8}}>
-          <input className="input" placeholder="종목코드 (예: KRX:005930)" value={code} onChange={e=>setCode(e.target.value)} />
-          <input className="input" placeholder="이름(선택)" value={name} onChange={e=>setName(e.target.value)} />
-          <button className="btn" onClick={add}>추가</button>
-        </div>
-        {msg && <div className="small" style={{marginTop:6}}>{msg}</div>}
-        <table style={{marginTop:12}}>
-          <thead><tr><th>종목</th><th>이름</th><th>주문</th><th>삭제</th></tr></thead>
-          <tbody>
-            {rows.map(r=>{
-              let qRef: HTMLInputElement|null = null;
-              let pRef: HTMLInputElement|null = null;
-              return (
-                <tr key={r.code}>
-                  <td>{r.code}</td>
-                  <td>{r.name || ''}</td>
-                  <td>
-                    <div style={{display:'flex', gap:6}}>
-                      <input ref={(el)=>{ qRef = el }} className="input" placeholder="수량" defaultValue="1" style={{maxWidth:80}} />
-                      <input ref={(el)=>{ pRef = el }} className="input" placeholder="가격(0=시장가)" defaultValue="0" style={{maxWidth:140}} />
-                      <button className="btn" onClick={()=>order(r.code, 'buy', Number(qRef?.value||'1'), Number(pRef?.value||'0'))}>매수</button>
-                      <button className="btn" onClick={()=>order(r.code, 'sell', Number(qRef?.value||'1'), Number(pRef?.value||'0'))}>매도</button>
-                    </div>
-                  </td>
-                  <td><button className="btn" onClick={()=>del(r.code)}>삭제</button></td>
-                </tr>
-              )
-            })}
-          </tbody>
-        </table>
+    <div style={{padding:24}}>
+      <h2>위시리스트</h2>
+      <div style={{display:'flex', gap:8, marginBottom:16}}>
+        <input ref={codeRef} placeholder="종목코드 (예: KRX:005930)" className="input" style={{minWidth:240}}/>
+        <input ref={nameRef} placeholder="메모/별칭" className="input" style={{minWidth:180}}/>
+        <button className="btn" onClick={add}>추가</button>
       </div>
+      <table style={{width:'100%', borderCollapse:'collapse'}}>
+        <thead>
+          <tr>
+            <th style={{textAlign:'left', borderBottom:'1px solid #ddd', padding:'8px 4px'}}>코드</th>
+            <th style={{textAlign:'left', borderBottom:'1px solid #ddd', padding:'8px 4px'}}>이름</th>
+            <th style={{textAlign:'left', borderBottom:'1px solid #ddd', padding:'8px 4px'}}>주문</th>
+            <th style={{textAlign:'left', borderBottom:'1px solid #ddd', padding:'8px 4px'}}>관리</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map(r=>{
+            const qRef = useRef<HTMLInputElement>(null);
+            const pRef = useRef<HTMLInputElement>(null);
+            return (
+              <tr key={r.code}>
+                <td style={{padding:'8px 4px'}}>{r.code}</td>
+                <td style={{padding:'8px 4px'}}>{r.name || '-'}</td>
+                <td style={{padding:'8px 4px'}}>
+                  <div style={{display:'flex', gap:6}}>
+                    <input ref={qRef} className="input" placeholder="수량" defaultValue="1" style={{maxWidth:80}} />
+                    <input ref={pRef} className="input" placeholder="가격(0=시장가)" defaultValue="0" style={{maxWidth:140}} />
+                    <button className="btn" onClick={()=>order(r.code, 'buy', Number(qRef.current?.value||'1'), Number(pRef.current?.value||'0'))}>매수</button>
+                    <button className="btn" onClick={()=>order(r.code, 'sell', Number(qRef.current?.value||'1'), Number(pRef.current?.value||'0'))}>매도</button>
+                  </div>
+                </td>
+                <td style={{padding:'8px 4px'}}>
+                  <button className="btn" onClick={()=>remove(r.code)}>삭제</button>
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+
+      <style jsx>{`
+        .btn{
+          padding:6px 10px; border:1px solid #888; border-radius:6px; background:#fff;
+        }
+        .btn:hover{ background:#f5f5f5; }
+        .input{
+          padding:6px 8px; border:1px solid #ccc; border-radius:6px;
+        }
+      `}</style>
     </div>
-  );
+  )
 }

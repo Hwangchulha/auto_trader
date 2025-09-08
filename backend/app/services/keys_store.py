@@ -3,10 +3,8 @@ from typing import Optional, Dict
 from sqlalchemy.orm import Session
 from ..db import SessionLocal
 from ..models import KISKey
-
 _cache = {"v": None, "t": 0}
 def _now() -> float: return time.time()
-
 def load_keys() -> Optional[Dict]:
     if _cache["v"] and _now() - _cache["t"] < 10:
         return _cache["v"]
@@ -27,28 +25,23 @@ def load_keys() -> Optional[Dict]:
         return _cache["v"]
     finally:
         db.close()
-
 def save_keys(data: Dict) -> Dict:
     db = SessionLocal()
     try:
         row = db.query(KISKey).order_by(KISKey.id.desc()).first()
         if not row:
-            row = KISKey()
-            db.add(row)
+            row = KISKey(); db.add(row)
         row.app_key = data.get("app_key","")
         row.app_secret = data.get("app_secret","")
         row.cano = data.get("cano","")
         row.acnt_prdt_cd = data.get("acnt_prdt_cd","01")
         row.kis_env = (data.get("kis_env","vts") or "vts").lower()
-        db.commit()
-        _cache["v"] = None
+        db.commit(); _cache["v"] = None
         return {"ok": True}
     finally:
         db.close()
-
 def exists() -> bool:
     return load_keys() is not None
-
 def mask(s: str) -> str:
     if not s: return s
     if len(s) <= 6: return "***"

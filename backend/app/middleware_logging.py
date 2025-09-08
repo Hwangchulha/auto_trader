@@ -3,10 +3,8 @@ from typing import Callable
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
 from starlette.responses import Response
-
 access_log = logging.getLogger("uvicorn.access")
 app_log = logging.getLogger("app")
-
 class RequestContextMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next: Callable):
         rid = request.headers.get("X-Request-ID") or uuid.uuid4().hex

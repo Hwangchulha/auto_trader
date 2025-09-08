@@ -1,8 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
-
 const API = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:8088';
-
 export default function Settings(){
   const [rt, setRt] = useState<any|undefined>();
   const [keys, setKeys] = useState<any|undefined>();
@@ -12,7 +10,6 @@ export default function Settings(){
   const [cano, setCano] = useState('');
   const [acnt, setAcnt] = useState('01');
   const [msg, setMsg] = useState<string|undefined>();
-
   async function loadAll(){
     const r1 = await fetch(`${API}/api/settings/runtime`, { cache:'no-store' });
     const r2 = await fetch(`${API}/api/keys`, { cache:'no-store' });
@@ -20,9 +17,7 @@ export default function Settings(){
     setRt(a); setKeys(b);
     if(b.exists){ setEnv(b.kis_env || 'vts'); setAcnt(b.acnt_prdt_cd || '01'); }
   }
-
   useEffect(()=>{ loadAll(); }, []);
-
   async function saveKeys(e:any){
     e.preventDefault(); setMsg(undefined);
     const r = await fetch(`${API}/api/keys`, {
@@ -32,7 +27,6 @@ export default function Settings(){
     if(!r.ok){ setMsg(await r.text()); return; }
     setMsg('저장 완료'); setAppKey(''); setAppSecret(''); setCano(''); await loadAll();
   }
-
   return (
     <div className="row">
       <div className="card" style={{flex:1}}>
@@ -42,7 +36,6 @@ export default function Settings(){
         <div>DEFAULT_TZ: {rt?.DEFAULT_TZ}</div>
         {rt?.needs_keys && <div style={{marginTop:8}} className="warn">🔑 KIS 키가 설정되지 않았습니다. 아래에서 저장해 주세요.</div>}
       </div>
-
       <div className="card" style={{flex:1}}>
         <h3>🔑 KIS 키 설정</h3>
         {keys?.exists ? (

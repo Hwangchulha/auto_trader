@@ -1,14 +1,11 @@
 from fastapi import APIRouter, Request
 from ..services.keys_store import load_keys, save_keys, exists, mask
 from ..services.kis_auth import reset_token
-
 router = APIRouter(prefix="/api/keys", tags=["keys"])
-
 @router.get("/status")
 def status():
     k = load_keys()
     return {"exists": bool(k), "env": (k or {}).get("kis_env","")}
-
 @router.get("")
 def get_keys_masked():
     k = load_keys()
@@ -22,7 +19,6 @@ def get_keys_masked():
         "cano": mask(k.get("cano","")),
         "acnt_prdt_cd": k.get("acnt_prdt_cd","01"),
     }
-
 @router.post("")
 async def set_keys(req: Request):
     ctype = (req.headers.get("content-type") or "").lower()
@@ -39,6 +35,4 @@ async def set_keys(req: Request):
         "app_secret": data.get("app_secret",""),
         "cano": data.get("cano",""),
         "acnt_prdt_cd": data.get("acnt_prdt_cd","01"),
-    })
-    reset_token()
-    return {"ok": True, "saved": True}
+    }); reset_token(); return {"ok": True, "saved": True}

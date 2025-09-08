@@ -2,18 +2,12 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 const API = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:8088';
-
 export default function Account(){
   const [data, setData] = useState<any|undefined>();
-
   useEffect(()=>{
-    const f = async ()=>{
-      const r = await axios.get(`${API}/api/account/overview`);
-      setData(r.data);
-    };
+    const f = async ()=>{ const r = await axios.get(`${API}/api/account/overview`); setData(r.data); };
     f(); const t = setInterval(f, 5000); return ()=> clearInterval(t);
   },[]);
-
   if(!data) return <div className="card">로딩 중...</div>;
   return (
     <div className="row">

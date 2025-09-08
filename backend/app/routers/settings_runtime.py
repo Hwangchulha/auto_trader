@@ -1,9 +1,7 @@
 import os
 from fastapi import APIRouter
 from ..services.keys_store import exists as keys_exists
-
 router = APIRouter(prefix="/api/settings", tags=["settings"])
-
 @router.get("/runtime")
 def runtime():
     return {

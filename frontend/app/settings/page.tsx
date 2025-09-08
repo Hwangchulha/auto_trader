@@ -34,19 +34,19 @@ export default function Settings(){
   }
 
   return (
-    <div className="row" style={{gap:16}}>
+    <div className="row">
       <div className="card" style={{flex:1}}>
         <h3>런타임</h3>
         <div>API: {rt?.NEXT_PUBLIC_API_BASE}</div>
         <div>KIS_ENV: {rt?.KIS_ENV}</div>
         <div>DEFAULT_TZ: {rt?.DEFAULT_TZ}</div>
-        {rt?.needs_keys && <div style={{marginTop:8}}>🔑 KIS 키가 설정되지 않았습니다. 아래에서 저장해 주세요.</div>}
+        {rt?.needs_keys && <div style={{marginTop:8}} className="warn">🔑 KIS 키가 설정되지 않았습니다. 아래에서 저장해 주세요.</div>}
       </div>
 
       <div className="card" style={{flex:1}}>
         <h3>🔑 KIS 키 설정</h3>
         {keys?.exists ? (
-          <div style={{opacity:.9, marginBottom:8}}>
+          <div className="small" style={{marginBottom:8}}>
             <div>저장됨</div>
             <div>환경: {keys.kis_env}</div>
             <div>앱키: {keys.app_key}</div>

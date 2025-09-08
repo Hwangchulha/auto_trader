@@ -16,10 +16,10 @@ export default function Account(){
 
   if(!data) return <div className="card">로딩 중...</div>;
   return (
-    <div className="row" style={{gap:16}}>
+    <div className="row">
       <div className="card" style={{flex:1}}>
         <h3>보유 종목</h3>
-        <table className="table">
+        <table>
           <thead><tr><th>심볼</th><th>수량</th><th>평단</th><th>평가</th></tr></thead>
           <tbody>
             {data.positions.map((p:any)=>(
@@ -31,7 +31,7 @@ export default function Account(){
       <div className="card" style={{flex:1}}>
         <h3>최근 주문</h3>
         <ul>{data.recent_orders.map((o:any)=>(
-          <li key={o.client_id}>{o.created_at} {o.side?.toUpperCase?.() ?? ''} {o.symbol} x {o.qty} @ {o.price} [{o.status}]</li>
+          <li key={o.client_id}>{o.created_at} {o.side?.toUpperCase?.() ?? ''} {o.symbol} x {o.qty} @ {o.price} — {o.status}</li>
         ))}</ul>
       </div>
     </div>

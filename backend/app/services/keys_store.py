@@ -8,7 +8,6 @@ _cache = {"v": None, "t": 0}
 def _now() -> float: return time.time()
 
 def load_keys() -> Optional[Dict]:
-    # cached 10 seconds
     if _cache["v"] and _now() - _cache["t"] < 10:
         return _cache["v"]
     db = SessionLocal()
@@ -42,7 +41,7 @@ def save_keys(data: Dict) -> Dict:
         row.acnt_prdt_cd = data.get("acnt_prdt_cd","01")
         row.kis_env = (data.get("kis_env","vts") or "vts").lower()
         db.commit()
-        _cache["v"] = None  # invalidate
+        _cache["v"] = None
         return {"ok": True}
     finally:
         db.close()

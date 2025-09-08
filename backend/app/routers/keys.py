@@ -40,5 +40,5 @@ async def set_keys(req: Request):
         "cano": data.get("cano",""),
         "acnt_prdt_cd": data.get("acnt_prdt_cd","01"),
     })
-    reset_token()  # refresh token on next use
+    reset_token()
     return {"ok": True, "saved": True}

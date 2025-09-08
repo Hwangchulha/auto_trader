@@ -14,11 +14,11 @@ def get_db():
 
 def _num(s):
     try: return float(str(s).replace(",",""))
-    except: return 0.0
+    except Exception: return 0.0
 
 def _first_dict(x):
     if isinstance(x, dict): return x
-    if isinstance(x, list) and x and isinstance(x[0], dict): return x[0]
+    if isinstance(x, list) and x: return x[0] if isinstance(x[0], dict) else {}
     return {}
 
 @router.get("/overview")
@@ -48,8 +48,10 @@ async def overview(db: Session = Depends(get_db)):
     bp = (outp or {}).get("ord_psbl_cash", "0")
 
     orders = db.query(Order).order_by(Order.created_at.desc()).limit(20).all()
-    recent = [{"client_id": o.client_id, "symbol": o.symbol, "side": o.side, "qty": o.qty, "price": o.price,
-               "status": o.status, "created_at": o.created_at.isoformat() if o.created_at else ""} for o in orders]
+    recent = [{
+        "client_id": o.client_id, "symbol": o.symbol, "side": o.side, "qty": o.qty, "price": o.price,
+        "status": o.status, "created_at": o.created_at.isoformat() if o.created_at else ""
+    } for o in orders]
 
     return {"mode":"KIS", "needs_keys":False,
             "balances":{"krw":{"deposit": int(_num(dep)), "buying_power": int(_num(bp))}},

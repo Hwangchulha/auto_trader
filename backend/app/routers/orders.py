@@ -41,7 +41,7 @@ async def post_order(req: Request, db: Session = Depends(get_db)):
             try: data["price"] = None if data["price"] in ("", "0", "0.0", None) else float(data["price"])
             except: data["price"] = None
 
-    symbol = (data.get("symbol") or "").strip().upper()
+    symbol = (data.get("symbol") or "").strip()
     side = (str(data.get("side") or "")).lower().strip()
     qty = float(data.get("qty", 0) or 0)
     price = data.get("price", None)
@@ -54,7 +54,5 @@ async def post_order(req: Request, db: Session = Depends(get_db)):
     client_id = _extract_odno(res)
 
     o = Order(client_id=client_id or f"{symbol}-pending", symbol=symbol, side=side, qty=qty, price=price, status=status, raw=res)
-    if status == "submitted" and not client_id:
-        o.client_id = f"{symbol}-pending"
     db.add(o); db.commit()
     return {"status": status, "client_id": o.client_id, "kis_response": res}

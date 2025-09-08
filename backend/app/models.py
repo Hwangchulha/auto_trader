@@ -13,7 +13,7 @@ class Symbol(Base):
 class Order(Base):
     __tablename__ = "orders"
     id = Column(Integer, primary_key=True, index=True)
-    client_id = Column(String, unique=True, index=True)
+    client_id = Column(String, index=True)
     symbol = Column(String, index=True)
     side = Column(String)          # buy/sell
     qty = Column(Float)

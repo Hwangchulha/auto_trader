@@ -17,6 +17,8 @@ def list_symbols(db: Session = Depends(get_db)):
 
 @router.post("")
 def add_symbol(code: str, name: str = "", db: Session = Depends(get_db)):
+    code = (code or "").strip().upper()
+    if not code: return {"ok": False, "error":"code required"}
     s = db.query(Symbol).filter(Symbol.code==code).first()
     if not s:
         s = Symbol(code=code, name=name, active=True)

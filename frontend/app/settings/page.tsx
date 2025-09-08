@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 
-const API = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:8000';
+const API = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:8088';
 
 export default function Settings(){
   const [rt, setRt] = useState<any|undefined>();
@@ -34,13 +34,13 @@ export default function Settings(){
   }
 
   return (
-    <div className="row">
+    <div className="row" style={{gap:16}}>
       <div className="card" style={{flex:1}}>
         <h3>런타임</h3>
         <div>API: {rt?.NEXT_PUBLIC_API_BASE}</div>
-        <div>SIM_MODE: {rt?.SIM_MODE}</div>
-        <div>KIS_ENV(기본): {rt?.KIS_ENV}</div>
+        <div>KIS_ENV: {rt?.KIS_ENV}</div>
         <div>DEFAULT_TZ: {rt?.DEFAULT_TZ}</div>
+        {rt?.needs_keys && <div style={{marginTop:8}}>🔑 KIS 키가 설정되지 않았습니다. 아래에서 저장해 주세요.</div>}
       </div>
 
       <div className="card" style={{flex:1}}>

@@ -5,7 +5,9 @@ a { color:#9ec1ff; text-decoration:none; }
 .row { display:flex; gap:12px; flex-wrap:wrap; }
 h1,h2,h3 { margin: 8px 0; }
 .btn { background:#2b63ff; color:#fff; border:none; border-radius:8px; padding:8px 12px; cursor:pointer; }
-.btn-alt { background:#333; border:none; color:#eee; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.btn-danger { background:#b23; color:#fff; border:none; border-radius:8px; padding:8px 12px; cursor:pointer; }
 .input { width:100%; padding:8px 10px; border:1px solid #333; border-radius:8px; background:#0b0b0b; color:#eee; }
 .nav { display:flex; gap:12px; justify-content:flex-end; }
 .stat { min-width:220px; }
+.table { width:100%; border-collapse: collapse; }
+.table td, .table th { border-bottom:1px solid #222; padding:8px; text-align:left; }

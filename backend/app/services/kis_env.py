@@ -31,6 +31,3 @@ def kis_acnt():
     k = load_keys()
     if k and k.get("acnt_prdt_cd"): return k["acnt_prdt_cd"]
     return get_env("KIS_ACNT_PRDT_CD","01")
-
-def sim_mode():
-    return str(get_env("SIM_MODE","1")).lower() in ("1","true","yes")

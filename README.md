@@ -1,27 +1,28 @@
-# KIS Auto Trader — Clean Pack (v13.0)
+# KIS Auto Trader — KIS-only (port 8088) v13.3
 
-- **핵심 정리**
-  - 기능 통합: `/api/account/overview`, `/api/symbols`, `/api/orders`, `/api/settings/runtime`, `/api/keys`, `/api/diag/*`
-  - **키 입력은 '설정' 페이지(app/settings/page.tsx) 내에 통합**. 별도 경로/오버레이 없음.
-  - DB: SQLite(`data/app.db`) — symbols / orders / kis_keys
-  - 로깅: `/logs` 매핑(app/error/access/kis/client)
+- 백엔드 포트: **8088**
+- 시뮬 모드 없음. KIS(VTS/PROD) 전용.
+- 기능: 워치리스트(+행 단위 주문), 대시보드, 계좌, 설정(키 저장)
+- 프론트 포트: 3000
 
 ## 실행
 ```bash
-copy .env.example .env   # .env 편집 (기본 SIM_MODE=1)
-docker compose up -d --build
-# 프론트: http://localhost:3000
-# 백엔드: http://localhost:8000/health
-```
-- KIS 모의 사용: `.env`에서 `SIM_MODE=0`, `KIS_ENV=vts` 그리고 **설정 페이지에서 키 저장**
+copy .env.example .env
+# 필요시 .env의 NEXT_PUBLIC_API_BASE를 서버IP로 변경 (예: http://192.168.0.10:8088)
 
-## 엔드포인트
-- `GET /api/account/overview`  잔고/보유/최근주문
-- `GET|POST|DELETE /api/symbols`
-- `POST /api/orders`           (JSON/폼 모두 OK)
-- `GET /api/settings/runtime`
+docker compose up -d --build
+# Frontend: http://localhost:3000
+# Backend : http://localhost:8088/health
+```
+
+## 주요 API
+- `GET /api/symbols` / `POST /api/symbols?code=...&name=...` / `DELETE /api/symbols?code=...`
+- `POST /api/orders` (JSON 또는 x-www-form-urlencoded)
+- `GET /api/account/overview`
 - `GET /api/keys` / `POST /api/keys`
-- `GET /api/diag/env|logs|bundle`
+- `GET /api/settings/runtime`
+- `GET /api/diag/env|health|logs|bundle`
 
 ## 주의
-- 키는 DB에 **평문** 저장(마스킹은 응답 표시용). 운영환경에선 암호화 저장 권장.
+- 키 저장 전에는 대시보드에서 `needs_keys:true`로 안내합니다.
+- 주문은 항상 KIS로 전송됩니다. `rt_cd!="0"`이면 `status=rejected`로 기록됩니다.

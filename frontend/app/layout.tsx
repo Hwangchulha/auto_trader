@@ -1,7 +1,7 @@
 import './globals.css'
 import Link from 'next/link'
 
-export const metadata = { title: 'KIS Auto Trader', description: 'Auto trading dashboard' }
+export const metadata = { title: 'KIS Auto Trader', description: 'KIS-only dashboard (8088 backend)' }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -12,6 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div style={{fontWeight:800}}>KIS Auto Trader</div>
             <div className="nav">
               <Link href="/">대시보드</Link>
+              <Link href="/watchlist">워치리스트</Link>
               <Link href="/account">계좌</Link>
               <Link href="/settings">설정</Link>
             </div>

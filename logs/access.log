@@ -16,3 +16,1839 @@
 2025-09-07 15:02:08,292 INFO uvicorn.access 172.18.0.1:58666 - "GET /api/watchlist HTTP/1.1" 404
 2025-09-07 15:03:08,292 INFO uvicorn.access GET /api/watchlist {} 404 0.30ms
 2025-09-07 15:03:08,293 INFO uvicorn.access 172.18.0.1:49566 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:04:08,284 INFO uvicorn.access GET /api/watchlist {} 404 0.28ms
+2025-09-07 15:04:08,285 INFO uvicorn.access 172.18.0.1:38186 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:05:08,297 INFO uvicorn.access GET /api/watchlist {} 404 0.28ms
+2025-09-07 15:05:08,298 INFO uvicorn.access 172.18.0.1:53256 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:06:08,295 INFO uvicorn.access GET /api/watchlist {} 404 0.30ms
+2025-09-07 15:06:08,297 INFO uvicorn.access 172.18.0.1:44562 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:07:08,291 INFO uvicorn.access GET /api/watchlist {} 404 0.28ms
+2025-09-07 15:07:08,292 INFO uvicorn.access 172.18.0.1:46368 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:08:08,286 INFO uvicorn.access GET /api/watchlist {} 404 0.27ms
+2025-09-07 15:08:08,287 INFO uvicorn.access 172.18.0.1:54234 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:09:08,299 INFO uvicorn.access GET /api/watchlist {} 404 0.39ms
+2025-09-07 15:09:08,301 INFO uvicorn.access 172.18.0.1:40374 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:10:08,297 INFO uvicorn.access GET /api/watchlist {} 404 0.31ms
+2025-09-07 15:10:08,298 INFO uvicorn.access 172.18.0.1:52524 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:11:08,298 INFO uvicorn.access GET /api/watchlist {} 404 0.27ms
+2025-09-07 15:11:08,299 INFO uvicorn.access 172.18.0.1:41314 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:12:08,295 INFO uvicorn.access GET /api/watchlist {} 404 0.28ms
+2025-09-07 15:12:08,297 INFO uvicorn.access 172.18.0.1:37262 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:13:08,294 INFO uvicorn.access GET /api/watchlist {} 404 0.57ms
+2025-09-07 15:13:08,297 INFO uvicorn.access 172.18.0.1:41976 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:14:08,294 INFO uvicorn.access GET /api/watchlist {} 404 0.32ms
+2025-09-07 15:14:08,295 INFO uvicorn.access 172.18.0.1:54712 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:17:08,290 INFO uvicorn.access GET /api/watchlist {} 404 0.40ms
+2025-09-07 15:17:08,291 INFO uvicorn.access 172.18.0.1:35382 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:18:08,294 INFO uvicorn.access GET /api/watchlist {} 404 0.42ms
+2025-09-07 15:18:08,296 INFO uvicorn.access 172.18.0.1:56142 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:19:08,289 INFO uvicorn.access GET /api/watchlist {} 404 0.32ms
+2025-09-07 15:19:08,290 INFO uvicorn.access 172.18.0.1:41040 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:20:08,296 INFO uvicorn.access GET /api/watchlist {} 404 0.35ms
+2025-09-07 15:20:08,296 INFO uvicorn.access 172.18.0.1:35792 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:21:08,292 INFO uvicorn.access GET /api/watchlist {} 404 0.34ms
+2025-09-07 15:21:08,295 INFO uvicorn.access 172.18.0.1:38664 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:22:08,298 INFO uvicorn.access GET /api/watchlist {} 404 0.39ms
+2025-09-07 15:22:08,300 INFO uvicorn.access 172.18.0.1:56920 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:23:08,309 INFO uvicorn.access GET /api/watchlist {} 404 0.38ms
+2025-09-07 15:23:08,312 INFO uvicorn.access 172.18.0.1:53230 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:24:08,302 INFO uvicorn.access GET /api/watchlist {} 404 0.36ms
+2025-09-07 15:24:08,305 INFO uvicorn.access 172.18.0.1:55900 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:29:07,681 INFO uvicorn.access GET /api/account/overview {} 200 13.05ms
+2025-09-07 15:29:07,682 INFO uvicorn.access 172.18.0.1:52034 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:29:08,290 INFO uvicorn.access GET /api/watchlist {} 404 0.57ms
+2025-09-07 15:29:08,292 INFO uvicorn.access 172.18.0.1:52034 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:29:12,676 INFO uvicorn.access GET /api/account/overview {} 200 7.47ms
+2025-09-07 15:29:12,677 INFO uvicorn.access 172.18.0.1:52034 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:29:17,263 INFO uvicorn.access GET /api/account/overview {} 200 4.09ms
+2025-09-07 15:29:17,265 INFO uvicorn.access 172.18.0.1:52034 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:29:19,672 INFO uvicorn.access GET /api/settings/runtime {} 200 4.64ms
+2025-09-07 15:29:19,673 INFO uvicorn.access 172.18.0.1:52034 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:29:19,680 INFO uvicorn.access GET /api/keys {} 200 4.01ms
+2025-09-07 15:29:19,682 INFO uvicorn.access 172.18.0.1:52034 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:29:58,195 INFO uvicorn.access OPTIONS /api/keys {} 200 0.20ms
+2025-09-07 15:29:58,198 INFO uvicorn.access 172.18.0.1:54114 - "OPTIONS /api/keys HTTP/1.1" 200
+2025-09-07 15:29:58,225 INFO uvicorn.access POST /api/keys {} 200 23.30ms
+2025-09-07 15:29:58,226 INFO uvicorn.access 172.18.0.1:54114 - "POST /api/keys HTTP/1.1" 200
+2025-09-07 15:29:58,233 INFO uvicorn.access GET /api/settings/runtime {} 200 2.87ms
+2025-09-07 15:29:58,234 INFO uvicorn.access 172.18.0.1:54114 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:29:58,237 INFO uvicorn.access GET /api/keys {} 200 0.49ms
+2025-09-07 15:29:58,238 INFO uvicorn.access 172.18.0.1:54114 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:30:01,202 INFO uvicorn.access GET /api/account/overview {} 200 3.09ms
+2025-09-07 15:30:01,204 INFO uvicorn.access 172.18.0.1:54114 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:30:02,903 INFO uvicorn.access GET /api/account/overview {} 200 4.97ms
+2025-09-07 15:30:02,905 INFO uvicorn.access 172.18.0.1:54114 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:30:07,907 INFO uvicorn.access GET /api/account/overview {} 200 6.24ms
+2025-09-07 15:30:07,908 INFO uvicorn.access 172.18.0.1:54114 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:30:08,285 INFO uvicorn.access GET /api/watchlist {} 404 0.35ms
+2025-09-07 15:30:08,287 INFO uvicorn.access 172.18.0.1:54114 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:30:12,908 INFO uvicorn.access GET /api/account/overview {} 200 4.93ms
+2025-09-07 15:30:12,910 INFO uvicorn.access 172.18.0.1:54114 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:30:15,782 INFO uvicorn.access GET /api/account/overview {} 200 5.49ms
+2025-09-07 15:30:15,783 INFO uvicorn.access 172.18.0.1:54114 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:30:20,728 INFO uvicorn.access GET /api/settings/runtime {} 200 12.36ms
+2025-09-07 15:30:20,730 INFO uvicorn.access 172.18.0.1:54114 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:30:20,733 INFO uvicorn.access GET /api/keys {} 200 0.53ms
+2025-09-07 15:30:20,734 INFO uvicorn.access 172.18.0.1:54114 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:30:26,529 INFO uvicorn.access GET /api/account/overview {} 200 2.99ms
+2025-09-07 15:30:26,530 INFO uvicorn.access 172.18.0.1:54124 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:30:29,208 INFO uvicorn.access GET /api/account/overview {} 200 3.34ms
+2025-09-07 15:30:29,209 INFO uvicorn.access 172.18.0.1:54124 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:30:31,296 INFO uvicorn.access GET /api/account/overview {} 200 5.37ms
+2025-09-07 15:30:31,298 INFO uvicorn.access 172.18.0.1:54124 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:30:32,497 INFO uvicorn.access GET /api/settings/runtime {} 200 62.11ms
+2025-09-07 15:30:32,498 INFO uvicorn.access 172.18.0.1:54124 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:30:32,504 INFO uvicorn.access GET /api/keys {} 200 0.71ms
+2025-09-07 15:30:32,506 INFO uvicorn.access 172.18.0.1:54124 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:30:53,417 INFO uvicorn.access GET /health {} 200 0.63ms
+2025-09-07 15:30:53,418 INFO uvicorn.access 172.18.0.1:36734 - "GET /health HTTP/1.1" 200
+2025-09-07 15:31:03,068 INFO uvicorn.access POST /api/keys {} 200 15.37ms
+2025-09-07 15:31:03,069 INFO uvicorn.access 172.18.0.1:47148 - "POST /api/keys HTTP/1.1" 200
+2025-09-07 15:31:03,075 INFO uvicorn.access GET /api/settings/runtime {} 200 3.08ms
+2025-09-07 15:31:03,076 INFO uvicorn.access 172.18.0.1:47148 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:31:03,081 INFO uvicorn.access GET /api/keys {} 200 0.93ms
+2025-09-07 15:31:03,085 INFO uvicorn.access 172.18.0.1:47148 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:31:08,295 INFO uvicorn.access GET /api/watchlist {} 404 0.38ms
+2025-09-07 15:31:08,296 INFO uvicorn.access 172.18.0.1:59422 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:31:29,514 INFO uvicorn.access POST /api/keys {} 200 20.23ms
+2025-09-07 15:31:29,516 INFO uvicorn.access 172.18.0.1:39538 - "POST /api/keys HTTP/1.1" 200
+2025-09-07 15:31:29,526 INFO uvicorn.access GET /api/settings/runtime {} 200 6.32ms
+2025-09-07 15:31:29,528 INFO uvicorn.access 172.18.0.1:39538 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:31:29,531 INFO uvicorn.access GET /api/keys {} 200 0.47ms
+2025-09-07 15:31:29,532 INFO uvicorn.access 172.18.0.1:39538 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:31:33,656 INFO uvicorn.access GET /api/account/overview {} 200 3.88ms
+2025-09-07 15:31:33,657 INFO uvicorn.access 172.18.0.1:39538 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:31:34,781 INFO uvicorn.access GET /api/settings/runtime {} 200 0.77ms
+2025-09-07 15:31:34,784 INFO uvicorn.access 172.18.0.1:39538 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:31:34,788 INFO uvicorn.access GET /api/keys {} 200 0.52ms
+2025-09-07 15:31:34,789 INFO uvicorn.access 172.18.0.1:39538 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:31:54,186 INFO uvicorn.access POST /api/orders {} 200 24.21ms
+2025-09-07 15:31:54,187 INFO uvicorn.access 172.18.0.1:42518 - "POST /api/orders HTTP/1.1" 200
+2025-09-07 15:32:08,292 INFO uvicorn.access GET /api/watchlist {} 404 0.29ms
+2025-09-07 15:32:08,294 INFO uvicorn.access 172.18.0.1:37656 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:33:08,289 INFO uvicorn.access GET /api/watchlist {} 404 0.29ms
+2025-09-07 15:33:08,290 INFO uvicorn.access 172.18.0.1:37380 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:34:08,289 INFO uvicorn.access GET /api/watchlist {} 404 0.29ms
+2025-09-07 15:34:08,290 INFO uvicorn.access 172.18.0.1:46878 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:35:08,312 INFO uvicorn.access GET /api/watchlist {} 404 0.30ms
+2025-09-07 15:35:08,313 INFO uvicorn.access 172.18.0.1:57160 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:36:08,296 INFO uvicorn.access GET /api/watchlist {} 404 0.28ms
+2025-09-07 15:36:08,297 INFO uvicorn.access 172.18.0.1:50054 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:37:08,291 INFO uvicorn.access GET /api/watchlist {} 404 0.31ms
+2025-09-07 15:37:08,292 INFO uvicorn.access 172.18.0.1:60698 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:38:08,289 INFO uvicorn.access GET /api/watchlist {} 404 0.27ms
+2025-09-07 15:38:08,290 INFO uvicorn.access 172.18.0.1:51456 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:39:08,297 INFO uvicorn.access GET /api/watchlist {} 404 0.35ms
+2025-09-07 15:39:08,299 INFO uvicorn.access 172.18.0.1:51776 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:40:08,292 INFO uvicorn.access GET /api/watchlist {} 404 0.34ms
+2025-09-07 15:40:08,293 INFO uvicorn.access 172.18.0.1:37412 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:40:37,622 INFO uvicorn.access GET /api/account/overview {} 200 11.13ms
+2025-09-07 15:40:37,624 INFO uvicorn.access 172.18.0.1:46660 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:40:42,623 INFO uvicorn.access GET /api/account/overview {} 200 5.13ms
+2025-09-07 15:40:42,625 INFO uvicorn.access 172.18.0.1:46660 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:40:42,678 INFO uvicorn.access GET /api/account/overview {} 200 2.88ms
+2025-09-07 15:40:42,680 INFO uvicorn.access 172.18.0.1:46660 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:40:43,599 INFO uvicorn.access GET /api/account/overview {} 200 3.66ms
+2025-09-07 15:40:43,600 INFO uvicorn.access 172.18.0.1:46660 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:40:48,617 INFO uvicorn.access GET /api/account/overview {} 200 5.01ms
+2025-09-07 15:40:48,618 INFO uvicorn.access 172.18.0.1:39304 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:40:53,699 INFO uvicorn.access GET /api/account/overview {} 200 10.19ms
+2025-09-07 15:40:53,701 INFO uvicorn.access 172.18.0.1:39310 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:40:58,606 INFO uvicorn.access GET /api/account/overview {} 200 3.70ms
+2025-09-07 15:40:58,607 INFO uvicorn.access 172.18.0.1:39310 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:41:03,610 INFO uvicorn.access GET /api/account/overview {} 200 8.17ms
+2025-09-07 15:41:03,611 INFO uvicorn.access 172.18.0.1:39310 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:41:08,297 INFO uvicorn.access GET /api/watchlist {} 404 0.29ms
+2025-09-07 15:41:08,298 INFO uvicorn.access 172.18.0.1:39310 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:41:08,615 INFO uvicorn.access GET /api/account/overview {} 200 6.90ms
+2025-09-07 15:41:08,617 INFO uvicorn.access 172.18.0.1:39310 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:41:13,621 INFO uvicorn.access GET /api/account/overview {} 200 11.10ms
+2025-09-07 15:41:13,623 INFO uvicorn.access 172.18.0.1:39310 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:41:23,617 INFO uvicorn.access GET /api/account/overview {} 200 7.79ms
+2025-09-07 15:41:23,618 INFO uvicorn.access 172.18.0.1:47768 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:41:23,939 INFO uvicorn.access GET /api/account/overview {} 200 8.59ms
+2025-09-07 15:41:23,941 INFO uvicorn.access 172.18.0.1:47768 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:41:25,139 INFO uvicorn.access GET /api/account/overview {} 200 4.13ms
+2025-09-07 15:41:25,140 INFO uvicorn.access 172.18.0.1:47768 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:41:26,951 INFO uvicorn.access GET /api/account/overview {} 200 3.61ms
+2025-09-07 15:41:26,951 INFO uvicorn.access 172.18.0.1:47768 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:41:27,972 INFO uvicorn.access GET /api/settings/runtime {} 200 7.33ms
+2025-09-07 15:41:27,973 INFO uvicorn.access 172.18.0.1:47768 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:41:27,977 INFO uvicorn.access GET /api/keys {} 200 0.51ms
+2025-09-07 15:41:27,978 INFO uvicorn.access 172.18.0.1:47768 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:41:56,280 INFO uvicorn.access GET /api/settings/runtime {} 200 9.62ms
+2025-09-07 15:41:56,281 INFO uvicorn.access 172.18.0.1:42398 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:41:56,285 INFO uvicorn.access GET /api/keys {} 200 0.60ms
+2025-09-07 15:41:56,287 INFO uvicorn.access 172.18.0.1:42398 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:42:08,291 INFO uvicorn.access GET /api/watchlist {} 404 0.37ms
+2025-09-07 15:42:08,292 INFO uvicorn.access 172.18.0.1:56498 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:42:14,090 INFO uvicorn.access GET /api/keys/status {} 200 3.84ms
+2025-09-07 15:42:14,091 INFO uvicorn.access 172.18.0.1:56506 - "GET /api/keys/status HTTP/1.1" 200
+2025-09-07 15:42:46,081 INFO uvicorn.access GET /api/account/overview {} 200 6.72ms
+2025-09-07 15:42:46,083 INFO uvicorn.access 172.18.0.1:53446 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:42:46,911 INFO uvicorn.access GET /api/account/overview {} 200 3.67ms
+2025-09-07 15:42:46,912 INFO uvicorn.access 172.18.0.1:53446 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:42:48,093 INFO uvicorn.access GET /api/settings/runtime {} 200 3.08ms
+2025-09-07 15:42:48,095 INFO uvicorn.access 172.18.0.1:53446 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:42:48,098 INFO uvicorn.access GET /api/keys {} 200 0.53ms
+2025-09-07 15:42:48,100 INFO uvicorn.access 172.18.0.1:53446 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:42:50,446 INFO uvicorn.access OPTIONS /api/keys {} 200 0.16ms
+2025-09-07 15:42:50,448 INFO uvicorn.access 172.18.0.1:53446 - "OPTIONS /api/keys HTTP/1.1" 200
+2025-09-07 15:42:50,465 INFO uvicorn.access POST /api/keys {} 200 15.10ms
+2025-09-07 15:42:50,466 INFO uvicorn.access 172.18.0.1:53446 - "POST /api/keys HTTP/1.1" 200
+2025-09-07 15:42:50,478 INFO uvicorn.access GET /api/settings/runtime {} 200 2.70ms
+2025-09-07 15:42:50,479 INFO uvicorn.access 172.18.0.1:53446 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:42:50,482 INFO uvicorn.access GET /api/keys {} 200 0.46ms
+2025-09-07 15:42:50,483 INFO uvicorn.access 172.18.0.1:53446 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:43:08,287 INFO uvicorn.access GET /api/watchlist {} 404 0.29ms
+2025-09-07 15:43:08,288 INFO uvicorn.access 172.18.0.1:53456 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:43:11,809 INFO uvicorn.access POST /api/keys {} 200 14.49ms
+2025-09-07 15:43:11,809 INFO uvicorn.access 172.18.0.1:53456 - "POST /api/keys HTTP/1.1" 200
+2025-09-07 15:43:11,815 INFO uvicorn.access GET /api/settings/runtime {} 200 2.54ms
+2025-09-07 15:43:11,816 INFO uvicorn.access 172.18.0.1:53456 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:43:11,819 INFO uvicorn.access GET /api/keys {} 200 0.48ms
+2025-09-07 15:43:11,820 INFO uvicorn.access 172.18.0.1:53456 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:43:14,172 INFO uvicorn.access GET /api/settings/runtime {} 200 0.64ms
+2025-09-07 15:43:14,173 INFO uvicorn.access 172.18.0.1:53456 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:43:14,177 INFO uvicorn.access GET /api/keys {} 200 0.65ms
+2025-09-07 15:43:14,178 INFO uvicorn.access 172.18.0.1:53456 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:43:21,673 INFO uvicorn.access GET /api/settings/runtime {} 200 0.67ms
+2025-09-07 15:43:21,675 INFO uvicorn.access 172.18.0.1:50646 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:43:21,679 INFO uvicorn.access GET /api/keys {} 200 0.65ms
+2025-09-07 15:43:21,681 INFO uvicorn.access 172.18.0.1:50646 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:43:39,688 INFO uvicorn.access POST /api/keys {} 200 12.26ms
+2025-09-07 15:43:39,689 INFO uvicorn.access 172.18.0.1:41776 - "POST /api/keys HTTP/1.1" 200
+2025-09-07 15:43:39,694 INFO uvicorn.access GET /api/settings/runtime {} 200 2.55ms
+2025-09-07 15:43:39,695 INFO uvicorn.access 172.18.0.1:41776 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:43:39,698 INFO uvicorn.access GET /api/keys {} 200 0.49ms
+2025-09-07 15:43:39,699 INFO uvicorn.access 172.18.0.1:41776 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:44:08,302 INFO uvicorn.access GET /api/watchlist {} 404 0.34ms
+2025-09-07 15:44:08,303 INFO uvicorn.access 172.18.0.1:36444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:44:30,732 INFO uvicorn.access GET /api/account/overview {} 200 3.03ms
+2025-09-07 15:44:30,733 INFO uvicorn.access 172.18.0.1:57910 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:44:35,795 INFO uvicorn.access GET /api/account/overview {} 200 6.62ms
+2025-09-07 15:44:35,800 INFO uvicorn.access 172.18.0.1:55836 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:44:40,739 INFO uvicorn.access GET /api/account/overview {} 200 10.93ms
+2025-09-07 15:44:40,745 INFO uvicorn.access 172.18.0.1:55836 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:44:45,743 INFO uvicorn.access GET /api/account/overview {} 200 5.88ms
+2025-09-07 15:44:45,745 INFO uvicorn.access 172.18.0.1:55836 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:44:50,736 INFO uvicorn.access GET /api/account/overview {} 200 3.02ms
+2025-09-07 15:44:50,737 INFO uvicorn.access 172.18.0.1:55836 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:44:55,739 INFO uvicorn.access GET /api/account/overview {} 200 3.30ms
+2025-09-07 15:44:55,740 INFO uvicorn.access 172.18.0.1:55836 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:45:00,742 INFO uvicorn.access GET /api/account/overview {} 200 3.08ms
+2025-09-07 15:45:00,743 INFO uvicorn.access 172.18.0.1:55836 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:45:05,737 INFO uvicorn.access GET /api/account/overview {} 200 3.15ms
+2025-09-07 15:45:05,738 INFO uvicorn.access 172.18.0.1:55836 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:45:08,397 INFO uvicorn.access GET /api/watchlist {} 404 0.36ms
+2025-09-07 15:45:08,399 INFO uvicorn.access 172.18.0.1:55836 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:45:10,736 INFO uvicorn.access GET /api/account/overview {} 200 2.83ms
+2025-09-07 15:45:10,737 INFO uvicorn.access 172.18.0.1:55836 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:45:15,732 INFO uvicorn.access GET /api/account/overview {} 200 2.79ms
+2025-09-07 15:45:15,733 INFO uvicorn.access 172.18.0.1:55836 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:45:20,779 INFO uvicorn.access GET /api/account/overview {} 200 16.50ms
+2025-09-07 15:45:20,780 INFO uvicorn.access 172.18.0.1:60360 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:45:25,733 INFO uvicorn.access GET /api/account/overview {} 200 3.33ms
+2025-09-07 15:45:25,734 INFO uvicorn.access 172.18.0.1:60360 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:45:30,744 INFO uvicorn.access GET /api/account/overview {} 200 2.83ms
+2025-09-07 15:45:30,745 INFO uvicorn.access 172.18.0.1:45356 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:45:35,739 INFO uvicorn.access GET /api/account/overview {} 200 3.04ms
+2025-09-07 15:45:35,740 INFO uvicorn.access 172.18.0.1:45356 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:45:40,740 INFO uvicorn.access GET /api/account/overview {} 200 2.89ms
+2025-09-07 15:45:40,741 INFO uvicorn.access 172.18.0.1:45356 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:45:45,730 INFO uvicorn.access GET /api/account/overview {} 200 3.33ms
+2025-09-07 15:45:45,731 INFO uvicorn.access 172.18.0.1:45356 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:45:50,731 INFO uvicorn.access GET /api/account/overview {} 200 2.87ms
+2025-09-07 15:45:50,731 INFO uvicorn.access 172.18.0.1:45356 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:45:55,739 INFO uvicorn.access GET /api/account/overview {} 200 2.87ms
+2025-09-07 15:45:55,740 INFO uvicorn.access 172.18.0.1:54954 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:46:00,736 INFO uvicorn.access GET /api/account/overview {} 200 3.73ms
+2025-09-07 15:46:00,737 INFO uvicorn.access 172.18.0.1:54954 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:46:05,734 INFO uvicorn.access GET /api/account/overview {} 200 3.15ms
+2025-09-07 15:46:05,735 INFO uvicorn.access 172.18.0.1:54954 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:46:08,297 INFO uvicorn.access GET /api/watchlist {} 404 0.30ms
+2025-09-07 15:46:08,298 INFO uvicorn.access 172.18.0.1:54954 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:46:10,740 INFO uvicorn.access GET /api/account/overview {} 200 3.61ms
+2025-09-07 15:46:10,741 INFO uvicorn.access 172.18.0.1:54954 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:46:15,862 INFO uvicorn.access GET /api/account/overview {} 200 12.08ms
+2025-09-07 15:46:15,864 INFO uvicorn.access 172.18.0.1:50972 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:46:20,731 INFO uvicorn.access GET /api/account/overview {} 200 2.86ms
+2025-09-07 15:46:20,732 INFO uvicorn.access 172.18.0.1:50972 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:46:25,737 INFO uvicorn.access GET /api/account/overview {} 200 2.82ms
+2025-09-07 15:46:25,738 INFO uvicorn.access 172.18.0.1:41420 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:46:30,739 INFO uvicorn.access GET /api/account/overview {} 200 3.04ms
+2025-09-07 15:46:30,740 INFO uvicorn.access 172.18.0.1:41420 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:46:35,749 INFO uvicorn.access GET /api/account/overview {} 200 3.71ms
+2025-09-07 15:46:35,750 INFO uvicorn.access 172.18.0.1:57764 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:46:40,729 INFO uvicorn.access GET /api/account/overview {} 200 2.81ms
+2025-09-07 15:46:40,730 INFO uvicorn.access 172.18.0.1:57764 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:46:45,737 INFO uvicorn.access GET /api/account/overview {} 200 2.79ms
+2025-09-07 15:46:45,737 INFO uvicorn.access 172.18.0.1:56924 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:46:50,740 INFO uvicorn.access GET /api/account/overview {} 200 2.50ms
+2025-09-07 15:46:50,741 INFO uvicorn.access 172.18.0.1:56924 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:46:55,739 INFO uvicorn.access GET /api/account/overview {} 200 2.56ms
+2025-09-07 15:46:55,740 INFO uvicorn.access 172.18.0.1:56924 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:47:00,760 INFO uvicorn.access GET /api/account/overview {} 200 6.86ms
+2025-09-07 15:47:00,761 INFO uvicorn.access 172.18.0.1:53728 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:47:05,741 INFO uvicorn.access GET /api/account/overview {} 200 2.57ms
+2025-09-07 15:47:05,742 INFO uvicorn.access 172.18.0.1:53728 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:47:08,302 INFO uvicorn.access GET /api/watchlist {} 404 0.37ms
+2025-09-07 15:47:08,304 INFO uvicorn.access 172.18.0.1:53728 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:47:10,737 INFO uvicorn.access GET /api/account/overview {} 200 4.35ms
+2025-09-07 15:47:10,739 INFO uvicorn.access 172.18.0.1:53728 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:47:15,744 INFO uvicorn.access GET /api/account/overview {} 200 3.95ms
+2025-09-07 15:47:15,747 INFO uvicorn.access 172.18.0.1:53728 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:47:20,749 INFO uvicorn.access GET /api/account/overview {} 200 6.60ms
+2025-09-07 15:47:20,750 INFO uvicorn.access 172.18.0.1:53728 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:47:25,730 INFO uvicorn.access GET /api/account/overview {} 200 2.99ms
+2025-09-07 15:47:25,731 INFO uvicorn.access 172.18.0.1:53728 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:47:30,733 INFO uvicorn.access GET /api/account/overview {} 200 2.57ms
+2025-09-07 15:47:30,734 INFO uvicorn.access 172.18.0.1:53728 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:47:35,735 INFO uvicorn.access GET /api/account/overview {} 200 3.22ms
+2025-09-07 15:47:35,735 INFO uvicorn.access 172.18.0.1:53728 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:47:40,738 INFO uvicorn.access GET /api/account/overview {} 200 3.58ms
+2025-09-07 15:47:40,739 INFO uvicorn.access 172.18.0.1:53728 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:47:45,730 INFO uvicorn.access GET /api/account/overview {} 200 2.84ms
+2025-09-07 15:47:45,732 INFO uvicorn.access 172.18.0.1:53728 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:47:50,749 INFO uvicorn.access GET /api/account/overview {} 200 4.42ms
+2025-09-07 15:47:50,750 INFO uvicorn.access 172.18.0.1:33138 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:47:55,733 INFO uvicorn.access GET /api/account/overview {} 200 2.87ms
+2025-09-07 15:47:55,734 INFO uvicorn.access 172.18.0.1:33138 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:48:00,744 INFO uvicorn.access GET /api/account/overview {} 200 2.64ms
+2025-09-07 15:48:00,749 INFO uvicorn.access 172.18.0.1:51494 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:48:05,733 INFO uvicorn.access GET /api/account/overview {} 200 3.09ms
+2025-09-07 15:48:05,734 INFO uvicorn.access 172.18.0.1:51494 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:48:08,294 INFO uvicorn.access GET /api/watchlist {} 404 0.36ms
+2025-09-07 15:48:08,295 INFO uvicorn.access 172.18.0.1:51494 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:48:10,738 INFO uvicorn.access GET /api/account/overview {} 200 2.59ms
+2025-09-07 15:48:10,739 INFO uvicorn.access 172.18.0.1:51494 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:48:15,746 INFO uvicorn.access GET /api/account/overview {} 200 3.24ms
+2025-09-07 15:48:15,747 INFO uvicorn.access 172.18.0.1:34966 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:48:20,742 INFO uvicorn.access GET /api/account/overview {} 200 10.52ms
+2025-09-07 15:48:20,744 INFO uvicorn.access 172.18.0.1:34966 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:48:25,730 INFO uvicorn.access GET /api/account/overview {} 200 2.84ms
+2025-09-07 15:48:25,731 INFO uvicorn.access 172.18.0.1:34966 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:48:30,734 INFO uvicorn.access GET /api/account/overview {} 200 3.04ms
+2025-09-07 15:48:30,735 INFO uvicorn.access 172.18.0.1:34966 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:48:35,731 INFO uvicorn.access GET /api/account/overview {} 200 3.30ms
+2025-09-07 15:48:35,732 INFO uvicorn.access 172.18.0.1:34966 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:48:40,742 INFO uvicorn.access GET /api/account/overview {} 200 2.77ms
+2025-09-07 15:48:40,743 INFO uvicorn.access 172.18.0.1:48122 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:48:45,735 INFO uvicorn.access GET /api/account/overview {} 200 3.65ms
+2025-09-07 15:48:45,737 INFO uvicorn.access 172.18.0.1:48122 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:48:50,739 INFO uvicorn.access GET /api/account/overview {} 200 3.76ms
+2025-09-07 15:48:50,741 INFO uvicorn.access 172.18.0.1:48122 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:48:55,743 INFO uvicorn.access GET /api/account/overview {} 200 4.17ms
+2025-09-07 15:48:55,744 INFO uvicorn.access 172.18.0.1:48122 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:49:00,734 INFO uvicorn.access GET /api/account/overview {} 200 3.33ms
+2025-09-07 15:49:00,736 INFO uvicorn.access 172.18.0.1:48122 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:49:05,739 INFO uvicorn.access GET /api/account/overview {} 200 2.94ms
+2025-09-07 15:49:05,740 INFO uvicorn.access 172.18.0.1:48122 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:49:08,292 INFO uvicorn.access GET /api/watchlist {} 404 0.31ms
+2025-09-07 15:49:08,293 INFO uvicorn.access 172.18.0.1:48122 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:49:10,732 INFO uvicorn.access GET /api/account/overview {} 200 2.86ms
+2025-09-07 15:49:10,733 INFO uvicorn.access 172.18.0.1:48122 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:49:15,743 INFO uvicorn.access GET /api/account/overview {} 200 3.11ms
+2025-09-07 15:49:15,744 INFO uvicorn.access 172.18.0.1:58656 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:49:20,738 INFO uvicorn.access GET /api/account/overview {} 200 2.93ms
+2025-09-07 15:49:20,739 INFO uvicorn.access 172.18.0.1:58656 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:49:25,742 INFO uvicorn.access GET /api/account/overview {} 200 3.49ms
+2025-09-07 15:49:25,743 INFO uvicorn.access 172.18.0.1:58656 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:49:30,741 INFO uvicorn.access GET /api/account/overview {} 200 4.76ms
+2025-09-07 15:49:30,743 INFO uvicorn.access 172.18.0.1:58656 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:49:35,735 INFO uvicorn.access GET /api/account/overview {} 200 2.83ms
+2025-09-07 15:49:35,736 INFO uvicorn.access 172.18.0.1:58656 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:49:40,734 INFO uvicorn.access GET /api/account/overview {} 200 2.88ms
+2025-09-07 15:49:40,735 INFO uvicorn.access 172.18.0.1:58656 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:49:45,732 INFO uvicorn.access GET /api/account/overview {} 200 3.59ms
+2025-09-07 15:49:45,733 INFO uvicorn.access 172.18.0.1:58656 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:49:50,740 INFO uvicorn.access GET /api/account/overview {} 200 2.99ms
+2025-09-07 15:49:50,741 INFO uvicorn.access 172.18.0.1:56674 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:49:55,736 INFO uvicorn.access GET /api/account/overview {} 200 3.26ms
+2025-09-07 15:49:55,737 INFO uvicorn.access 172.18.0.1:56674 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:50:00,741 INFO uvicorn.access GET /api/account/overview {} 200 3.43ms
+2025-09-07 15:50:00,742 INFO uvicorn.access 172.18.0.1:56674 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:50:05,747 INFO uvicorn.access GET /api/account/overview {} 200 4.32ms
+2025-09-07 15:50:05,748 INFO uvicorn.access 172.18.0.1:56674 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:50:08,290 INFO uvicorn.access GET /api/watchlist {} 404 0.29ms
+2025-09-07 15:50:08,292 INFO uvicorn.access 172.18.0.1:56674 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:50:10,731 INFO uvicorn.access GET /api/account/overview {} 200 2.87ms
+2025-09-07 15:50:10,732 INFO uvicorn.access 172.18.0.1:56674 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:50:15,742 INFO uvicorn.access GET /api/account/overview {} 200 2.92ms
+2025-09-07 15:50:15,743 INFO uvicorn.access 172.18.0.1:35354 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:50:20,742 INFO uvicorn.access GET /api/account/overview {} 200 7.41ms
+2025-09-07 15:50:20,745 INFO uvicorn.access 172.18.0.1:35354 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:50:25,738 INFO uvicorn.access GET /api/account/overview {} 200 2.90ms
+2025-09-07 15:50:25,739 INFO uvicorn.access 172.18.0.1:35354 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:50:30,746 INFO uvicorn.access GET /api/account/overview {} 200 3.87ms
+2025-09-07 15:50:30,747 INFO uvicorn.access 172.18.0.1:56444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:50:35,741 INFO uvicorn.access GET /api/account/overview {} 200 4.50ms
+2025-09-07 15:50:35,743 INFO uvicorn.access 172.18.0.1:56444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:50:40,752 INFO uvicorn.access GET /api/account/overview {} 200 3.30ms
+2025-09-07 15:50:40,752 INFO uvicorn.access 172.18.0.1:58374 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:50:45,741 INFO uvicorn.access GET /api/account/overview {} 200 3.35ms
+2025-09-07 15:50:45,747 INFO uvicorn.access 172.18.0.1:58374 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:50:50,736 INFO uvicorn.access GET /api/account/overview {} 200 2.93ms
+2025-09-07 15:50:50,737 INFO uvicorn.access 172.18.0.1:58374 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:50:55,733 INFO uvicorn.access GET /api/account/overview {} 200 2.78ms
+2025-09-07 15:50:55,734 INFO uvicorn.access 172.18.0.1:58374 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:51:00,744 INFO uvicorn.access GET /api/account/overview {} 200 2.82ms
+2025-09-07 15:51:00,745 INFO uvicorn.access 172.18.0.1:37912 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:51:05,734 INFO uvicorn.access GET /api/account/overview {} 200 7.77ms
+2025-09-07 15:51:05,736 INFO uvicorn.access 172.18.0.1:37912 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:51:08,313 INFO uvicorn.access GET /api/watchlist {} 404 0.37ms
+2025-09-07 15:51:08,315 INFO uvicorn.access 172.18.0.1:37912 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:51:10,745 INFO uvicorn.access GET /api/account/overview {} 200 4.10ms
+2025-09-07 15:51:10,746 INFO uvicorn.access 172.18.0.1:37912 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:51:15,731 INFO uvicorn.access GET /api/account/overview {} 200 2.89ms
+2025-09-07 15:51:15,732 INFO uvicorn.access 172.18.0.1:37912 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:51:20,734 INFO uvicorn.access GET /api/account/overview {} 200 2.80ms
+2025-09-07 15:51:20,735 INFO uvicorn.access 172.18.0.1:37912 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:51:25,741 INFO uvicorn.access GET /api/account/overview {} 200 3.04ms
+2025-09-07 15:51:25,742 INFO uvicorn.access 172.18.0.1:40020 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:51:30,739 INFO uvicorn.access GET /api/account/overview {} 200 4.13ms
+2025-09-07 15:51:30,740 INFO uvicorn.access 172.18.0.1:40020 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:51:35,734 INFO uvicorn.access GET /api/account/overview {} 200 4.12ms
+2025-09-07 15:51:35,737 INFO uvicorn.access 172.18.0.1:40020 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:51:40,738 INFO uvicorn.access GET /api/account/overview {} 200 3.66ms
+2025-09-07 15:51:40,739 INFO uvicorn.access 172.18.0.1:40020 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:51:45,748 INFO uvicorn.access GET /api/account/overview {} 200 3.62ms
+2025-09-07 15:51:45,749 INFO uvicorn.access 172.18.0.1:54640 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:51:50,746 INFO uvicorn.access GET /api/account/overview {} 200 5.14ms
+2025-09-07 15:51:50,748 INFO uvicorn.access 172.18.0.1:54640 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:51:55,740 INFO uvicorn.access GET /api/account/overview {} 200 3.17ms
+2025-09-07 15:51:55,741 INFO uvicorn.access 172.18.0.1:54640 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:52:00,733 INFO uvicorn.access GET /api/account/overview {} 200 2.98ms
+2025-09-07 15:52:00,734 INFO uvicorn.access 172.18.0.1:54640 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:52:05,741 INFO uvicorn.access GET /api/account/overview {} 200 3.04ms
+2025-09-07 15:52:05,742 INFO uvicorn.access 172.18.0.1:45616 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:52:08,291 INFO uvicorn.access GET /api/watchlist {} 404 0.47ms
+2025-09-07 15:52:08,295 INFO uvicorn.access 172.18.0.1:45616 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:52:10,735 INFO uvicorn.access GET /api/account/overview {} 200 4.10ms
+2025-09-07 15:52:10,736 INFO uvicorn.access 172.18.0.1:45616 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:52:15,743 INFO uvicorn.access GET /api/account/overview {} 200 2.87ms
+2025-09-07 15:52:15,744 INFO uvicorn.access 172.18.0.1:38784 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:52:20,746 INFO uvicorn.access GET /api/account/overview {} 200 4.85ms
+2025-09-07 15:52:20,748 INFO uvicorn.access 172.18.0.1:38784 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:52:25,736 INFO uvicorn.access GET /api/account/overview {} 200 2.96ms
+2025-09-07 15:52:25,737 INFO uvicorn.access 172.18.0.1:38784 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:52:30,747 INFO uvicorn.access GET /api/account/overview {} 200 5.82ms
+2025-09-07 15:52:30,749 INFO uvicorn.access 172.18.0.1:42498 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:52:35,736 INFO uvicorn.access GET /api/account/overview {} 200 2.85ms
+2025-09-07 15:52:35,737 INFO uvicorn.access 172.18.0.1:42498 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:52:40,741 INFO uvicorn.access GET /api/account/overview {} 200 2.93ms
+2025-09-07 15:52:40,742 INFO uvicorn.access 172.18.0.1:42498 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:52:45,737 INFO uvicorn.access GET /api/account/overview {} 200 4.41ms
+2025-09-07 15:52:45,738 INFO uvicorn.access 172.18.0.1:42498 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:52:50,742 INFO uvicorn.access GET /api/account/overview {} 200 3.24ms
+2025-09-07 15:52:50,744 INFO uvicorn.access 172.18.0.1:42498 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:52:55,744 INFO uvicorn.access GET /api/account/overview {} 200 3.39ms
+2025-09-07 15:52:55,745 INFO uvicorn.access 172.18.0.1:42498 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:53:00,730 INFO uvicorn.access GET /api/account/overview {} 200 2.90ms
+2025-09-07 15:53:00,731 INFO uvicorn.access 172.18.0.1:42498 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:53:05,743 INFO uvicorn.access GET /api/account/overview {} 200 2.90ms
+2025-09-07 15:53:05,746 INFO uvicorn.access 172.18.0.1:48304 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:53:08,290 INFO uvicorn.access GET /api/watchlist {} 404 0.31ms
+2025-09-07 15:53:08,292 INFO uvicorn.access 172.18.0.1:48304 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:53:10,737 INFO uvicorn.access GET /api/account/overview {} 200 2.91ms
+2025-09-07 15:53:10,738 INFO uvicorn.access 172.18.0.1:48304 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:53:15,735 INFO uvicorn.access GET /api/account/overview {} 200 2.90ms
+2025-09-07 15:53:15,736 INFO uvicorn.access 172.18.0.1:48304 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:53:20,739 INFO uvicorn.access GET /api/account/overview {} 200 4.90ms
+2025-09-07 15:53:20,740 INFO uvicorn.access 172.18.0.1:48304 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:53:25,738 INFO uvicorn.access GET /api/account/overview {} 200 5.45ms
+2025-09-07 15:53:25,740 INFO uvicorn.access 172.18.0.1:48304 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:53:30,735 INFO uvicorn.access GET /api/account/overview {} 200 2.88ms
+2025-09-07 15:53:30,745 INFO uvicorn.access 172.18.0.1:48304 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:53:35,740 INFO uvicorn.access GET /api/account/overview {} 200 2.83ms
+2025-09-07 15:53:35,741 INFO uvicorn.access 172.18.0.1:48304 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:53:40,730 INFO uvicorn.access GET /api/account/overview {} 200 3.05ms
+2025-09-07 15:53:40,731 INFO uvicorn.access 172.18.0.1:48304 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:53:45,730 INFO uvicorn.access GET /api/account/overview {} 200 2.88ms
+2025-09-07 15:53:45,731 INFO uvicorn.access 172.18.0.1:48304 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:53:50,778 INFO uvicorn.access GET /api/account/overview {} 200 3.77ms
+2025-09-07 15:53:50,779 INFO uvicorn.access 172.18.0.1:52300 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:53:55,740 INFO uvicorn.access GET /api/account/overview {} 200 3.26ms
+2025-09-07 15:53:55,741 INFO uvicorn.access 172.18.0.1:52300 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:54:00,730 INFO uvicorn.access GET /api/account/overview {} 200 2.81ms
+2025-09-07 15:54:00,731 INFO uvicorn.access 172.18.0.1:52300 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:54:05,734 INFO uvicorn.access GET /api/account/overview {} 200 2.84ms
+2025-09-07 15:54:05,735 INFO uvicorn.access 172.18.0.1:52300 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:54:08,295 INFO uvicorn.access GET /api/watchlist {} 404 0.31ms
+2025-09-07 15:54:08,296 INFO uvicorn.access 172.18.0.1:52300 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:54:10,731 INFO uvicorn.access GET /api/account/overview {} 200 2.87ms
+2025-09-07 15:54:10,732 INFO uvicorn.access 172.18.0.1:52300 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:54:15,730 INFO uvicorn.access GET /api/account/overview {} 200 2.82ms
+2025-09-07 15:54:15,731 INFO uvicorn.access 172.18.0.1:52300 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:54:20,741 INFO uvicorn.access GET /api/account/overview {} 200 2.74ms
+2025-09-07 15:54:20,742 INFO uvicorn.access 172.18.0.1:59964 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:54:25,733 INFO uvicorn.access GET /api/account/overview {} 200 3.80ms
+2025-09-07 15:54:25,734 INFO uvicorn.access 172.18.0.1:59964 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:54:30,739 INFO uvicorn.access GET /api/account/overview {} 200 4.56ms
+2025-09-07 15:54:30,740 INFO uvicorn.access 172.18.0.1:59964 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:54:35,732 INFO uvicorn.access GET /api/account/overview {} 200 2.94ms
+2025-09-07 15:54:35,733 INFO uvicorn.access 172.18.0.1:59964 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:54:40,807 INFO uvicorn.access GET /api/account/overview {} 200 42.21ms
+2025-09-07 15:54:40,810 INFO uvicorn.access 172.18.0.1:52108 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:54:45,730 INFO uvicorn.access GET /api/account/overview {} 200 2.53ms
+2025-09-07 15:54:45,731 INFO uvicorn.access 172.18.0.1:52108 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:54:50,736 INFO uvicorn.access GET /api/account/overview {} 200 2.68ms
+2025-09-07 15:54:50,737 INFO uvicorn.access 172.18.0.1:52108 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:54:55,735 INFO uvicorn.access GET /api/account/overview {} 200 3.38ms
+2025-09-07 15:54:55,736 INFO uvicorn.access 172.18.0.1:52108 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:55:00,740 INFO uvicorn.access GET /api/account/overview {} 200 3.47ms
+2025-09-07 15:55:00,742 INFO uvicorn.access 172.18.0.1:52108 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:55:05,739 INFO uvicorn.access GET /api/account/overview {} 200 5.68ms
+2025-09-07 15:55:05,740 INFO uvicorn.access 172.18.0.1:52108 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 15:55:26,198 INFO uvicorn.access GET /api/account/overview {} 500 452.46ms
+2025-09-07 15:55:26,200 INFO uvicorn.access 172.18.0.1:51166 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:55:28,610 INFO uvicorn.access GET /api/account/overview {} 500 108.28ms
+2025-09-07 15:55:28,611 INFO uvicorn.access 172.18.0.1:51172 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:55:31,497 INFO uvicorn.access GET /api/settings/runtime {} 200 0.76ms
+2025-09-07 15:55:31,499 INFO uvicorn.access 172.18.0.1:51174 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 15:55:31,502 INFO uvicorn.access GET /api/keys {} 200 0.65ms
+2025-09-07 15:55:31,503 INFO uvicorn.access 172.18.0.1:51174 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 15:55:47,503 INFO uvicorn.access POST /api/orders {} 200 140.54ms
+2025-09-07 15:55:47,504 INFO uvicorn.access 172.18.0.1:41104 - "POST /api/orders HTTP/1.1" 200
+2025-09-07 15:56:02,564 INFO uvicorn.access GET /api/account/overview {} 500 97.80ms
+2025-09-07 15:56:02,565 INFO uvicorn.access 172.18.0.1:57078 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:56:04,465 INFO uvicorn.access GET /api/account/overview {} 500 94.04ms
+2025-09-07 15:56:04,466 INFO uvicorn.access 172.18.0.1:57092 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:56:08,289 INFO uvicorn.access GET /api/watchlist {} 404 0.32ms
+2025-09-07 15:56:08,290 INFO uvicorn.access 172.18.0.1:41410 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:56:09,472 INFO uvicorn.access GET /api/account/overview {} 500 95.29ms
+2025-09-07 15:56:09,473 INFO uvicorn.access 172.18.0.1:41410 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:56:14,484 INFO uvicorn.access GET /api/account/overview {} 500 110.13ms
+2025-09-07 15:56:14,485 INFO uvicorn.access 172.18.0.1:41414 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:56:19,561 INFO uvicorn.access GET /api/account/overview {} 500 181.93ms
+2025-09-07 15:56:19,562 INFO uvicorn.access 172.18.0.1:34846 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:56:24,487 INFO uvicorn.access GET /api/account/overview {} 500 105.98ms
+2025-09-07 15:56:24,488 INFO uvicorn.access 172.18.0.1:34860 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:56:29,468 INFO uvicorn.access GET /api/account/overview {} 500 94.85ms
+2025-09-07 15:56:29,469 INFO uvicorn.access 172.18.0.1:59734 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:56:34,477 INFO uvicorn.access GET /api/account/overview {} 500 97.11ms
+2025-09-07 15:56:34,478 INFO uvicorn.access 172.18.0.1:59746 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:56:39,481 INFO uvicorn.access GET /api/account/overview {} 500 109.66ms
+2025-09-07 15:56:39,482 INFO uvicorn.access 172.18.0.1:57692 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:56:44,521 INFO uvicorn.access GET /api/account/overview {} 500 104.67ms
+2025-09-07 15:56:44,522 INFO uvicorn.access 172.18.0.1:57708 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:56:49,475 INFO uvicorn.access GET /api/account/overview {} 500 95.96ms
+2025-09-07 15:56:49,477 INFO uvicorn.access 172.18.0.1:55738 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:56:54,467 INFO uvicorn.access GET /api/account/overview {} 500 88.08ms
+2025-09-07 15:56:54,468 INFO uvicorn.access 172.18.0.1:55750 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:56:59,489 INFO uvicorn.access GET /api/account/overview {} 500 118.91ms
+2025-09-07 15:56:59,490 INFO uvicorn.access 172.18.0.1:37730 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:57:04,470 INFO uvicorn.access GET /api/account/overview {} 500 93.85ms
+2025-09-07 15:57:04,472 INFO uvicorn.access 172.18.0.1:37738 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:57:08,297 INFO uvicorn.access GET /api/watchlist {} 404 0.31ms
+2025-09-07 15:57:08,298 INFO uvicorn.access 172.18.0.1:46882 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:57:09,464 INFO uvicorn.access GET /api/account/overview {} 500 94.05ms
+2025-09-07 15:57:09,465 INFO uvicorn.access 172.18.0.1:46882 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:57:14,488 INFO uvicorn.access GET /api/account/overview {} 500 96.67ms
+2025-09-07 15:57:14,489 INFO uvicorn.access 172.18.0.1:46896 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:57:19,471 INFO uvicorn.access GET /api/account/overview {} 500 99.79ms
+2025-09-07 15:57:19,473 INFO uvicorn.access 172.18.0.1:55864 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:57:24,490 INFO uvicorn.access GET /api/account/overview {} 500 107.74ms
+2025-09-07 15:57:24,491 INFO uvicorn.access 172.18.0.1:55866 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:57:29,478 INFO uvicorn.access GET /api/account/overview {} 500 100.85ms
+2025-09-07 15:57:29,478 INFO uvicorn.access 172.18.0.1:54128 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:57:34,464 INFO uvicorn.access GET /api/account/overview {} 500 93.62ms
+2025-09-07 15:57:34,465 INFO uvicorn.access 172.18.0.1:54136 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:57:39,467 INFO uvicorn.access GET /api/account/overview {} 500 96.49ms
+2025-09-07 15:57:39,467 INFO uvicorn.access 172.18.0.1:48806 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:57:44,483 INFO uvicorn.access GET /api/account/overview {} 500 101.26ms
+2025-09-07 15:57:44,484 INFO uvicorn.access 172.18.0.1:48818 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:57:49,471 INFO uvicorn.access GET /api/account/overview {} 500 97.81ms
+2025-09-07 15:57:49,472 INFO uvicorn.access 172.18.0.1:55558 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:57:54,477 INFO uvicorn.access GET /api/account/overview {} 500 97.39ms
+2025-09-07 15:57:54,478 INFO uvicorn.access 172.18.0.1:55568 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:57:59,477 INFO uvicorn.access GET /api/account/overview {} 500 103.21ms
+2025-09-07 15:57:59,479 INFO uvicorn.access 172.18.0.1:43782 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:58:04,482 INFO uvicorn.access GET /api/account/overview {} 500 102.05ms
+2025-09-07 15:58:04,485 INFO uvicorn.access 172.18.0.1:43794 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:58:08,300 INFO uvicorn.access GET /api/watchlist {} 404 0.32ms
+2025-09-07 15:58:08,300 INFO uvicorn.access 172.18.0.1:56892 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:58:09,460 INFO uvicorn.access GET /api/account/overview {} 500 91.45ms
+2025-09-07 15:58:09,461 INFO uvicorn.access 172.18.0.1:56892 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:58:14,495 INFO uvicorn.access GET /api/account/overview {} 500 106.55ms
+2025-09-07 15:58:14,496 INFO uvicorn.access 172.18.0.1:56908 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:58:19,472 INFO uvicorn.access GET /api/account/overview {} 500 97.75ms
+2025-09-07 15:58:19,473 INFO uvicorn.access 172.18.0.1:39712 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:58:24,468 INFO uvicorn.access GET /api/account/overview {} 500 92.39ms
+2025-09-07 15:58:24,469 INFO uvicorn.access 172.18.0.1:39714 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:58:29,462 INFO uvicorn.access GET /api/account/overview {} 500 88.47ms
+2025-09-07 15:58:29,463 INFO uvicorn.access 172.18.0.1:49528 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:58:34,483 INFO uvicorn.access GET /api/account/overview {} 500 102.21ms
+2025-09-07 15:58:34,484 INFO uvicorn.access 172.18.0.1:49540 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:58:39,461 INFO uvicorn.access GET /api/account/overview {} 500 89.93ms
+2025-09-07 15:58:39,462 INFO uvicorn.access 172.18.0.1:41656 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:58:44,472 INFO uvicorn.access GET /api/account/overview {} 500 100.28ms
+2025-09-07 15:58:44,473 INFO uvicorn.access 172.18.0.1:41670 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:58:49,474 INFO uvicorn.access GET /api/account/overview {} 500 97.94ms
+2025-09-07 15:58:49,475 INFO uvicorn.access 172.18.0.1:34538 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:58:54,470 INFO uvicorn.access GET /api/account/overview {} 500 96.16ms
+2025-09-07 15:58:54,471 INFO uvicorn.access 172.18.0.1:34552 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:58:59,469 INFO uvicorn.access GET /api/account/overview {} 500 96.75ms
+2025-09-07 15:58:59,471 INFO uvicorn.access 172.18.0.1:54272 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:59:04,480 INFO uvicorn.access GET /api/account/overview {} 500 98.28ms
+2025-09-07 15:59:04,481 INFO uvicorn.access 172.18.0.1:54288 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:59:08,288 INFO uvicorn.access GET /api/watchlist {} 404 0.30ms
+2025-09-07 15:59:08,290 INFO uvicorn.access 172.18.0.1:54822 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 15:59:09,455 INFO uvicorn.access GET /api/account/overview {} 500 85.24ms
+2025-09-07 15:59:09,456 INFO uvicorn.access 172.18.0.1:54822 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:59:14,490 INFO uvicorn.access GET /api/account/overview {} 500 107.38ms
+2025-09-07 15:59:14,491 INFO uvicorn.access 172.18.0.1:54836 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:59:19,467 INFO uvicorn.access GET /api/account/overview {} 500 88.98ms
+2025-09-07 15:59:19,468 INFO uvicorn.access 172.18.0.1:38232 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:59:24,469 INFO uvicorn.access GET /api/account/overview {} 500 97.46ms
+2025-09-07 15:59:24,471 INFO uvicorn.access 172.18.0.1:38244 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:59:29,578 INFO uvicorn.access GET /api/account/overview {} 500 165.95ms
+2025-09-07 15:59:29,579 INFO uvicorn.access 172.18.0.1:49562 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:59:34,469 INFO uvicorn.access GET /api/account/overview {} 500 98.09ms
+2025-09-07 15:59:34,471 INFO uvicorn.access 172.18.0.1:49564 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:59:39,494 INFO uvicorn.access GET /api/account/overview {} 500 111.42ms
+2025-09-07 15:59:39,496 INFO uvicorn.access 172.18.0.1:54792 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:59:44,478 INFO uvicorn.access GET /api/account/overview {} 500 96.66ms
+2025-09-07 15:59:44,480 INFO uvicorn.access 172.18.0.1:54804 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:59:49,461 INFO uvicorn.access GET /api/account/overview {} 500 87.17ms
+2025-09-07 15:59:49,462 INFO uvicorn.access 172.18.0.1:32988 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:59:54,490 INFO uvicorn.access GET /api/account/overview {} 500 103.99ms
+2025-09-07 15:59:54,491 INFO uvicorn.access 172.18.0.1:32994 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 15:59:59,462 INFO uvicorn.access GET /api/account/overview {} 500 92.23ms
+2025-09-07 15:59:59,463 INFO uvicorn.access 172.18.0.1:38292 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:00:04,872 INFO uvicorn.access GET /api/account/overview {} 500 500.42ms
+2025-09-07 16:00:04,874 INFO uvicorn.access 172.18.0.1:38306 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:00:08,301 INFO uvicorn.access GET /api/watchlist {} 404 0.32ms
+2025-09-07 16:00:08,302 INFO uvicorn.access 172.18.0.1:60486 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:00:09,477 INFO uvicorn.access GET /api/account/overview {} 500 98.06ms
+2025-09-07 16:00:09,478 INFO uvicorn.access 172.18.0.1:60486 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:00:14,482 INFO uvicorn.access GET /api/account/overview {} 500 99.15ms
+2025-09-07 16:00:14,483 INFO uvicorn.access 172.18.0.1:60498 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:00:19,469 INFO uvicorn.access GET /api/account/overview {} 500 90.66ms
+2025-09-07 16:00:19,470 INFO uvicorn.access 172.18.0.1:58020 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:00:24,491 INFO uvicorn.access GET /api/account/overview {} 500 108.77ms
+2025-09-07 16:00:24,493 INFO uvicorn.access 172.18.0.1:58024 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:00:29,473 INFO uvicorn.access GET /api/account/overview {} 500 93.82ms
+2025-09-07 16:00:29,473 INFO uvicorn.access 172.18.0.1:47102 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:00:34,470 INFO uvicorn.access GET /api/account/overview {} 500 89.31ms
+2025-09-07 16:00:34,471 INFO uvicorn.access 172.18.0.1:47110 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:00:39,486 INFO uvicorn.access GET /api/account/overview {} 500 104.69ms
+2025-09-07 16:00:39,487 INFO uvicorn.access 172.18.0.1:57510 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:00:44,480 INFO uvicorn.access GET /api/account/overview {} 500 96.16ms
+2025-09-07 16:00:44,481 INFO uvicorn.access 172.18.0.1:57524 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:00:49,485 INFO uvicorn.access GET /api/account/overview {} 500 108.10ms
+2025-09-07 16:00:49,486 INFO uvicorn.access 172.18.0.1:52812 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:00:54,480 INFO uvicorn.access GET /api/account/overview {} 500 95.85ms
+2025-09-07 16:00:54,482 INFO uvicorn.access 172.18.0.1:52816 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:00:59,470 INFO uvicorn.access GET /api/account/overview {} 500 85.91ms
+2025-09-07 16:00:59,471 INFO uvicorn.access 172.18.0.1:35740 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:01:04,467 INFO uvicorn.access GET /api/account/overview {} 500 97.96ms
+2025-09-07 16:01:04,469 INFO uvicorn.access 172.18.0.1:35748 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:01:08,285 INFO uvicorn.access GET /api/watchlist {} 404 0.31ms
+2025-09-07 16:01:08,293 INFO uvicorn.access 172.18.0.1:45632 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:01:09,470 INFO uvicorn.access GET /api/account/overview {} 500 90.57ms
+2025-09-07 16:01:09,472 INFO uvicorn.access 172.18.0.1:45632 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:01:14,477 INFO uvicorn.access GET /api/account/overview {} 500 101.07ms
+2025-09-07 16:01:14,478 INFO uvicorn.access 172.18.0.1:45642 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:01:19,477 INFO uvicorn.access GET /api/account/overview {} 500 101.05ms
+2025-09-07 16:01:19,479 INFO uvicorn.access 172.18.0.1:60730 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:01:24,467 INFO uvicorn.access GET /api/account/overview {} 500 90.52ms
+2025-09-07 16:01:24,479 INFO uvicorn.access 172.18.0.1:60736 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:01:29,481 INFO uvicorn.access GET /api/account/overview {} 500 99.63ms
+2025-09-07 16:01:29,482 INFO uvicorn.access 172.18.0.1:48734 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:01:34,459 INFO uvicorn.access GET /api/account/overview {} 500 89.87ms
+2025-09-07 16:01:34,460 INFO uvicorn.access 172.18.0.1:48742 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:01:39,479 INFO uvicorn.access GET /api/account/overview {} 500 104.40ms
+2025-09-07 16:01:39,480 INFO uvicorn.access 172.18.0.1:36704 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:01:44,507 INFO uvicorn.access GET /api/account/overview {} 500 133.10ms
+2025-09-07 16:01:44,508 INFO uvicorn.access 172.18.0.1:36718 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:01:49,485 INFO uvicorn.access GET /api/account/overview {} 500 106.49ms
+2025-09-07 16:01:49,486 INFO uvicorn.access 172.18.0.1:42602 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:01:54,482 INFO uvicorn.access GET /api/account/overview {} 500 99.17ms
+2025-09-07 16:01:54,482 INFO uvicorn.access 172.18.0.1:42612 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:01:59,483 INFO uvicorn.access GET /api/account/overview {} 500 98.74ms
+2025-09-07 16:01:59,484 INFO uvicorn.access 172.18.0.1:36958 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:02:04,481 INFO uvicorn.access GET /api/account/overview {} 500 97.18ms
+2025-09-07 16:02:04,483 INFO uvicorn.access 172.18.0.1:36960 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:02:08,289 INFO uvicorn.access GET /api/watchlist {} 404 0.31ms
+2025-09-07 16:02:08,293 INFO uvicorn.access 172.18.0.1:38874 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:02:09,466 INFO uvicorn.access GET /api/account/overview {} 500 91.12ms
+2025-09-07 16:02:09,467 INFO uvicorn.access 172.18.0.1:38874 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:02:14,466 INFO uvicorn.access GET /api/account/overview {} 500 96.74ms
+2025-09-07 16:02:14,468 INFO uvicorn.access 172.18.0.1:38876 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:02:19,472 INFO uvicorn.access GET /api/account/overview {} 500 98.36ms
+2025-09-07 16:02:19,473 INFO uvicorn.access 172.18.0.1:47130 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:02:24,474 INFO uvicorn.access GET /api/account/overview {} 500 102.03ms
+2025-09-07 16:02:24,476 INFO uvicorn.access 172.18.0.1:47136 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:02:29,470 INFO uvicorn.access GET /api/account/overview {} 500 92.97ms
+2025-09-07 16:02:29,471 INFO uvicorn.access 172.18.0.1:48964 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:02:34,469 INFO uvicorn.access GET /api/account/overview {} 500 92.43ms
+2025-09-07 16:02:34,472 INFO uvicorn.access 172.18.0.1:48966 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:02:39,490 INFO uvicorn.access GET /api/account/overview {} 500 118.42ms
+2025-09-07 16:02:39,490 INFO uvicorn.access 172.18.0.1:32868 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:02:44,473 INFO uvicorn.access GET /api/account/overview {} 500 102.94ms
+2025-09-07 16:02:44,475 INFO uvicorn.access 172.18.0.1:32876 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:02:49,468 INFO uvicorn.access GET /api/account/overview {} 500 91.04ms
+2025-09-07 16:02:49,469 INFO uvicorn.access 172.18.0.1:39538 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:02:54,472 INFO uvicorn.access GET /api/account/overview {} 500 97.22ms
+2025-09-07 16:02:54,473 INFO uvicorn.access 172.18.0.1:39542 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:02:59,463 INFO uvicorn.access GET /api/account/overview {} 500 87.08ms
+2025-09-07 16:02:59,466 INFO uvicorn.access 172.18.0.1:43256 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:03:04,477 INFO uvicorn.access GET /api/account/overview {} 500 94.63ms
+2025-09-07 16:03:04,478 INFO uvicorn.access 172.18.0.1:43266 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:03:08,290 INFO uvicorn.access GET /api/watchlist {} 404 0.32ms
+2025-09-07 16:03:08,293 INFO uvicorn.access 172.18.0.1:55936 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:03:09,869 INFO uvicorn.access GET /api/account/overview {} 500 493.44ms
+2025-09-07 16:03:09,870 INFO uvicorn.access 172.18.0.1:55936 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:03:14,461 INFO uvicorn.access GET /api/account/overview {} 500 86.64ms
+2025-09-07 16:03:14,462 INFO uvicorn.access 172.18.0.1:55940 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:03:19,469 INFO uvicorn.access GET /api/account/overview {} 500 93.78ms
+2025-09-07 16:03:19,470 INFO uvicorn.access 172.18.0.1:39532 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:03:24,508 INFO uvicorn.access GET /api/account/overview {} 500 123.72ms
+2025-09-07 16:03:24,508 INFO uvicorn.access 172.18.0.1:39538 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:03:29,507 INFO uvicorn.access GET /api/account/overview {} 500 132.28ms
+2025-09-07 16:03:29,508 INFO uvicorn.access 172.18.0.1:37042 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:03:34,468 INFO uvicorn.access GET /api/account/overview {} 500 93.55ms
+2025-09-07 16:03:34,470 INFO uvicorn.access 172.18.0.1:37052 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:03:39,462 INFO uvicorn.access GET /api/account/overview {} 500 84.72ms
+2025-09-07 16:03:39,462 INFO uvicorn.access 172.18.0.1:49468 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:03:44,484 INFO uvicorn.access GET /api/account/overview {} 500 99.48ms
+2025-09-07 16:03:44,485 INFO uvicorn.access 172.18.0.1:49482 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:03:50,601 INFO uvicorn.access GET /api/account/overview {} 500 1226.91ms
+2025-09-07 16:03:50,602 INFO uvicorn.access 172.18.0.1:60768 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:03:54,487 INFO uvicorn.access GET /api/account/overview {} 500 98.20ms
+2025-09-07 16:03:54,489 INFO uvicorn.access 172.18.0.1:60772 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:03:59,469 INFO uvicorn.access GET /api/account/overview {} 500 89.41ms
+2025-09-07 16:03:59,470 INFO uvicorn.access 172.18.0.1:42314 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:04:04,472 INFO uvicorn.access GET /api/account/overview {} 500 92.14ms
+2025-09-07 16:04:04,473 INFO uvicorn.access 172.18.0.1:42320 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:04:08,298 INFO uvicorn.access GET /api/watchlist {} 404 0.48ms
+2025-09-07 16:04:08,305 INFO uvicorn.access 172.18.0.1:44548 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:04:09,482 INFO uvicorn.access GET /api/account/overview {} 500 100.62ms
+2025-09-07 16:04:09,483 INFO uvicorn.access 172.18.0.1:44548 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:04:14,495 INFO uvicorn.access GET /api/account/overview {} 500 110.32ms
+2025-09-07 16:04:14,496 INFO uvicorn.access 172.18.0.1:44562 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:04:19,463 INFO uvicorn.access GET /api/account/overview {} 500 89.56ms
+2025-09-07 16:04:19,464 INFO uvicorn.access 172.18.0.1:38176 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:04:24,463 INFO uvicorn.access GET /api/account/overview {} 500 92.85ms
+2025-09-07 16:04:24,464 INFO uvicorn.access 172.18.0.1:38178 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:04:29,466 INFO uvicorn.access GET /api/account/overview {} 500 96.62ms
+2025-09-07 16:04:29,467 INFO uvicorn.access 172.18.0.1:46762 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:04:34,469 INFO uvicorn.access GET /api/account/overview {} 500 93.51ms
+2025-09-07 16:04:34,470 INFO uvicorn.access 172.18.0.1:46768 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:04:39,481 INFO uvicorn.access GET /api/account/overview {} 500 102.06ms
+2025-09-07 16:04:39,482 INFO uvicorn.access 172.18.0.1:33418 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:04:44,484 INFO uvicorn.access GET /api/account/overview {} 500 100.61ms
+2025-09-07 16:04:44,485 INFO uvicorn.access 172.18.0.1:33430 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:04:49,454 INFO uvicorn.access GET /api/account/overview {} 500 84.03ms
+2025-09-07 16:04:49,455 INFO uvicorn.access 172.18.0.1:37768 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:04:54,474 INFO uvicorn.access GET /api/account/overview {} 500 90.24ms
+2025-09-07 16:04:54,476 INFO uvicorn.access 172.18.0.1:37776 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:04:59,564 INFO uvicorn.access GET /api/account/overview {} 500 149.97ms
+2025-09-07 16:04:59,565 INFO uvicorn.access 172.18.0.1:58582 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:05:04,468 INFO uvicorn.access GET /api/account/overview {} 500 90.25ms
+2025-09-07 16:05:04,469 INFO uvicorn.access 172.18.0.1:58592 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:05:08,287 INFO uvicorn.access GET /api/watchlist {} 404 0.32ms
+2025-09-07 16:05:08,292 INFO uvicorn.access 172.18.0.1:46838 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:05:09,470 INFO uvicorn.access GET /api/account/overview {} 500 98.18ms
+2025-09-07 16:05:09,471 INFO uvicorn.access 172.18.0.1:46838 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:05:14,476 INFO uvicorn.access GET /api/account/overview {} 500 98.04ms
+2025-09-07 16:05:14,477 INFO uvicorn.access 172.18.0.1:46842 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:05:19,518 INFO uvicorn.access GET /api/account/overview {} 500 141.61ms
+2025-09-07 16:05:19,519 INFO uvicorn.access 172.18.0.1:54822 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:05:24,457 INFO uvicorn.access GET /api/account/overview {} 500 87.71ms
+2025-09-07 16:05:24,457 INFO uvicorn.access 172.18.0.1:54826 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:05:29,521 INFO uvicorn.access GET /api/account/overview {} 500 139.01ms
+2025-09-07 16:05:29,522 INFO uvicorn.access 172.18.0.1:60202 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:05:34,471 INFO uvicorn.access GET /api/account/overview {} 500 85.77ms
+2025-09-07 16:05:34,472 INFO uvicorn.access 172.18.0.1:60210 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:05:39,463 INFO uvicorn.access GET /api/account/overview {} 500 90.26ms
+2025-09-07 16:05:39,464 INFO uvicorn.access 172.18.0.1:46540 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:05:44,477 INFO uvicorn.access GET /api/account/overview {} 500 102.83ms
+2025-09-07 16:05:44,478 INFO uvicorn.access 172.18.0.1:46552 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:05:49,474 INFO uvicorn.access GET /api/account/overview {} 500 91.88ms
+2025-09-07 16:05:49,475 INFO uvicorn.access 172.18.0.1:52920 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:05:54,471 INFO uvicorn.access GET /api/account/overview {} 500 91.14ms
+2025-09-07 16:05:54,473 INFO uvicorn.access 172.18.0.1:52932 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:05:59,461 INFO uvicorn.access GET /api/account/overview {} 500 82.71ms
+2025-09-07 16:05:59,462 INFO uvicorn.access 172.18.0.1:36166 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:06:04,589 INFO uvicorn.access GET /api/account/overview {} 500 205.46ms
+2025-09-07 16:06:04,591 INFO uvicorn.access 172.18.0.1:36182 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:06:08,297 INFO uvicorn.access GET /api/watchlist {} 404 2.65ms
+2025-09-07 16:06:08,299 INFO uvicorn.access 172.18.0.1:33288 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:06:09,475 INFO uvicorn.access GET /api/account/overview {} 500 90.50ms
+2025-09-07 16:06:09,476 INFO uvicorn.access 172.18.0.1:33288 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:06:14,465 INFO uvicorn.access GET /api/account/overview {} 500 92.10ms
+2025-09-07 16:06:14,466 INFO uvicorn.access 172.18.0.1:33300 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:06:19,474 INFO uvicorn.access GET /api/account/overview {} 500 94.68ms
+2025-09-07 16:06:19,475 INFO uvicorn.access 172.18.0.1:49474 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:06:24,543 INFO uvicorn.access GET /api/account/overview {} 500 167.57ms
+2025-09-07 16:06:24,544 INFO uvicorn.access 172.18.0.1:49488 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:06:29,485 INFO uvicorn.access GET /api/account/overview {} 500 109.42ms
+2025-09-07 16:06:29,486 INFO uvicorn.access 172.18.0.1:35612 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:06:34,492 INFO uvicorn.access GET /api/account/overview {} 500 110.07ms
+2025-09-07 16:06:34,493 INFO uvicorn.access 172.18.0.1:35624 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:06:39,464 INFO uvicorn.access GET /api/account/overview {} 500 85.69ms
+2025-09-07 16:06:39,465 INFO uvicorn.access 172.18.0.1:46774 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:06:44,475 INFO uvicorn.access GET /api/account/overview {} 500 90.83ms
+2025-09-07 16:06:44,476 INFO uvicorn.access 172.18.0.1:46790 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:06:49,469 INFO uvicorn.access GET /api/account/overview {} 500 97.81ms
+2025-09-07 16:06:49,471 INFO uvicorn.access 172.18.0.1:53576 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:06:54,477 INFO uvicorn.access GET /api/account/overview {} 500 100.07ms
+2025-09-07 16:06:54,478 INFO uvicorn.access 172.18.0.1:53586 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:06:59,476 INFO uvicorn.access GET /api/account/overview {} 500 95.51ms
+2025-09-07 16:06:59,477 INFO uvicorn.access 172.18.0.1:50014 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:07:04,459 INFO uvicorn.access GET /api/account/overview {} 500 83.84ms
+2025-09-07 16:07:04,460 INFO uvicorn.access 172.18.0.1:50030 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:07:08,300 INFO uvicorn.access GET /api/watchlist {} 404 0.44ms
+2025-09-07 16:07:08,303 INFO uvicorn.access 172.18.0.1:46752 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:07:09,464 INFO uvicorn.access GET /api/account/overview {} 500 87.14ms
+2025-09-07 16:07:09,465 INFO uvicorn.access 172.18.0.1:46752 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:07:14,473 INFO uvicorn.access GET /api/account/overview {} 500 94.80ms
+2025-09-07 16:07:14,474 INFO uvicorn.access 172.18.0.1:46758 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:07:19,471 INFO uvicorn.access GET /api/account/overview {} 500 101.33ms
+2025-09-07 16:07:19,473 INFO uvicorn.access 172.18.0.1:59692 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:07:24,464 INFO uvicorn.access GET /api/account/overview {} 500 89.16ms
+2025-09-07 16:07:24,465 INFO uvicorn.access 172.18.0.1:59696 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:07:29,482 INFO uvicorn.access GET /api/account/overview {} 500 101.42ms
+2025-09-07 16:07:29,485 INFO uvicorn.access 172.18.0.1:59126 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:07:34,481 INFO uvicorn.access GET /api/account/overview {} 500 96.77ms
+2025-09-07 16:07:34,482 INFO uvicorn.access 172.18.0.1:59138 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:07:39,480 INFO uvicorn.access GET /api/account/overview {} 500 99.77ms
+2025-09-07 16:07:39,482 INFO uvicorn.access 172.18.0.1:38534 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:07:44,476 INFO uvicorn.access GET /api/account/overview {} 500 92.10ms
+2025-09-07 16:07:44,480 INFO uvicorn.access 172.18.0.1:38544 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:07:49,469 INFO uvicorn.access GET /api/account/overview {} 500 80.75ms
+2025-09-07 16:07:49,470 INFO uvicorn.access 172.18.0.1:55954 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:07:54,465 INFO uvicorn.access GET /api/account/overview {} 500 93.19ms
+2025-09-07 16:07:54,466 INFO uvicorn.access 172.18.0.1:55958 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:07:59,481 INFO uvicorn.access GET /api/account/overview {} 500 102.72ms
+2025-09-07 16:07:59,482 INFO uvicorn.access 172.18.0.1:50334 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:08:04,477 INFO uvicorn.access GET /api/account/overview {} 500 94.01ms
+2025-09-07 16:08:04,478 INFO uvicorn.access 172.18.0.1:50336 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:08:08,298 INFO uvicorn.access GET /api/watchlist {} 404 0.28ms
+2025-09-07 16:08:08,302 INFO uvicorn.access 172.18.0.1:37588 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:08:09,472 INFO uvicorn.access GET /api/account/overview {} 500 96.18ms
+2025-09-07 16:08:09,474 INFO uvicorn.access 172.18.0.1:37588 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:08:14,464 INFO uvicorn.access GET /api/account/overview {} 500 85.85ms
+2025-09-07 16:08:14,465 INFO uvicorn.access 172.18.0.1:37602 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:08:19,502 INFO uvicorn.access GET /api/account/overview {} 500 117.50ms
+2025-09-07 16:08:19,504 INFO uvicorn.access 172.18.0.1:35612 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:08:24,599 INFO uvicorn.access GET /api/account/overview {} 500 201.87ms
+2025-09-07 16:08:24,600 INFO uvicorn.access 172.18.0.1:35628 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:08:29,498 INFO uvicorn.access GET /api/account/overview {} 500 118.15ms
+2025-09-07 16:08:29,498 INFO uvicorn.access 172.18.0.1:52652 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:08:34,480 INFO uvicorn.access GET /api/account/overview {} 500 95.75ms
+2025-09-07 16:08:34,481 INFO uvicorn.access 172.18.0.1:52664 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:08:39,478 INFO uvicorn.access GET /api/account/overview {} 500 97.66ms
+2025-09-07 16:08:39,479 INFO uvicorn.access 172.18.0.1:57294 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:08:44,551 INFO uvicorn.access GET /api/account/overview {} 500 169.92ms
+2025-09-07 16:08:44,552 INFO uvicorn.access 172.18.0.1:57310 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:08:49,464 INFO uvicorn.access GET /api/account/overview {} 500 83.82ms
+2025-09-07 16:08:49,465 INFO uvicorn.access 172.18.0.1:42490 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:08:54,461 INFO uvicorn.access GET /api/account/overview {} 500 89.95ms
+2025-09-07 16:08:54,462 INFO uvicorn.access 172.18.0.1:42504 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:08:59,468 INFO uvicorn.access GET /api/account/overview {} 500 92.95ms
+2025-09-07 16:08:59,469 INFO uvicorn.access 172.18.0.1:38982 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:09:04,476 INFO uvicorn.access GET /api/account/overview {} 500 93.00ms
+2025-09-07 16:09:04,477 INFO uvicorn.access 172.18.0.1:38984 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:09:08,303 INFO uvicorn.access GET /api/watchlist {} 404 0.33ms
+2025-09-07 16:09:08,306 INFO uvicorn.access 172.18.0.1:55300 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:09:09,492 INFO uvicorn.access GET /api/account/overview {} 500 112.44ms
+2025-09-07 16:09:09,495 INFO uvicorn.access 172.18.0.1:55300 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:09:14,472 INFO uvicorn.access GET /api/account/overview {} 500 96.99ms
+2025-09-07 16:09:14,473 INFO uvicorn.access 172.18.0.1:55316 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:09:19,490 INFO uvicorn.access GET /api/account/overview {} 500 105.61ms
+2025-09-07 16:09:19,491 INFO uvicorn.access 172.18.0.1:52212 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:09:24,472 INFO uvicorn.access GET /api/account/overview {} 500 87.25ms
+2025-09-07 16:09:24,473 INFO uvicorn.access 172.18.0.1:52220 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:09:29,493 INFO uvicorn.access GET /api/account/overview {} 500 108.47ms
+2025-09-07 16:09:29,494 INFO uvicorn.access 172.18.0.1:58184 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:09:34,468 INFO uvicorn.access GET /api/account/overview {} 500 90.18ms
+2025-09-07 16:09:34,469 INFO uvicorn.access 172.18.0.1:58194 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:09:39,469 INFO uvicorn.access GET /api/account/overview {} 500 88.75ms
+2025-09-07 16:09:39,470 INFO uvicorn.access 172.18.0.1:37036 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:09:44,474 INFO uvicorn.access GET /api/account/overview {} 500 95.69ms
+2025-09-07 16:09:44,475 INFO uvicorn.access 172.18.0.1:37050 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:09:49,481 INFO uvicorn.access GET /api/account/overview {} 500 104.78ms
+2025-09-07 16:09:49,482 INFO uvicorn.access 172.18.0.1:38650 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:09:54,463 INFO uvicorn.access GET /api/account/overview {} 500 85.26ms
+2025-09-07 16:09:54,464 INFO uvicorn.access 172.18.0.1:38660 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:09:59,473 INFO uvicorn.access GET /api/account/overview {} 500 91.01ms
+2025-09-07 16:09:59,475 INFO uvicorn.access 172.18.0.1:60348 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:10:04,465 INFO uvicorn.access GET /api/account/overview {} 500 90.67ms
+2025-09-07 16:10:04,466 INFO uvicorn.access 172.18.0.1:60360 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:10:08,300 INFO uvicorn.access GET /api/watchlist {} 404 0.29ms
+2025-09-07 16:10:08,303 INFO uvicorn.access 172.18.0.1:39396 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:10:09,466 INFO uvicorn.access GET /api/account/overview {} 500 89.41ms
+2025-09-07 16:10:09,467 INFO uvicorn.access 172.18.0.1:39396 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:10:14,467 INFO uvicorn.access GET /api/account/overview {} 500 91.17ms
+2025-09-07 16:10:14,469 INFO uvicorn.access 172.18.0.1:39400 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:10:19,461 INFO uvicorn.access GET /api/account/overview {} 500 88.71ms
+2025-09-07 16:10:19,468 INFO uvicorn.access 172.18.0.1:44018 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:10:24,455 INFO uvicorn.access GET /api/account/overview {} 500 82.64ms
+2025-09-07 16:10:24,456 INFO uvicorn.access 172.18.0.1:44024 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:10:29,488 INFO uvicorn.access GET /api/account/overview {} 500 105.06ms
+2025-09-07 16:10:29,489 INFO uvicorn.access 172.18.0.1:57110 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:10:34,468 INFO uvicorn.access GET /api/account/overview {} 500 86.39ms
+2025-09-07 16:10:34,469 INFO uvicorn.access 172.18.0.1:57126 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:10:39,470 INFO uvicorn.access GET /api/account/overview {} 500 83.60ms
+2025-09-07 16:10:39,471 INFO uvicorn.access 172.18.0.1:49002 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:10:44,461 INFO uvicorn.access GET /api/account/overview {} 500 86.45ms
+2025-09-07 16:10:44,462 INFO uvicorn.access 172.18.0.1:49004 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:10:49,510 INFO uvicorn.access GET /api/account/overview {} 500 130.16ms
+2025-09-07 16:10:49,513 INFO uvicorn.access 172.18.0.1:52534 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:10:54,480 INFO uvicorn.access GET /api/account/overview {} 500 105.72ms
+2025-09-07 16:10:54,481 INFO uvicorn.access 172.18.0.1:52542 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:10:59,461 INFO uvicorn.access GET /api/account/overview {} 500 87.27ms
+2025-09-07 16:10:59,462 INFO uvicorn.access 172.18.0.1:59418 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:11:04,456 INFO uvicorn.access GET /api/account/overview {} 500 85.75ms
+2025-09-07 16:11:04,457 INFO uvicorn.access 172.18.0.1:59424 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:11:08,290 INFO uvicorn.access GET /api/watchlist {} 404 0.31ms
+2025-09-07 16:11:08,292 INFO uvicorn.access 172.18.0.1:55858 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:11:09,471 INFO uvicorn.access GET /api/account/overview {} 500 91.81ms
+2025-09-07 16:11:09,472 INFO uvicorn.access 172.18.0.1:55858 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:11:14,602 INFO uvicorn.access GET /api/account/overview {} 500 231.85ms
+2025-09-07 16:11:14,603 INFO uvicorn.access 172.18.0.1:55874 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:11:19,495 INFO uvicorn.access GET /api/account/overview {} 500 113.37ms
+2025-09-07 16:11:19,496 INFO uvicorn.access 172.18.0.1:42692 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:11:24,464 INFO uvicorn.access GET /api/account/overview {} 500 94.76ms
+2025-09-07 16:11:24,466 INFO uvicorn.access 172.18.0.1:42704 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:11:29,476 INFO uvicorn.access GET /api/account/overview {} 500 95.47ms
+2025-09-07 16:11:29,477 INFO uvicorn.access 172.18.0.1:38792 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:11:34,473 INFO uvicorn.access GET /api/account/overview {} 500 93.38ms
+2025-09-07 16:11:34,475 INFO uvicorn.access 172.18.0.1:38802 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:11:39,488 INFO uvicorn.access GET /api/account/overview {} 500 105.35ms
+2025-09-07 16:11:39,489 INFO uvicorn.access 172.18.0.1:38360 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:11:44,492 INFO uvicorn.access GET /api/account/overview {} 500 107.04ms
+2025-09-07 16:11:44,493 INFO uvicorn.access 172.18.0.1:38362 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:11:49,517 INFO uvicorn.access GET /api/account/overview {} 500 116.81ms
+2025-09-07 16:11:49,521 INFO uvicorn.access 172.18.0.1:59264 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:11:54,469 INFO uvicorn.access GET /api/account/overview {} 500 97.79ms
+2025-09-07 16:11:54,470 INFO uvicorn.access 172.18.0.1:59268 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:11:59,475 INFO uvicorn.access GET /api/account/overview {} 500 90.26ms
+2025-09-07 16:11:59,476 INFO uvicorn.access 172.18.0.1:39804 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:12:04,482 INFO uvicorn.access GET /api/account/overview {} 500 104.40ms
+2025-09-07 16:12:04,483 INFO uvicorn.access 172.18.0.1:39814 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:12:08,296 INFO uvicorn.access GET /api/watchlist {} 404 0.28ms
+2025-09-07 16:12:08,299 INFO uvicorn.access 172.18.0.1:54990 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:12:09,456 INFO uvicorn.access GET /api/account/overview {} 500 85.71ms
+2025-09-07 16:12:09,457 INFO uvicorn.access 172.18.0.1:54990 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:12:14,462 INFO uvicorn.access GET /api/account/overview {} 500 90.98ms
+2025-09-07 16:12:14,463 INFO uvicorn.access 172.18.0.1:55004 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:12:24,612 INFO uvicorn.access GET /api/account/overview {} 200 399.04ms
+2025-09-07 16:12:24,613 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:12:27,451 INFO uvicorn.access GET /api/account/overview {} 200 183.44ms
+2025-09-07 16:12:27,452 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:12:29,382 INFO uvicorn.access GET /api/settings/runtime {} 200 0.66ms
+2025-09-07 16:12:29,383 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 16:12:29,387 INFO uvicorn.access GET /api/keys {} 200 0.60ms
+2025-09-07 16:12:29,389 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 16:12:29,796 INFO uvicorn.access GET /api/settings/runtime {} 200 0.53ms
+2025-09-07 16:12:29,797 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 16:12:29,801 INFO uvicorn.access GET /api/keys {} 200 0.62ms
+2025-09-07 16:12:29,803 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 16:12:32,809 INFO uvicorn.access GET /api/account/overview {} 200 195.37ms
+2025-09-07 16:12:32,810 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:12:37,792 INFO uvicorn.access GET /api/account/overview {} 200 178.10ms
+2025-09-07 16:12:37,794 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:12:40,607 INFO uvicorn.access GET /api/account/overview {} 200 189.21ms
+2025-09-07 16:12:40,609 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:12:45,651 INFO uvicorn.access GET /api/account/overview {} 200 230.30ms
+2025-09-07 16:12:45,653 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:12:50,601 INFO uvicorn.access GET /api/account/overview {} 200 177.77ms
+2025-09-07 16:12:50,602 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:12:55,606 INFO uvicorn.access GET /api/account/overview {} 200 176.05ms
+2025-09-07 16:12:55,607 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:13:00,635 INFO uvicorn.access GET /api/account/overview {} 200 202.04ms
+2025-09-07 16:13:00,636 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:13:05,613 INFO uvicorn.access GET /api/account/overview {} 200 190.77ms
+2025-09-07 16:13:05,614 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:13:08,284 INFO uvicorn.access GET /api/watchlist {} 404 0.35ms
+2025-09-07 16:13:08,285 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:13:10,621 INFO uvicorn.access GET /api/account/overview {} 200 196.67ms
+2025-09-07 16:13:10,622 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:13:15,615 INFO uvicorn.access GET /api/account/overview {} 200 194.58ms
+2025-09-07 16:13:15,616 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:13:20,663 INFO uvicorn.access GET /api/account/overview {} 200 228.32ms
+2025-09-07 16:13:20,664 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:13:25,605 INFO uvicorn.access GET /api/account/overview {} 200 184.03ms
+2025-09-07 16:13:25,607 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:13:30,644 INFO uvicorn.access GET /api/account/overview {} 200 221.34ms
+2025-09-07 16:13:30,645 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:13:35,609 INFO uvicorn.access GET /api/account/overview {} 200 179.20ms
+2025-09-07 16:13:35,610 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:13:40,595 INFO uvicorn.access GET /api/account/overview {} 200 173.10ms
+2025-09-07 16:13:40,603 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:13:45,620 INFO uvicorn.access GET /api/account/overview {} 200 191.83ms
+2025-09-07 16:13:45,621 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:13:50,722 INFO uvicorn.access GET /api/account/overview {} 200 301.47ms
+2025-09-07 16:13:50,727 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:13:55,602 INFO uvicorn.access GET /api/account/overview {} 200 182.04ms
+2025-09-07 16:13:55,603 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:14:00,610 INFO uvicorn.access GET /api/account/overview {} 200 189.85ms
+2025-09-07 16:14:00,613 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:14:05,602 INFO uvicorn.access GET /api/account/overview {} 200 176.94ms
+2025-09-07 16:14:05,603 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:14:08,283 INFO uvicorn.access GET /api/watchlist {} 404 0.30ms
+2025-09-07 16:14:08,284 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:14:10,613 INFO uvicorn.access GET /api/account/overview {} 200 183.86ms
+2025-09-07 16:14:10,614 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:14:15,686 INFO uvicorn.access GET /api/account/overview {} 200 251.46ms
+2025-09-07 16:14:15,718 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:14:20,612 INFO uvicorn.access GET /api/account/overview {} 200 181.04ms
+2025-09-07 16:14:20,614 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:14:25,612 INFO uvicorn.access GET /api/account/overview {} 200 183.09ms
+2025-09-07 16:14:25,613 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:14:30,622 INFO uvicorn.access GET /api/account/overview {} 200 195.20ms
+2025-09-07 16:14:30,623 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:14:35,673 INFO uvicorn.access GET /api/account/overview {} 200 246.24ms
+2025-09-07 16:14:35,674 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:14:40,611 INFO uvicorn.access GET /api/account/overview {} 200 180.46ms
+2025-09-07 16:14:40,612 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:14:45,636 INFO uvicorn.access GET /api/account/overview {} 200 206.71ms
+2025-09-07 16:14:45,637 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:14:50,617 INFO uvicorn.access GET /api/account/overview {} 200 182.25ms
+2025-09-07 16:14:50,618 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:14:55,616 INFO uvicorn.access GET /api/account/overview {} 200 185.81ms
+2025-09-07 16:14:55,617 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:15:00,624 INFO uvicorn.access GET /api/account/overview {} 200 205.23ms
+2025-09-07 16:15:00,625 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:15:05,649 INFO uvicorn.access GET /api/account/overview {} 200 214.48ms
+2025-09-07 16:15:05,651 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:15:08,290 INFO uvicorn.access GET /api/watchlist {} 404 0.31ms
+2025-09-07 16:15:08,291 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:15:10,615 INFO uvicorn.access GET /api/account/overview {} 200 182.23ms
+2025-09-07 16:15:10,618 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:15:15,631 INFO uvicorn.access GET /api/account/overview {} 200 200.84ms
+2025-09-07 16:15:15,632 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:15:20,606 INFO uvicorn.access GET /api/account/overview {} 200 186.14ms
+2025-09-07 16:15:20,608 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:15:25,701 INFO uvicorn.access GET /api/account/overview {} 200 281.84ms
+2025-09-07 16:15:25,702 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:15:30,621 INFO uvicorn.access GET /api/account/overview {} 200 194.02ms
+2025-09-07 16:15:30,622 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:15:35,599 INFO uvicorn.access GET /api/account/overview {} 200 175.11ms
+2025-09-07 16:15:35,600 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:15:40,622 INFO uvicorn.access GET /api/account/overview {} 200 195.01ms
+2025-09-07 16:15:40,623 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:15:45,641 INFO uvicorn.access GET /api/account/overview {} 200 218.40ms
+2025-09-07 16:15:45,642 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:15:50,669 INFO uvicorn.access GET /api/account/overview {} 200 243.44ms
+2025-09-07 16:15:50,670 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:15:55,617 INFO uvicorn.access GET /api/account/overview {} 200 183.76ms
+2025-09-07 16:15:55,620 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:16:00,612 INFO uvicorn.access GET /api/account/overview {} 200 179.95ms
+2025-09-07 16:16:00,613 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:16:05,607 INFO uvicorn.access GET /api/account/overview {} 200 185.74ms
+2025-09-07 16:16:05,608 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:16:08,299 INFO uvicorn.access GET /api/watchlist {} 404 0.32ms
+2025-09-07 16:16:08,300 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:16:11,219 INFO uvicorn.access GET /api/account/overview {} 200 791.93ms
+2025-09-07 16:16:11,220 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:16:15,607 INFO uvicorn.access GET /api/account/overview {} 200 184.24ms
+2025-09-07 16:16:15,608 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:16:20,602 INFO uvicorn.access GET /api/account/overview {} 200 169.77ms
+2025-09-07 16:16:20,603 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:16:25,598 INFO uvicorn.access GET /api/account/overview {} 200 178.37ms
+2025-09-07 16:16:25,599 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:16:30,608 INFO uvicorn.access GET /api/account/overview {} 200 185.77ms
+2025-09-07 16:16:30,609 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:16:35,622 INFO uvicorn.access GET /api/account/overview {} 200 202.22ms
+2025-09-07 16:16:35,623 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:16:38,981 INFO uvicorn.access GET /api/account/overview {} 200 185.08ms
+2025-09-07 16:16:38,982 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:16:41,201 INFO uvicorn.access GET /api/account/overview {} 200 200.63ms
+2025-09-07 16:16:41,203 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:16:46,194 INFO uvicorn.access GET /api/account/overview {} 200 179.85ms
+2025-09-07 16:16:46,195 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:16:51,221 INFO uvicorn.access GET /api/account/overview {} 200 210.15ms
+2025-09-07 16:16:51,224 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:16:56,328 INFO uvicorn.access GET /api/account/overview {} 200 325.66ms
+2025-09-07 16:16:56,329 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:17:00,237 INFO uvicorn.access GET /api/account/overview {} 200 191.45ms
+2025-09-07 16:17:00,238 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:17:05,226 INFO uvicorn.access GET /api/account/overview {} 200 174.71ms
+2025-09-07 16:17:05,231 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:17:08,290 INFO uvicorn.access GET /api/watchlist {} 404 0.34ms
+2025-09-07 16:17:08,291 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:17:10,244 INFO uvicorn.access GET /api/account/overview {} 200 197.13ms
+2025-09-07 16:17:10,246 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:17:15,295 INFO uvicorn.access GET /api/account/overview {} 200 241.75ms
+2025-09-07 16:17:15,296 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:17:20,249 INFO uvicorn.access GET /api/account/overview {} 200 195.34ms
+2025-09-07 16:17:20,251 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:17:25,253 INFO uvicorn.access GET /api/account/overview {} 200 193.53ms
+2025-09-07 16:17:25,255 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:17:30,263 INFO uvicorn.access GET /api/account/overview {} 200 201.17ms
+2025-09-07 16:17:30,264 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:17:35,236 INFO uvicorn.access GET /api/account/overview {} 200 183.60ms
+2025-09-07 16:17:35,238 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:17:40,271 INFO uvicorn.access GET /api/account/overview {} 200 219.92ms
+2025-09-07 16:17:40,272 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:17:45,230 INFO uvicorn.access GET /api/account/overview {} 200 173.85ms
+2025-09-07 16:17:45,231 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:17:50,235 INFO uvicorn.access GET /api/account/overview {} 200 182.00ms
+2025-09-07 16:17:50,236 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:17:55,246 INFO uvicorn.access GET /api/account/overview {} 200 189.93ms
+2025-09-07 16:17:55,248 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:18:00,278 INFO uvicorn.access GET /api/account/overview {} 200 223.84ms
+2025-09-07 16:18:00,287 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:18:05,232 INFO uvicorn.access GET /api/account/overview {} 200 176.74ms
+2025-09-07 16:18:05,233 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:18:08,296 INFO uvicorn.access GET /api/watchlist {} 404 0.43ms
+2025-09-07 16:18:08,298 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:18:10,236 INFO uvicorn.access GET /api/account/overview {} 200 173.30ms
+2025-09-07 16:18:10,237 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:18:15,244 INFO uvicorn.access GET /api/account/overview {} 200 183.24ms
+2025-09-07 16:18:15,245 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:18:20,241 INFO uvicorn.access GET /api/account/overview {} 200 183.54ms
+2025-09-07 16:18:20,242 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:18:25,279 INFO uvicorn.access GET /api/account/overview {} 200 217.49ms
+2025-09-07 16:18:25,281 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:18:30,235 INFO uvicorn.access GET /api/account/overview {} 200 172.21ms
+2025-09-07 16:18:30,236 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:18:35,240 INFO uvicorn.access GET /api/account/overview {} 200 182.42ms
+2025-09-07 16:18:35,241 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:18:40,245 INFO uvicorn.access GET /api/account/overview {} 200 193.99ms
+2025-09-07 16:18:40,246 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:18:45,809 INFO uvicorn.access GET /api/account/overview {} 200 756.73ms
+2025-09-07 16:18:45,811 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:18:50,240 INFO uvicorn.access GET /api/account/overview {} 200 182.77ms
+2025-09-07 16:18:50,241 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:18:55,247 INFO uvicorn.access GET /api/account/overview {} 200 196.33ms
+2025-09-07 16:18:55,248 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:19:00,233 INFO uvicorn.access GET /api/account/overview {} 200 182.78ms
+2025-09-07 16:19:00,234 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:19:05,253 INFO uvicorn.access GET /api/account/overview {} 200 201.86ms
+2025-09-07 16:19:05,255 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:19:08,290 INFO uvicorn.access GET /api/watchlist {} 404 0.39ms
+2025-09-07 16:19:08,291 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:19:10,270 INFO uvicorn.access GET /api/account/overview {} 200 210.80ms
+2025-09-07 16:19:10,271 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:19:14,942 INFO uvicorn.access GET /api/account/overview {} 200 177.24ms
+2025-09-07 16:19:14,943 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:19:20,169 INFO uvicorn.access GET /api/account/overview {} 200 380.54ms
+2025-09-07 16:19:20,170 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:19:24,962 INFO uvicorn.access GET /api/account/overview {} 200 186.51ms
+2025-09-07 16:19:24,963 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:19:29,943 INFO uvicorn.access GET /api/account/overview {} 200 176.58ms
+2025-09-07 16:19:29,945 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:19:34,998 INFO uvicorn.access GET /api/account/overview {} 200 218.22ms
+2025-09-07 16:19:35,000 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:19:39,962 INFO uvicorn.access GET /api/account/overview {} 200 193.12ms
+2025-09-07 16:19:39,962 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:19:44,948 INFO uvicorn.access GET /api/account/overview {} 200 179.72ms
+2025-09-07 16:19:44,949 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:19:49,956 INFO uvicorn.access GET /api/account/overview {} 200 175.23ms
+2025-09-07 16:19:49,968 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:19:55,045 INFO uvicorn.access GET /api/account/overview {} 200 267.27ms
+2025-09-07 16:19:55,048 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:19:59,956 INFO uvicorn.access GET /api/account/overview {} 200 179.04ms
+2025-09-07 16:19:59,957 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:20:04,961 INFO uvicorn.access GET /api/account/overview {} 200 185.11ms
+2025-09-07 16:20:04,962 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:20:08,288 INFO uvicorn.access GET /api/watchlist {} 404 0.39ms
+2025-09-07 16:20:08,289 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:20:09,966 INFO uvicorn.access GET /api/account/overview {} 200 187.92ms
+2025-09-07 16:20:09,967 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:20:14,964 INFO uvicorn.access GET /api/account/overview {} 200 191.64ms
+2025-09-07 16:20:14,965 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:20:20,000 INFO uvicorn.access GET /api/account/overview {} 200 222.55ms
+2025-09-07 16:20:20,002 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:20:24,967 INFO uvicorn.access GET /api/account/overview {} 200 190.83ms
+2025-09-07 16:20:24,969 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:20:29,992 INFO uvicorn.access GET /api/account/overview {} 200 212.78ms
+2025-09-07 16:20:29,997 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:20:34,965 INFO uvicorn.access GET /api/account/overview {} 200 189.70ms
+2025-09-07 16:20:34,968 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:20:39,962 INFO uvicorn.access GET /api/account/overview {} 200 181.60ms
+2025-09-07 16:20:39,963 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:20:44,975 INFO uvicorn.access GET /api/account/overview {} 200 206.95ms
+2025-09-07 16:20:44,978 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:20:50,230 INFO uvicorn.access GET /api/account/overview {} 200 430.65ms
+2025-09-07 16:20:50,231 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:20:54,970 INFO uvicorn.access GET /api/account/overview {} 200 194.42ms
+2025-09-07 16:20:54,971 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:20:59,972 INFO uvicorn.access GET /api/account/overview {} 200 194.06ms
+2025-09-07 16:20:59,973 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:21:04,941 INFO uvicorn.access GET /api/account/overview {} 200 172.75ms
+2025-09-07 16:21:04,942 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:21:08,289 INFO uvicorn.access GET /api/watchlist {} 404 0.30ms
+2025-09-07 16:21:08,290 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:21:10,090 INFO uvicorn.access GET /api/account/overview {} 200 324.95ms
+2025-09-07 16:21:10,091 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:21:14,956 INFO uvicorn.access GET /api/account/overview {} 200 176.22ms
+2025-09-07 16:21:14,957 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:21:19,977 INFO uvicorn.access GET /api/account/overview {} 200 194.30ms
+2025-09-07 16:21:19,981 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:21:24,965 INFO uvicorn.access GET /api/account/overview {} 200 189.02ms
+2025-09-07 16:21:24,966 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:21:30,087 INFO uvicorn.access GET /api/account/overview {} 200 318.62ms
+2025-09-07 16:21:30,092 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:21:34,943 INFO uvicorn.access GET /api/account/overview {} 200 176.93ms
+2025-09-07 16:21:34,944 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:21:40,082 INFO uvicorn.access GET /api/account/overview {} 200 302.97ms
+2025-09-07 16:21:40,084 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:21:44,964 INFO uvicorn.access GET /api/account/overview {} 200 184.75ms
+2025-09-07 16:21:44,965 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:21:49,975 INFO uvicorn.access GET /api/account/overview {} 200 203.45ms
+2025-09-07 16:21:49,984 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:21:55,001 INFO uvicorn.access GET /api/account/overview {} 200 231.82ms
+2025-09-07 16:21:55,002 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:21:59,962 INFO uvicorn.access GET /api/account/overview {} 200 187.44ms
+2025-09-07 16:21:59,963 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:22:04,974 INFO uvicorn.access GET /api/account/overview {} 200 195.04ms
+2025-09-07 16:22:04,975 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:22:08,294 INFO uvicorn.access GET /api/watchlist {} 404 0.54ms
+2025-09-07 16:22:08,298 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:22:11,221 INFO uvicorn.access GET /api/account/overview {} 200 1446.53ms
+2025-09-07 16:22:11,223 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:22:14,958 INFO uvicorn.access GET /api/account/overview {} 200 188.59ms
+2025-09-07 16:22:14,959 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:22:19,953 INFO uvicorn.access GET /api/account/overview {} 200 181.22ms
+2025-09-07 16:22:19,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:22:24,964 INFO uvicorn.access GET /api/account/overview {} 200 193.85ms
+2025-09-07 16:22:24,965 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:22:29,959 INFO uvicorn.access GET /api/account/overview {} 200 188.68ms
+2025-09-07 16:22:29,960 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:22:34,972 INFO uvicorn.access GET /api/account/overview {} 200 199.24ms
+2025-09-07 16:22:34,973 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:22:39,968 INFO uvicorn.access GET /api/account/overview {} 200 201.85ms
+2025-09-07 16:22:39,970 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:22:44,954 INFO uvicorn.access GET /api/account/overview {} 200 179.66ms
+2025-09-07 16:22:44,955 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:22:49,976 INFO uvicorn.access GET /api/account/overview {} 200 196.04ms
+2025-09-07 16:22:49,979 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:22:54,957 INFO uvicorn.access GET /api/account/overview {} 200 180.03ms
+2025-09-07 16:22:54,958 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:22:59,950 INFO uvicorn.access GET /api/account/overview {} 200 184.45ms
+2025-09-07 16:22:59,951 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:23:04,953 INFO uvicorn.access GET /api/account/overview {} 200 175.12ms
+2025-09-07 16:23:04,955 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:23:08,286 INFO uvicorn.access GET /api/watchlist {} 404 0.37ms
+2025-09-07 16:23:08,287 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:23:09,991 INFO uvicorn.access GET /api/account/overview {} 200 214.50ms
+2025-09-07 16:23:09,992 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:23:14,954 INFO uvicorn.access GET /api/account/overview {} 200 182.02ms
+2025-09-07 16:23:14,955 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:23:19,970 INFO uvicorn.access GET /api/account/overview {} 200 199.63ms
+2025-09-07 16:23:19,972 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:23:24,999 INFO uvicorn.access GET /api/account/overview {} 200 232.57ms
+2025-09-07 16:23:25,004 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:23:29,949 INFO uvicorn.access GET /api/account/overview {} 200 176.25ms
+2025-09-07 16:23:29,950 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:23:35,054 INFO uvicorn.access GET /api/account/overview {} 200 286.08ms
+2025-09-07 16:23:35,055 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:23:39,963 INFO uvicorn.access GET /api/account/overview {} 200 184.21ms
+2025-09-07 16:23:39,965 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:23:44,950 INFO uvicorn.access GET /api/account/overview {} 200 177.99ms
+2025-09-07 16:23:44,951 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:23:49,965 INFO uvicorn.access GET /api/account/overview {} 200 189.14ms
+2025-09-07 16:23:49,966 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:23:54,987 INFO uvicorn.access GET /api/account/overview {} 200 216.78ms
+2025-09-07 16:23:54,988 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:24:00,087 INFO uvicorn.access GET /api/account/overview {} 200 306.93ms
+2025-09-07 16:24:00,088 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:24:05,002 INFO uvicorn.access GET /api/account/overview {} 200 222.83ms
+2025-09-07 16:24:05,003 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:24:08,285 INFO uvicorn.access GET /api/watchlist {} 404 0.34ms
+2025-09-07 16:24:08,287 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:24:09,957 INFO uvicorn.access GET /api/account/overview {} 200 178.55ms
+2025-09-07 16:24:09,958 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:24:14,960 INFO uvicorn.access GET /api/account/overview {} 200 191.38ms
+2025-09-07 16:24:14,961 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:24:19,984 INFO uvicorn.access GET /api/account/overview {} 200 207.03ms
+2025-09-07 16:24:19,986 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:24:24,948 INFO uvicorn.access GET /api/account/overview {} 200 174.75ms
+2025-09-07 16:24:24,950 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:24:29,948 INFO uvicorn.access GET /api/account/overview {} 200 177.87ms
+2025-09-07 16:24:29,949 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:24:34,978 INFO uvicorn.access GET /api/account/overview {} 200 211.34ms
+2025-09-07 16:24:34,979 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:24:39,954 INFO uvicorn.access GET /api/account/overview {} 200 175.36ms
+2025-09-07 16:24:39,955 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:24:44,980 INFO uvicorn.access GET /api/account/overview {} 200 212.66ms
+2025-09-07 16:24:44,985 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:24:49,961 INFO uvicorn.access GET /api/account/overview {} 200 183.84ms
+2025-09-07 16:24:49,962 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:24:54,950 INFO uvicorn.access GET /api/account/overview {} 200 179.65ms
+2025-09-07 16:24:54,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:24:59,974 INFO uvicorn.access GET /api/account/overview {} 200 194.39ms
+2025-09-07 16:24:59,975 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:25:04,965 INFO uvicorn.access GET /api/account/overview {} 200 193.87ms
+2025-09-07 16:25:04,970 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:25:08,285 INFO uvicorn.access GET /api/watchlist {} 404 0.46ms
+2025-09-07 16:25:08,286 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:25:09,961 INFO uvicorn.access GET /api/account/overview {} 200 184.40ms
+2025-09-07 16:25:09,962 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:25:14,965 INFO uvicorn.access GET /api/account/overview {} 200 184.51ms
+2025-09-07 16:25:14,966 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:25:20,022 INFO uvicorn.access GET /api/account/overview {} 200 238.85ms
+2025-09-07 16:25:20,088 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:25:24,977 INFO uvicorn.access GET /api/account/overview {} 200 209.56ms
+2025-09-07 16:25:24,978 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:25:29,999 INFO uvicorn.access GET /api/account/overview {} 200 230.52ms
+2025-09-07 16:25:30,001 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:25:34,955 INFO uvicorn.access GET /api/account/overview {} 200 177.52ms
+2025-09-07 16:25:34,956 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:25:39,953 INFO uvicorn.access GET /api/account/overview {} 200 181.04ms
+2025-09-07 16:25:39,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:25:44,965 INFO uvicorn.access GET /api/account/overview {} 200 186.33ms
+2025-09-07 16:25:44,967 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:25:49,984 INFO uvicorn.access GET /api/account/overview {} 200 206.36ms
+2025-09-07 16:25:49,986 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:25:54,956 INFO uvicorn.access GET /api/account/overview {} 200 179.72ms
+2025-09-07 16:25:54,957 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:25:59,967 INFO uvicorn.access GET /api/account/overview {} 200 187.70ms
+2025-09-07 16:25:59,967 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:26:04,947 INFO uvicorn.access GET /api/account/overview {} 200 177.05ms
+2025-09-07 16:26:04,948 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:26:08,290 INFO uvicorn.access GET /api/watchlist {} 404 0.28ms
+2025-09-07 16:26:08,292 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:26:09,953 INFO uvicorn.access GET /api/account/overview {} 200 180.18ms
+2025-09-07 16:26:09,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:26:15,029 INFO uvicorn.access GET /api/account/overview {} 200 259.99ms
+2025-09-07 16:26:15,031 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:26:19,951 INFO uvicorn.access GET /api/account/overview {} 200 179.83ms
+2025-09-07 16:26:19,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:26:24,957 INFO uvicorn.access GET /api/account/overview {} 200 175.75ms
+2025-09-07 16:26:24,959 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:26:29,995 INFO uvicorn.access GET /api/account/overview {} 200 215.17ms
+2025-09-07 16:26:29,996 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:26:34,959 INFO uvicorn.access GET /api/account/overview {} 200 178.95ms
+2025-09-07 16:26:34,962 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:26:40,011 INFO uvicorn.access GET /api/account/overview {} 200 235.89ms
+2025-09-07 16:26:40,013 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:26:44,949 INFO uvicorn.access GET /api/account/overview {} 200 177.74ms
+2025-09-07 16:26:44,950 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:26:49,958 INFO uvicorn.access GET /api/account/overview {} 200 177.74ms
+2025-09-07 16:26:49,959 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:26:54,951 INFO uvicorn.access GET /api/account/overview {} 200 185.76ms
+2025-09-07 16:26:54,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:26:59,953 INFO uvicorn.access GET /api/account/overview {} 200 186.45ms
+2025-09-07 16:26:59,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:27:04,996 INFO uvicorn.access GET /api/account/overview {} 200 221.35ms
+2025-09-07 16:27:04,998 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:27:08,293 INFO uvicorn.access GET /api/watchlist {} 404 0.33ms
+2025-09-07 16:27:08,294 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:27:09,963 INFO uvicorn.access GET /api/account/overview {} 200 189.21ms
+2025-09-07 16:27:09,964 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:27:14,970 INFO uvicorn.access GET /api/account/overview {} 200 193.99ms
+2025-09-07 16:27:14,971 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:27:19,964 INFO uvicorn.access GET /api/account/overview {} 200 182.52ms
+2025-09-07 16:27:19,969 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:27:24,951 INFO uvicorn.access GET /api/account/overview {} 200 175.67ms
+2025-09-07 16:27:24,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:27:29,988 INFO uvicorn.access GET /api/account/overview {} 200 206.38ms
+2025-09-07 16:27:29,989 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:27:34,958 INFO uvicorn.access GET /api/account/overview {} 200 176.83ms
+2025-09-07 16:27:34,959 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:27:39,970 INFO uvicorn.access GET /api/account/overview {} 200 188.71ms
+2025-09-07 16:27:39,971 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:27:44,966 INFO uvicorn.access GET /api/account/overview {} 200 185.38ms
+2025-09-07 16:27:44,967 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:27:49,973 INFO uvicorn.access GET /api/account/overview {} 200 193.54ms
+2025-09-07 16:27:49,974 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:27:54,955 INFO uvicorn.access GET /api/account/overview {} 200 178.78ms
+2025-09-07 16:27:54,956 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:27:59,970 INFO uvicorn.access GET /api/account/overview {} 200 188.93ms
+2025-09-07 16:27:59,972 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:28:04,958 INFO uvicorn.access GET /api/account/overview {} 200 188.26ms
+2025-09-07 16:28:04,959 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:28:08,295 INFO uvicorn.access GET /api/watchlist {} 404 0.29ms
+2025-09-07 16:28:08,296 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:28:10,000 INFO uvicorn.access GET /api/account/overview {} 200 231.87ms
+2025-09-07 16:28:10,027 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:28:14,996 INFO uvicorn.access GET /api/account/overview {} 200 222.80ms
+2025-09-07 16:28:14,996 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:28:19,987 INFO uvicorn.access GET /api/account/overview {} 200 204.45ms
+2025-09-07 16:28:19,988 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:28:24,971 INFO uvicorn.access GET /api/account/overview {} 200 192.94ms
+2025-09-07 16:28:24,973 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:28:29,986 INFO uvicorn.access GET /api/account/overview {} 200 215.51ms
+2025-09-07 16:28:29,988 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:28:32,654 INFO uvicorn.access GET /api/diag/health {} 200 0.32ms
+2025-09-07 16:28:32,661 INFO uvicorn.access 172.18.0.1:60684 - "GET /api/diag/health HTTP/1.1" 200
+2025-09-07 16:28:32,710 INFO uvicorn.access GET /favicon.ico {} 404 0.31ms
+2025-09-07 16:28:32,712 INFO uvicorn.access 172.18.0.1:60684 - "GET /favicon.ico HTTP/1.1" 404
+2025-09-07 16:28:35,040 INFO uvicorn.access GET /api/account/overview {} 200 267.27ms
+2025-09-07 16:28:35,055 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:28:39,954 INFO uvicorn.access GET /api/account/overview {} 200 178.97ms
+2025-09-07 16:28:39,955 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:28:44,960 INFO uvicorn.access GET /api/account/overview {} 200 180.37ms
+2025-09-07 16:28:44,961 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:28:49,974 INFO uvicorn.access GET /api/account/overview {} 200 204.39ms
+2025-09-07 16:28:49,975 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:28:54,004 INFO uvicorn.access GET /api/settings/runtime {} 200 0.55ms
+2025-09-07 16:28:54,007 INFO uvicorn.access 172.18.0.1:60698 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 16:28:54,974 INFO uvicorn.access GET /api/account/overview {} 200 194.36ms
+2025-09-07 16:28:54,975 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:28:59,956 INFO uvicorn.access GET /api/account/overview {} 200 191.48ms
+2025-09-07 16:28:59,957 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:29:02,670 INFO uvicorn.access GET /api/diag/health {} 200 0.36ms
+2025-09-07 16:29:02,671 INFO uvicorn.access 172.18.0.1:40574 - "GET /api/diag/health HTTP/1.1" 200
+2025-09-07 16:29:05,018 INFO uvicorn.access GET /api/account/overview {} 200 229.61ms
+2025-09-07 16:29:05,020 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:29:08,358 INFO uvicorn.access GET /api/watchlist {} 404 0.30ms
+2025-09-07 16:29:08,359 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:29:09,950 INFO uvicorn.access GET /api/account/overview {} 200 173.84ms
+2025-09-07 16:29:09,951 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:29:14,959 INFO uvicorn.access GET /api/account/overview {} 200 184.58ms
+2025-09-07 16:29:14,960 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:29:19,980 INFO uvicorn.access GET /api/account/overview {} 200 202.54ms
+2025-09-07 16:29:19,982 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:29:24,955 INFO uvicorn.access GET /api/account/overview {} 200 187.06ms
+2025-09-07 16:29:24,956 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:29:29,961 INFO uvicorn.access GET /api/account/overview {} 200 194.93ms
+2025-09-07 16:29:29,962 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:29:32,048 INFO uvicorn.access GET /api/keys/status {} 200 0.48ms
+2025-09-07 16:29:32,049 INFO uvicorn.access 172.18.0.1:38370 - "GET /api/keys/status HTTP/1.1" 200
+2025-09-07 16:29:34,957 INFO uvicorn.access GET /api/account/overview {} 200 191.12ms
+2025-09-07 16:29:34,965 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:29:39,941 INFO uvicorn.access GET /api/account/overview {} 200 173.34ms
+2025-09-07 16:29:39,941 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:29:44,967 INFO uvicorn.access GET /api/account/overview {} 200 199.46ms
+2025-09-07 16:29:44,969 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:29:50,052 INFO uvicorn.access GET /api/account/overview {} 200 275.11ms
+2025-09-07 16:29:50,054 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:29:51,630 INFO uvicorn.access GET /api/settings/runtime {} 200 0.53ms
+2025-09-07 16:29:51,636 INFO uvicorn.access 172.18.0.1:32854 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 16:29:54,955 INFO uvicorn.access GET /api/account/overview {} 200 176.94ms
+2025-09-07 16:29:54,956 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:29:59,994 INFO uvicorn.access GET /api/account/overview {} 200 222.55ms
+2025-09-07 16:29:59,995 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:30:04,992 INFO uvicorn.access GET /api/account/overview {} 200 215.51ms
+2025-09-07 16:30:04,995 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:30:08,296 INFO uvicorn.access GET /api/watchlist {} 404 0.30ms
+2025-09-07 16:30:08,297 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:30:10,000 INFO uvicorn.access GET /api/account/overview {} 200 230.96ms
+2025-09-07 16:30:10,001 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:30:14,959 INFO uvicorn.access GET /api/account/overview {} 200 185.62ms
+2025-09-07 16:30:14,960 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:30:19,957 INFO uvicorn.access GET /api/account/overview {} 200 182.50ms
+2025-09-07 16:30:19,959 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:30:24,953 INFO uvicorn.access GET /api/account/overview {} 200 172.35ms
+2025-09-07 16:30:24,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:30:29,985 INFO uvicorn.access GET /api/account/overview {} 200 218.97ms
+2025-09-07 16:30:29,986 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:30:34,951 INFO uvicorn.access GET /api/account/overview {} 200 182.14ms
+2025-09-07 16:30:34,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:30:39,946 INFO uvicorn.access GET /api/account/overview {} 200 174.89ms
+2025-09-07 16:30:39,947 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:30:44,958 INFO uvicorn.access GET /api/account/overview {} 200 179.73ms
+2025-09-07 16:30:44,959 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:30:49,988 INFO uvicorn.access GET /api/account/overview {} 200 217.04ms
+2025-09-07 16:30:49,989 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:30:54,968 INFO uvicorn.access GET /api/account/overview {} 200 201.78ms
+2025-09-07 16:30:54,970 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:30:59,949 INFO uvicorn.access GET /api/account/overview {} 200 181.11ms
+2025-09-07 16:30:59,950 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:31:04,947 INFO uvicorn.access GET /api/account/overview {} 200 174.25ms
+2025-09-07 16:31:04,948 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:31:08,297 INFO uvicorn.access GET /api/watchlist {} 404 0.38ms
+2025-09-07 16:31:08,298 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:31:09,968 INFO uvicorn.access GET /api/account/overview {} 200 197.83ms
+2025-09-07 16:31:09,969 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:31:14,965 INFO uvicorn.access GET /api/account/overview {} 200 191.42ms
+2025-09-07 16:31:14,966 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:31:19,944 INFO uvicorn.access GET /api/account/overview {} 200 170.31ms
+2025-09-07 16:31:19,946 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:31:24,947 INFO uvicorn.access GET /api/account/overview {} 200 172.40ms
+2025-09-07 16:31:24,948 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:31:29,976 INFO uvicorn.access GET /api/account/overview {} 200 204.91ms
+2025-09-07 16:31:29,978 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:31:34,941 INFO uvicorn.access GET /api/account/overview {} 200 171.82ms
+2025-09-07 16:31:34,942 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:31:39,964 INFO uvicorn.access GET /api/account/overview {} 200 188.02ms
+2025-09-07 16:31:39,965 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:31:44,951 INFO uvicorn.access GET /api/account/overview {} 200 180.30ms
+2025-09-07 16:31:44,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:31:49,975 INFO uvicorn.access GET /api/account/overview {} 200 201.49ms
+2025-09-07 16:31:49,976 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:31:54,941 INFO uvicorn.access GET /api/account/overview {} 200 169.32ms
+2025-09-07 16:31:54,942 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:31:59,977 INFO uvicorn.access GET /api/account/overview {} 200 199.56ms
+2025-09-07 16:31:59,978 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:32:04,950 INFO uvicorn.access GET /api/account/overview {} 200 171.51ms
+2025-09-07 16:32:04,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:32:08,292 INFO uvicorn.access GET /api/watchlist {} 404 0.31ms
+2025-09-07 16:32:08,293 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:32:09,943 INFO uvicorn.access GET /api/account/overview {} 200 167.15ms
+2025-09-07 16:32:09,944 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:32:15,009 INFO uvicorn.access GET /api/account/overview {} 200 231.42ms
+2025-09-07 16:32:15,011 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:32:19,960 INFO uvicorn.access GET /api/account/overview {} 200 186.91ms
+2025-09-07 16:32:19,962 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:32:24,954 INFO uvicorn.access GET /api/account/overview {} 200 182.82ms
+2025-09-07 16:32:24,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:32:29,959 INFO uvicorn.access GET /api/account/overview {} 200 181.13ms
+2025-09-07 16:32:29,960 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:32:35,156 INFO uvicorn.access GET /api/account/overview {} 200 365.51ms
+2025-09-07 16:32:35,157 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:32:39,970 INFO uvicorn.access GET /api/account/overview {} 200 204.91ms
+2025-09-07 16:32:39,972 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:32:44,963 INFO uvicorn.access GET /api/account/overview {} 200 182.35ms
+2025-09-07 16:32:44,965 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:32:49,950 INFO uvicorn.access GET /api/account/overview {} 200 181.88ms
+2025-09-07 16:32:49,951 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:32:55,034 INFO uvicorn.access GET /api/account/overview {} 200 260.22ms
+2025-09-07 16:32:55,035 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:00,083 INFO uvicorn.access GET /api/account/overview {} 200 310.53ms
+2025-09-07 16:33:00,088 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:04,961 INFO uvicorn.access GET /api/account/overview {} 200 192.20ms
+2025-09-07 16:33:04,962 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:08,290 INFO uvicorn.access GET /api/watchlist {} 404 0.47ms
+2025-09-07 16:33:08,292 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:33:09,939 INFO uvicorn.access GET /api/account/overview {} 200 169.46ms
+2025-09-07 16:33:09,940 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:14,953 INFO uvicorn.access GET /api/account/overview {} 200 177.83ms
+2025-09-07 16:33:14,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:19,949 INFO uvicorn.access GET /api/account/overview {} 200 172.00ms
+2025-09-07 16:33:19,951 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:24,943 INFO uvicorn.access GET /api/account/overview {} 200 171.31ms
+2025-09-07 16:33:24,944 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:29,956 INFO uvicorn.access GET /api/account/overview {} 200 186.15ms
+2025-09-07 16:33:29,957 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:31,001 INFO uvicorn.access GET /api/account/overview {} 200 171.35ms
+2025-09-07 16:33:31,002 INFO uvicorn.access 172.18.0.1:51136 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:34,953 INFO uvicorn.access GET /api/account/overview {} 200 173.51ms
+2025-09-07 16:33:34,955 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:39,945 INFO uvicorn.access GET /api/account/overview {} 200 177.26ms
+2025-09-07 16:33:39,946 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:44,945 INFO uvicorn.access GET /api/account/overview {} 200 171.71ms
+2025-09-07 16:33:44,946 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:49,958 INFO uvicorn.access GET /api/account/overview {} 200 177.83ms
+2025-09-07 16:33:49,959 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:54,946 INFO uvicorn.access GET /api/account/overview {} 200 176.68ms
+2025-09-07 16:33:54,948 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:33:59,951 INFO uvicorn.access GET /api/account/overview {} 200 175.18ms
+2025-09-07 16:33:59,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:34:04,947 INFO uvicorn.access GET /api/account/overview {} 200 178.69ms
+2025-09-07 16:34:04,948 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:34:08,287 INFO uvicorn.access GET /api/watchlist {} 404 0.36ms
+2025-09-07 16:34:08,288 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:34:09,965 INFO uvicorn.access GET /api/account/overview {} 200 196.18ms
+2025-09-07 16:34:09,966 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:34:14,947 INFO uvicorn.access GET /api/account/overview {} 200 176.27ms
+2025-09-07 16:34:14,948 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:34:19,952 INFO uvicorn.access GET /api/account/overview {} 200 177.42ms
+2025-09-07 16:34:19,953 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:34:24,957 INFO uvicorn.access GET /api/account/overview {} 200 180.19ms
+2025-09-07 16:34:24,957 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:34:29,943 INFO uvicorn.access GET /api/account/overview {} 200 175.25ms
+2025-09-07 16:34:29,943 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:34:34,944 INFO uvicorn.access GET /api/account/overview {} 200 173.09ms
+2025-09-07 16:34:34,945 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:34:39,960 INFO uvicorn.access GET /api/account/overview {} 200 180.27ms
+2025-09-07 16:34:39,961 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:34:44,944 INFO uvicorn.access GET /api/account/overview {} 200 168.81ms
+2025-09-07 16:34:44,945 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:34:49,948 INFO uvicorn.access GET /api/account/overview {} 200 175.68ms
+2025-09-07 16:34:49,949 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:34:54,954 INFO uvicorn.access GET /api/account/overview {} 200 175.53ms
+2025-09-07 16:34:54,955 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:34:59,949 INFO uvicorn.access GET /api/account/overview {} 200 180.72ms
+2025-09-07 16:34:59,950 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:35:04,940 INFO uvicorn.access GET /api/account/overview {} 200 171.64ms
+2025-09-07 16:35:04,941 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:35:08,293 INFO uvicorn.access GET /api/watchlist {} 404 0.35ms
+2025-09-07 16:35:08,294 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:35:09,963 INFO uvicorn.access GET /api/account/overview {} 200 176.83ms
+2025-09-07 16:35:09,964 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:35:14,965 INFO uvicorn.access GET /api/account/overview {} 200 199.74ms
+2025-09-07 16:35:14,967 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:35:19,948 INFO uvicorn.access GET /api/account/overview {} 200 171.95ms
+2025-09-07 16:35:19,949 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:35:24,971 INFO uvicorn.access GET /api/account/overview {} 200 192.27ms
+2025-09-07 16:35:24,972 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:35:29,942 INFO uvicorn.access GET /api/account/overview {} 200 175.85ms
+2025-09-07 16:35:29,943 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:35:34,959 INFO uvicorn.access GET /api/account/overview {} 200 181.94ms
+2025-09-07 16:35:34,960 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:35:39,951 INFO uvicorn.access GET /api/account/overview {} 200 185.93ms
+2025-09-07 16:35:39,953 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:35:44,942 INFO uvicorn.access GET /api/account/overview {} 200 172.06ms
+2025-09-07 16:35:44,943 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:35:49,992 INFO uvicorn.access GET /api/account/overview {} 200 216.17ms
+2025-09-07 16:35:49,994 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:35:54,955 INFO uvicorn.access GET /api/account/overview {} 200 187.41ms
+2025-09-07 16:35:54,956 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:35:59,954 INFO uvicorn.access GET /api/account/overview {} 200 179.79ms
+2025-09-07 16:35:59,955 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:36:04,951 INFO uvicorn.access GET /api/account/overview {} 200 172.72ms
+2025-09-07 16:36:04,953 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:36:08,285 INFO uvicorn.access GET /api/watchlist {} 404 0.39ms
+2025-09-07 16:36:08,287 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:36:09,952 INFO uvicorn.access GET /api/account/overview {} 200 178.27ms
+2025-09-07 16:36:09,953 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:36:14,946 INFO uvicorn.access GET /api/account/overview {} 200 172.49ms
+2025-09-07 16:36:14,947 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:36:19,971 INFO uvicorn.access GET /api/account/overview {} 200 184.04ms
+2025-09-07 16:36:19,972 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:36:24,953 INFO uvicorn.access GET /api/account/overview {} 200 182.00ms
+2025-09-07 16:36:24,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:36:29,952 INFO uvicorn.access GET /api/account/overview {} 200 183.38ms
+2025-09-07 16:36:29,953 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:36:35,048 INFO uvicorn.access GET /api/account/overview {} 200 269.79ms
+2025-09-07 16:36:35,050 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:36:39,980 INFO uvicorn.access GET /api/account/overview {} 200 205.67ms
+2025-09-07 16:36:39,981 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:36:44,964 INFO uvicorn.access GET /api/account/overview {} 200 188.82ms
+2025-09-07 16:36:44,965 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:36:49,949 INFO uvicorn.access GET /api/account/overview {} 200 170.12ms
+2025-09-07 16:36:49,950 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:36:54,951 INFO uvicorn.access GET /api/account/overview {} 200 179.45ms
+2025-09-07 16:36:54,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:36:59,952 INFO uvicorn.access GET /api/account/overview {} 200 177.60ms
+2025-09-07 16:36:59,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:37:04,947 INFO uvicorn.access GET /api/account/overview {} 200 170.04ms
+2025-09-07 16:37:04,948 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:37:08,286 INFO uvicorn.access GET /api/watchlist {} 404 0.33ms
+2025-09-07 16:37:08,288 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:37:09,970 INFO uvicorn.access GET /api/account/overview {} 200 190.55ms
+2025-09-07 16:37:09,972 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:37:14,945 INFO uvicorn.access GET /api/account/overview {} 200 170.75ms
+2025-09-07 16:37:14,946 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:37:19,939 INFO uvicorn.access GET /api/account/overview {} 200 172.13ms
+2025-09-07 16:37:19,940 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:37:24,960 INFO uvicorn.access GET /api/account/overview {} 200 182.57ms
+2025-09-07 16:37:24,961 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:37:29,940 INFO uvicorn.access GET /api/account/overview {} 200 168.23ms
+2025-09-07 16:37:29,941 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:37:34,950 INFO uvicorn.access GET /api/account/overview {} 200 180.82ms
+2025-09-07 16:37:34,951 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:37:39,963 INFO uvicorn.access GET /api/account/overview {} 200 191.69ms
+2025-09-07 16:37:39,964 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:37:44,953 INFO uvicorn.access GET /api/account/overview {} 200 173.74ms
+2025-09-07 16:37:44,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:37:49,953 INFO uvicorn.access GET /api/account/overview {} 200 182.49ms
+2025-09-07 16:37:49,955 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:37:54,981 INFO uvicorn.access GET /api/account/overview {} 200 199.27ms
+2025-09-07 16:37:54,982 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:37:59,950 INFO uvicorn.access GET /api/account/overview {} 200 182.00ms
+2025-09-07 16:37:59,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:38:04,952 INFO uvicorn.access GET /api/account/overview {} 200 179.45ms
+2025-09-07 16:38:04,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:38:08,294 INFO uvicorn.access GET /api/watchlist {} 404 0.33ms
+2025-09-07 16:38:08,295 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:38:09,961 INFO uvicorn.access GET /api/account/overview {} 200 181.76ms
+2025-09-07 16:38:09,962 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:38:14,940 INFO uvicorn.access GET /api/account/overview {} 200 168.94ms
+2025-09-07 16:38:14,942 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:38:19,958 INFO uvicorn.access GET /api/account/overview {} 200 180.30ms
+2025-09-07 16:38:19,959 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:38:24,941 INFO uvicorn.access GET /api/account/overview {} 200 176.17ms
+2025-09-07 16:38:24,943 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:38:29,927 INFO uvicorn.access GET /api/account/overview {} 200 167.09ms
+2025-09-07 16:38:29,928 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:38:34,935 INFO uvicorn.access GET /api/account/overview {} 200 174.05ms
+2025-09-07 16:38:34,936 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:38:39,942 INFO uvicorn.access GET /api/account/overview {} 200 176.08ms
+2025-09-07 16:38:39,943 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:38:44,952 INFO uvicorn.access GET /api/account/overview {} 200 182.10ms
+2025-09-07 16:38:44,953 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:38:49,944 INFO uvicorn.access GET /api/account/overview {} 200 176.62ms
+2025-09-07 16:38:49,945 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:38:54,952 INFO uvicorn.access GET /api/account/overview {} 200 176.71ms
+2025-09-07 16:38:54,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:38:59,946 INFO uvicorn.access GET /api/account/overview {} 200 172.77ms
+2025-09-07 16:38:59,947 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:39:04,949 INFO uvicorn.access GET /api/account/overview {} 200 170.47ms
+2025-09-07 16:39:04,950 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:39:08,291 INFO uvicorn.access GET /api/watchlist {} 404 0.33ms
+2025-09-07 16:39:08,293 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:39:10,014 INFO uvicorn.access GET /api/account/overview {} 200 232.74ms
+2025-09-07 16:39:10,015 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:39:14,945 INFO uvicorn.access GET /api/account/overview {} 200 177.21ms
+2025-09-07 16:39:14,946 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:39:19,952 INFO uvicorn.access GET /api/account/overview {} 200 172.70ms
+2025-09-07 16:39:19,953 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:39:24,953 INFO uvicorn.access GET /api/account/overview {} 200 175.47ms
+2025-09-07 16:39:24,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:39:29,951 INFO uvicorn.access GET /api/account/overview {} 200 169.87ms
+2025-09-07 16:39:29,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:39:34,934 INFO uvicorn.access GET /api/account/overview {} 200 168.43ms
+2025-09-07 16:39:34,935 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:39:39,952 INFO uvicorn.access GET /api/account/overview {} 200 183.07ms
+2025-09-07 16:39:39,953 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:39:44,957 INFO uvicorn.access GET /api/account/overview {} 200 175.41ms
+2025-09-07 16:39:44,958 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:39:49,987 INFO uvicorn.access GET /api/account/overview {} 200 207.21ms
+2025-09-07 16:39:49,988 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:39:54,948 INFO uvicorn.access GET /api/account/overview {} 200 177.50ms
+2025-09-07 16:39:54,949 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:39:59,951 INFO uvicorn.access GET /api/account/overview {} 200 184.56ms
+2025-09-07 16:39:59,953 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:40:04,947 INFO uvicorn.access GET /api/account/overview {} 200 175.48ms
+2025-09-07 16:40:04,948 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:40:08,293 INFO uvicorn.access GET /api/watchlist {} 404 0.28ms
+2025-09-07 16:40:08,294 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:40:09,942 INFO uvicorn.access GET /api/account/overview {} 200 176.45ms
+2025-09-07 16:40:09,943 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:40:14,940 INFO uvicorn.access GET /api/account/overview {} 200 170.34ms
+2025-09-07 16:40:14,941 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:40:19,944 INFO uvicorn.access GET /api/account/overview {} 200 170.56ms
+2025-09-07 16:40:19,945 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:40:24,953 INFO uvicorn.access GET /api/account/overview {} 200 180.08ms
+2025-09-07 16:40:24,954 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:40:29,940 INFO uvicorn.access GET /api/account/overview {} 200 171.99ms
+2025-09-07 16:40:29,942 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:40:34,943 INFO uvicorn.access GET /api/account/overview {} 200 175.17ms
+2025-09-07 16:40:34,944 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:40:39,956 INFO uvicorn.access GET /api/account/overview {} 200 182.65ms
+2025-09-07 16:40:39,957 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:40:44,949 INFO uvicorn.access GET /api/account/overview {} 200 175.34ms
+2025-09-07 16:40:44,950 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:40:49,946 INFO uvicorn.access GET /api/account/overview {} 200 178.62ms
+2025-09-07 16:40:49,947 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:40:54,945 INFO uvicorn.access GET /api/account/overview {} 200 178.63ms
+2025-09-07 16:40:54,946 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:40:59,952 INFO uvicorn.access GET /api/account/overview {} 200 172.73ms
+2025-09-07 16:40:59,953 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:41:04,949 INFO uvicorn.access GET /api/account/overview {} 200 177.85ms
+2025-09-07 16:41:04,951 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:41:08,296 INFO uvicorn.access GET /api/watchlist {} 404 0.29ms
+2025-09-07 16:41:08,298 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:41:09,955 INFO uvicorn.access GET /api/account/overview {} 200 180.06ms
+2025-09-07 16:41:09,957 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:41:14,944 INFO uvicorn.access GET /api/account/overview {} 200 167.79ms
+2025-09-07 16:41:14,945 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:41:19,940 INFO uvicorn.access GET /api/account/overview {} 200 164.63ms
+2025-09-07 16:41:19,941 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:41:24,950 INFO uvicorn.access GET /api/account/overview {} 200 177.96ms
+2025-09-07 16:41:24,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:41:29,944 INFO uvicorn.access GET /api/account/overview {} 200 175.65ms
+2025-09-07 16:41:29,945 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:41:34,946 INFO uvicorn.access GET /api/account/overview {} 200 172.34ms
+2025-09-07 16:41:34,947 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:41:39,955 INFO uvicorn.access GET /api/account/overview {} 200 181.43ms
+2025-09-07 16:41:39,957 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:41:44,946 INFO uvicorn.access GET /api/account/overview {} 200 174.46ms
+2025-09-07 16:41:44,947 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:41:49,981 INFO uvicorn.access GET /api/account/overview {} 200 192.57ms
+2025-09-07 16:41:49,981 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:41:54,948 INFO uvicorn.access GET /api/account/overview {} 200 178.94ms
+2025-09-07 16:41:54,949 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:41:59,939 INFO uvicorn.access GET /api/account/overview {} 200 170.02ms
+2025-09-07 16:41:59,940 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:42:04,964 INFO uvicorn.access GET /api/account/overview {} 200 191.93ms
+2025-09-07 16:42:04,965 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:42:08,284 INFO uvicorn.access GET /api/watchlist {} 404 0.30ms
+2025-09-07 16:42:08,285 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:42:09,944 INFO uvicorn.access GET /api/account/overview {} 200 177.32ms
+2025-09-07 16:42:09,946 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:42:14,950 INFO uvicorn.access GET /api/account/overview {} 200 175.02ms
+2025-09-07 16:42:14,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:42:19,944 INFO uvicorn.access GET /api/account/overview {} 200 172.92ms
+2025-09-07 16:42:19,945 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:42:24,969 INFO uvicorn.access GET /api/account/overview {} 200 187.89ms
+2025-09-07 16:42:24,970 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:42:29,973 INFO uvicorn.access GET /api/account/overview {} 200 194.73ms
+2025-09-07 16:42:29,974 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:42:34,954 INFO uvicorn.access GET /api/account/overview {} 200 178.25ms
+2025-09-07 16:42:34,955 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:42:39,951 INFO uvicorn.access GET /api/account/overview {} 200 172.82ms
+2025-09-07 16:42:39,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:42:44,943 INFO uvicorn.access GET /api/account/overview {} 200 169.65ms
+2025-09-07 16:42:44,944 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:42:49,948 INFO uvicorn.access GET /api/account/overview {} 200 179.20ms
+2025-09-07 16:42:49,950 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:42:54,948 INFO uvicorn.access GET /api/account/overview {} 200 178.27ms
+2025-09-07 16:42:54,950 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:42:59,954 INFO uvicorn.access GET /api/account/overview {} 200 178.70ms
+2025-09-07 16:42:59,956 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:43:04,951 INFO uvicorn.access GET /api/account/overview {} 200 170.20ms
+2025-09-07 16:43:04,952 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:43:08,285 INFO uvicorn.access GET /api/watchlist {} 404 0.29ms
+2025-09-07 16:43:08,286 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:43:09,954 INFO uvicorn.access GET /api/account/overview {} 200 181.98ms
+2025-09-07 16:43:09,955 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:43:14,945 INFO uvicorn.access GET /api/account/overview {} 200 170.88ms
+2025-09-07 16:43:14,946 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:43:19,943 INFO uvicorn.access GET /api/account/overview {} 200 169.36ms
+2025-09-07 16:43:19,944 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:43:24,957 INFO uvicorn.access GET /api/account/overview {} 200 180.83ms
+2025-09-07 16:43:24,959 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:43:29,986 INFO uvicorn.access GET /api/account/overview {} 200 210.59ms
+2025-09-07 16:43:29,987 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:43:34,958 INFO uvicorn.access GET /api/account/overview {} 200 180.00ms
+2025-09-07 16:43:34,959 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:43:39,947 INFO uvicorn.access GET /api/account/overview {} 200 178.69ms
+2025-09-07 16:43:39,948 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:43:44,956 INFO uvicorn.access GET /api/account/overview {} 200 185.15ms
+2025-09-07 16:43:44,957 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:43:49,973 INFO uvicorn.access GET /api/account/overview {} 200 201.41ms
+2025-09-07 16:43:49,974 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:43:54,957 INFO uvicorn.access GET /api/account/overview {} 200 179.26ms
+2025-09-07 16:43:54,958 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:43:59,946 INFO uvicorn.access GET /api/account/overview {} 200 177.63ms
+2025-09-07 16:43:59,947 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:44:04,972 INFO uvicorn.access GET /api/account/overview {} 200 174.40ms
+2025-09-07 16:44:04,973 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:44:08,290 INFO uvicorn.access GET /api/watchlist {} 404 0.37ms
+2025-09-07 16:44:08,291 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:44:09,941 INFO uvicorn.access GET /api/account/overview {} 200 171.75ms
+2025-09-07 16:44:09,942 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:44:14,958 INFO uvicorn.access GET /api/account/overview {} 200 177.07ms
+2025-09-07 16:44:14,960 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:44:19,940 INFO uvicorn.access GET /api/account/overview {} 200 167.25ms
+2025-09-07 16:44:19,941 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:44:24,952 INFO uvicorn.access GET /api/account/overview {} 200 178.81ms
+2025-09-07 16:44:24,953 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:44:29,948 INFO uvicorn.access GET /api/account/overview {} 200 169.05ms
+2025-09-07 16:44:29,949 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:44:34,996 INFO uvicorn.access GET /api/account/overview {} 200 216.60ms
+2025-09-07 16:44:34,997 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:44:39,946 INFO uvicorn.access GET /api/account/overview {} 200 174.50ms
+2025-09-07 16:44:39,947 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:44:44,943 INFO uvicorn.access GET /api/account/overview {} 200 169.25ms
+2025-09-07 16:44:44,944 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:44:49,950 INFO uvicorn.access GET /api/account/overview {} 200 175.42ms
+2025-09-07 16:44:49,951 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:44:55,013 INFO uvicorn.access GET /api/account/overview {} 200 233.38ms
+2025-09-07 16:44:55,014 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:44:59,942 INFO uvicorn.access GET /api/account/overview {} 200 173.95ms
+2025-09-07 16:44:59,943 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:45:04,947 INFO uvicorn.access GET /api/account/overview {} 200 175.81ms
+2025-09-07 16:45:04,948 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:45:08,287 INFO uvicorn.access GET /api/watchlist {} 404 0.32ms
+2025-09-07 16:45:08,288 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:45:09,943 INFO uvicorn.access GET /api/account/overview {} 200 173.98ms
+2025-09-07 16:45:09,944 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:45:14,959 INFO uvicorn.access GET /api/account/overview {} 200 178.63ms
+2025-09-07 16:45:14,960 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:45:19,942 INFO uvicorn.access GET /api/account/overview {} 200 169.95ms
+2025-09-07 16:45:19,943 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:45:24,962 INFO uvicorn.access GET /api/account/overview {} 200 193.54ms
+2025-09-07 16:45:24,964 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:45:29,964 INFO uvicorn.access GET /api/account/overview {} 200 198.60ms
+2025-09-07 16:45:29,965 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:45:34,969 INFO uvicorn.access GET /api/account/overview {} 200 197.64ms
+2025-09-07 16:45:34,971 INFO uvicorn.access 172.18.0.1:59444 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:45:55,127 INFO uvicorn.access GET /api/account/overview {} 200 341.29ms
+2025-09-07 16:45:55,128 INFO uvicorn.access 172.18.0.1:58916 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:45:59,938 INFO uvicorn.access GET /api/account/overview {} 200 171.47ms
+2025-09-07 16:45:59,939 INFO uvicorn.access 172.18.0.1:58916 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:46:03,452 INFO uvicorn.access GET /api/account/overview {} 200 187.73ms
+2025-09-07 16:46:03,453 INFO uvicorn.access 172.18.0.1:58916 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:46:08,292 INFO uvicorn.access GET /api/watchlist {} 404 0.34ms
+2025-09-07 16:46:08,295 INFO uvicorn.access 172.18.0.1:54678 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:46:08,468 INFO uvicorn.access GET /api/account/overview {} 200 195.30ms
+2025-09-07 16:46:08,469 INFO uvicorn.access 172.18.0.1:58916 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:46:08,530 INFO uvicorn.access GET /api/account/overview {} 500 58.43ms
+2025-09-07 16:46:08,531 INFO uvicorn.access 172.18.0.1:58916 - "GET /api/account/overview HTTP/1.1" 500
+2025-09-07 16:46:11,993 INFO uvicorn.access GET /api/account/overview {} 200 180.70ms
+2025-09-07 16:46:11,995 INFO uvicorn.access 172.18.0.1:54678 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:46:14,223 INFO uvicorn.access GET /api/account/overview {} 200 177.47ms
+2025-09-07 16:46:14,224 INFO uvicorn.access 172.18.0.1:54678 - "GET /api/account/overview HTTP/1.1" 200
+2025-09-07 16:46:16,019 INFO uvicorn.access GET /api/settings/runtime {} 200 0.61ms
+2025-09-07 16:46:16,021 INFO uvicorn.access 172.18.0.1:54678 - "GET /api/settings/runtime HTTP/1.1" 200
+2025-09-07 16:46:16,026 INFO uvicorn.access GET /api/keys {} 200 0.71ms
+2025-09-07 16:46:16,027 INFO uvicorn.access 172.18.0.1:54678 - "GET /api/keys HTTP/1.1" 200
+2025-09-07 16:47:08,294 INFO uvicorn.access GET /api/watchlist {} 404 0.37ms
+2025-09-07 16:47:08,295 INFO uvicorn.access 172.18.0.1:35478 - "GET /api/watchlist HTTP/1.1" 404
+2025-09-07 16:51:11,760 INFO uvicorn.access GET / {} 404 0.40ms
+2025-09-07 16:51:11,761 INFO uvicorn.access 172.18.0.1:51362 - "GET / HTTP/1.1" 404
+2025-09-07 16:51:11,799 INFO uvicorn.access GET /favicon.ico {} 404 0.29ms
+2025-09-07 16:51:11,800 INFO uvicorn.access 172.18.0.1:51362 - "GET /favicon.ico HTTP/1.1" 404

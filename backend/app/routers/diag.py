@@ -27,6 +27,17 @@ def ping():
     logging.getLogger("app").info("diag.ping")
     return {"pong": True}
 
+@router.get("/health")
+async def health():
+    errs = []
+    ok_token = False
+    try:
+        tok = await get_access_token()
+        ok_token = bool(tok)
+    except Exception as e:
+        errs.append(f"token:{e}")
+    return {"ok": ok_token and len(errs)==0, "kis_token": ok_token, "errors": errs}
+
 @router.get("/logs")
 def logs(file: str = Query("app"), tail: int = Query(200)):
     p = LOG_FILES.get(file)
@@ -56,5 +67,4 @@ def bundle():
                 z.writestr(f"logs/{key}.log", "".join(lines[-5000:]))
         z.writestr("env_summary.json", json.dumps(_mask_env(dict(os.environ)), ensure_ascii=False, indent=2))
         z.writestr("runtime.json", json.dumps({"python": sys.version, "platform": sys.platform}, indent=2))
-        z.writestr("pip_freeze.txt", _pip_freeze())
     return FileResponse(path, filename=name, media_type="application/zip")

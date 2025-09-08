@@ -10,7 +10,7 @@ from app.routers import diag, symbols, orders, account, settings_runtime, keys
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="KIS Auto Trader API")
+app = FastAPI(title="KIS Auto Trader API (KIS-only, port 8088)")
 
 # CORS
 app.add_middleware(

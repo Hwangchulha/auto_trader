@@ -2,9 +2,8 @@ from fastapi import APIRouter, Request, Depends, HTTPException
 from sqlalchemy.orm import Session
 from ..db import SessionLocal
 from ..models import Order
-from ..services.broker_sim import place as sim_place
 from ..services.broker_kis import order_cash
-from ..services.kis_env import sim_mode
+from ..services.keys_store import exists as keys_exists
 
 router = APIRouter(prefix="/api", tags=["orders"])
 
@@ -13,8 +12,20 @@ def get_db():
     try: yield db
     finally: db.close()
 
+def _extract_odno(res: dict) -> str:
+    if not isinstance(res, dict): return ""
+    out = res.get("output")
+    if isinstance(out, list):
+        out = out[0] if out else {}
+    if isinstance(out, dict):
+        return out.get("ODNO") or out.get("KRX_ODNO") or ""
+    return res.get("ODNO","") or res.get("KRX_ODNO","")
+
 @router.post("/orders")
 async def post_order(req: Request, db: Session = Depends(get_db)):
+    if not keys_exists():
+        raise HTTPException(status_code=400, detail="KIS keys not set. Save keys in /settings.")
+
     ctype = (req.headers.get("content-type") or "").lower()
     if "application/json" in ctype:
         data = await req.json()
@@ -30,21 +41,20 @@ async def post_order(req: Request, db: Session = Depends(get_db)):
             try: data["price"] = None if data["price"] in ("", "0", "0.0", None) else float(data["price"])
             except: data["price"] = None
 
-    symbol = (data.get("symbol") or "").strip()
+    symbol = (data.get("symbol") or "").strip().upper()
     side = (str(data.get("side") or "")).lower().strip()
     qty = float(data.get("qty", 0) or 0)
     price = data.get("price", None)
     if not symbol or side not in ("buy","sell") or qty <= 0:
         raise HTTPException(status_code=400, detail="symbol/side/qty required")
 
-    if sim_mode():
-        res = sim_place(symbol, side, qty, price)
-        status = "filled"
-    else:
-        res = await order_cash(symbol, side, qty, price)
-        status = "submitted"
+    res = await order_cash(symbol, side, qty, price)
+    rt = str(res.get("rt_cd",""))
+    status = "submitted" if rt == "0" else "rejected"
+    client_id = _extract_odno(res)
 
-    o = Order(client_id=res.get("client_id",""), symbol=symbol, side=side, qty=qty, price=price, status=status, raw=res)
-    if status=="filled": o.filled_qty = qty
+    o = Order(client_id=client_id or f"{symbol}-pending", symbol=symbol, side=side, qty=qty, price=price, status=status, raw=res)
+    if status == "submitted" and not client_id:
+        o.client_id = f"{symbol}-pending"
     db.add(o); db.commit()
-    return {"status": status, "client_id": o.client_id or f"{symbol}-local", "filled_qty": float(o.filled_qty), "price": res.get("price", price or 0), "kis_response": res}
+    return {"status": status, "client_id": o.client_id, "kis_response": res}
